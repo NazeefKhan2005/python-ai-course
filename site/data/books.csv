@@ -1,0 +1,401 @@
+book_id,title,author,genre,year,pages
+1,Map of the Glass Moon,Valentina Bianchi,fantasy,2026,283
+2,The Rain Promise,Wei Okafor,romance,2021,252
+3,Sunrise in Istanbul,Ikram Banda,romance,2005,293
+4,Orbit Relay,Dmitri Müller,science fiction,2010,332
+5,Sunrise in Marrakesh,Soo-ah Kaya,romance,2018,383
+6,Village Recipes,Dara Nguyen,cooking,2017,243
+7,The Key Affair,Dara Akhtar,mystery,2006,364
+8,Letters from Zanzibar,Thabo Öztürk,romance,2016,322
+9,The Crimson Kingdom,Rin Alvarez,fantasy,2010,320
+10,The Sleepy Fox,Leila Sørensen,children,2026,37
+11,Beyond the Echo,Rahul Alvarez,science fiction,1979,380
+12,Letters from Valparaíso,Chen Hoang,romance,1996,272
+13,A History of Numbers,Marta Nowak,history,2024,391
+14,Songs of the Desert,Siddharth Fischer,poetry,2020,24
+15,The Startups Playbook,Nadia Andersen,business,2025,307
+16,Thirty Days in the Andes,Rosa Akhtar,travel,2021,302
+17,The Sleeping Tower,Oluwaseun Kaya,fantasy,2018,347
+18,The Sunrise Promise,Nikhil Asante,romance,2009,282
+19,Map of the Crimson Moon,Zeynep Dimitrov,fantasy,2020,372
+20,The Forgotten River,Mei Mahlangu,fantasy,2012,336
+21,Beyond the Frontier,Aisyah Banda,science fiction,2016,378
+22,The Hard Decisions Playbook,Ben Shah,business,2020,374
+23,Walking Lapland,Elif Vargas,travel,2011,308
+24,The Spring Promise,Wei Nowak,romance,2021,254
+25,Mei and the Happy Kite,Xin Ramos,children,2024,40
+26,The Glass Sword,Rin Abdullah,fantasy,2012,357
+27,A History of Coins,Marta Nowak,history,2023,247
+28,The Sleeping River,Lina Adeyemi,fantasy,2008,323
+29,Moonlight in Kyoto,Jin Haddad,romance,2017,337
+30,A Year of Eggs,Maya Chen,cooking,2008,295
+31,Crown of the Burning Moon,Pablo Korhonen,fantasy,2010,293
+32,The Iron Map,Valentina Bianchi,fantasy,2021,257
+33,The Summer Promise,Valentina Haddad,romance,1992,412
+34,The Art of Focus,Omar Odhiambo,self-help,2017,376
+35,Letters from Kyoto,Pablo Asante,romance,2011,371
+36,Orbit Equinox,Carlos Morales,science fiction,2015,292
+37,Death at Lighthouse,Xin Ahmed,mystery,2016,364
+38,The Locked Lighthouse,Ibrahim Bianchi,mystery,2005,202
+39,Letters from Oaxaca,Thabo Öztürk,romance,2011,297
+40,The Patient Mind,Dara Farouk,self-help,2019,275
+41,Making Time for Kindness,Ikram Santos,self-help,2025,311
+42,The Art of Saying No,Mei Jensen,self-help,2015,250
+43,Small Steps to Walking,Daniel Qureshi,self-help,2006,221
+44,The Art of Kindness,Omar Odhiambo,self-help,2023,237
+45,Inside the Secret Light,Jin Haddad,science,2005,299
+46,The Crimson Dragon,Pablo Korhonen,fantasy,2025,290
+47,The Science of Light,Grace Hashemi,science,2023,396
+48,The Street Food Kitchen,Abebe Iyer,cooking,2014,226
+49,Station Equinox,Maya Nowak,science fiction,2019,278
+50,The Simple Mind,Tomás Tanaka,self-help,2021,334
+51,Leading Negotiation,Hamza Morales,business,2018,227
+52,Cooking with Noodles,Anika Dubois,cooking,2009,253
+53,A Year of Fish,Maya Chen,cooking,2023,256
+54,Why Memory Matters,Dev Shah,science,2025,358
+55,Camila and the Lost Dragon,Pablo Asante,children,2024,24
+56,The Customer Service Playbook,Ivan Wang,business,2016,344
+57,River of the Broken Moon,Jin Lim,fantasy,2015,302
+58,A Year of Rice,Yaw Bekele,cooking,2010,202
+59,The Crimson Gate,Kenji Iyer,fantasy,2013,357
+60,A History of Salt,Bilal Osei,history,1978,140
+61,Death at Witness,Yasmin Haile,mystery,2016,229
+62,Death at Vineyard,Chen Rossi,mystery,2022,197
+63,Forty Days in Lapland,Wanjiru Salazar,travel,2019,256
+64,Signal Lattice,Bilal Patel,science fiction,1999,328
+65,A History of Ink,Nadia Andersen,history,1988,339
+66,Coconut Every Day,Valentina Khan,cooking,2019,226
+67,The Science of Clouds,Pablo Ahmed,science,2017,404
+68,Ibrahim and the Clever Balloon,Jin Lim,children,2019,32
+69,Sunrise in Kyoto,Felipe Kowalski,romance,2012,377
+70,The Moonlight Promise,Xin Yildiz,romance,2020,347
+71,The Tiny Turtle,Zara Haddad,children,2018,97
+72,Walking the Pampas,Sofia Singh,travel,2015,362
+73,The Second Museum,Yaw Nguyen,mystery,2019,384
+74,Beyond the Relay,Quang Mensah,science fiction,2023,280
+75,The Winter Promise,Ibrahim Moreau,romance,2009,357
+76,The Garden Affair,Oluwaseun Nguyen,mystery,2025,357
+77,Inside the Living Volcanoes,Wanjiru Yusuf,science,2021,385
+78,Five Rules for Hiring,Ben Shah,business,2015,295
+79,Crown of the Sleeping Moon,Rosa Ortiz,fantasy,2022,409
+80,Family Recipes,Quang Hernández,cooking,2009,323
+81,Letters from Marrakesh,Vikram Mensah,romance,2013,383
+82,Ten Days in the Balkans,Chidi Okeke,travel,2022,264
+83,Death at Harbour House,Quang Hernández,mystery,2018,301
+84,The Age of Paper,Ravi Yamamoto,history,2016,314
+85,Walking Borneo,Wei Obi,travel,2025,382
+86,Ash and Valley,Yasmin Kaplan,poetry,2009,195
+87,Sunrise in Lisbon,Chen Hoang,romance,2014,303
+88,The Broken Forest,Rosa Ortiz,fantasy,2012,291
+89,Spices: A Global History,Tariq Boateng,history,2001,237
+90,Deep Drift,Rin Hernández,science fiction,2010,250
+91,Inside the Secret Forests,Ji-woo Khan,science,2023,259
+92,Leading Hiring,Yara Dubois,business,2020,332
+93,Summer in Penang,Felipe Kowalski,romance,2023,354
+94,Forty Days in Rajasthan,Valentina Khan,travel,2008,317
+95,The Ferry Affair,Quang Korhonen,mystery,2020,451
+96,Carlos and the Clever Elephant,Mehmet Diallo,children,2019,24
+97,The Silent Bridge,Felipe Fernandes,mystery,2007,146
+98,Letters from Nairobi,Hamza Morales,romance,2026,354
+99,Summer in Hanoi,Tunde Hernández,romance,2021,322
+100,The Iron Throne,Ivan Patel,fantasy,2020,343
+101,A History of Libraries,Tariq Boateng,history,2023,305
+102,Deep Nebula,Omar Chen,science fiction,1991,322
+103,The Last Museum,Zainab Owusu,mystery,2024,401
+104,Nikhil and the Sleepy Lion,Bongani Khan,children,1998,46
+105,The Sleepy Robot,Lucía Horvat,children,2014,70
+106,Beyond the Horizon,Farah Lee,science fiction,1992,471
+107,Daniel and the Clever Lion,Lucía Li,children,2007,54
+108,On the Road in Patagonia,Yara Müller,travel,2024,215
+109,Inside the Hidden Soil,Ji-woo Khan,science,2018,280
+110,The Happy Robot,Xin Ramos,children,2026,97
+111,A History of Bridges,Pablo Korhonen,history,2020,417
+112,Beyond the Drift,Bilal Mahlangu,science fiction,2006,370
+113,Leading Remote Work,Wei Obi,business,2019,458
+114,The Science of Forests,Jin Jensen,science,2021,456
+115,Forty Days in the Balkans,Khalid Eze,travel,2025,371
+116,Poems from the Valley,Omar Odhiambo,poetry,2010,146
+117,Winter in Valparaíso,Nadia Asante,romance,2014,330
+118,Cotton: A Global History,Bilal Osei,history,2025,345
+119,Why Bees Matters,Bilal Patel,science,2019,382
+120,The Locked Witness,Rin Hernández,mystery,2018,419
+121,The Relay Protocol,Hugo Garcia,science fiction,2011,360
+122,Songs of the Mountains,Aisyah Banda,poetry,2014,77
+123,On the Road in the Andes,Xavier Rao,travel,2017,359
+124,Thirty Days in Borneo,Sofia Singh,travel,2010,335
+125,The Letter Affair,Thabo Olsen,mystery,2015,331
+126,Letters from Lisbon,Ibrahim Moreau,romance,2016,238
+127,Beyond the Archive,Sofia Garcia,science fiction,2014,314
+128,Cooking with Lentils,Lucía Horvat,cooking,2022,222
+129,The Art of Courage,Xavier Hashemi,self-help,2023,360
+130,Throne of the Iron Moon,Nadia Asante,fantasy,2024,234
+131,Map of the Forgotten Moon,Noah Mwangi,fantasy,2015,398
+132,Letters from Penang,Hamza Morales,romance,1988,302
+133,The Age of Bread,Xin Ahmed,history,2018,354
+134,Poems from the Harbour,Santiago Kaya,poetry,2009,95
+135,The Silent Key,Arjun Singh,mystery,2013,411
+136,Seven Rules for Customer Service,Wei Obi,business,2009,245
+137,The Echo Protocol,Elif Ibrahim,science fiction,2025,261
+138,Why Soil Matters,Bongani Khan,science,2013,291
+139,The Missing Witness,Yasmin Haile,mystery,2019,334
+140,The Station Affair,Luca Ramos,mystery,2002,264
+141,Why Sleep Matters,Nour Andersen,science,2021,365
+142,Death at Observatory,Lucía Nguyen,mystery,2014,370
+143,The Silver Kingdom,Mei Mahlangu,fantasy,2016,412
+144,Death at Pier,Thabo Olsen,mystery,2022,329
+145,The Shadow Forest,Wei Tesfaye,fantasy,2015,322
+146,The Science of Sleep,Khalid Eze,science,2018,409
+147,Inside the Invisible Rivers,Bongani Khan,science,2014,349
+148,Salt: A Global History,Tariq Boateng,history,2010,264
+149,The Locked Letter,Lucía Nguyen,mystery,2002,346
+150,The Lost Turtle,Samir Osei,children,2017,24
+151,Leading Growth,Rahul Tanaka,business,2024,311
+152,The Second Garden,Mateo Farouk,mystery,2014,409
+153,The Witness Affair,Vikram Morales,mystery,2011,401
+154,On the Road in the Pampas,Camila Vargas,travel,2014,295
+155,Leading Hard Decisions,Hamza Morales,business,2013,383
+156,Seven Days in the Andes,Farah Demir,travel,2000,285
+157,Walking the Balkans,Felipe Tanaka,travel,2007,286
+158,The Clever Fox,Luca Fischer,children,2003,33
+159,The Missing Museum,Mateo Farouk,mystery,1992,279
+160,Walking the Andes,Dev Mahlangu,travel,1990,325
+161,Walking Rajasthan,Hamza Lee,travel,2024,230
+162,The Second Observatory,Oluwaseun Nguyen,mystery,1994,189
+163,Bicycles: A Global History,Bilal Osei,history,2014,276
+164,The Missing Bridge,Ikram Saito,mystery,2017,423
+165,Cooking with Rice,Marta Shah,cooking,2015,205
+166,The Lighthouse Affair,Felipe Tanaka,mystery,2014,326
+167,Patient Habits,Chen Akhtar,self-help,2015,302
+168,Dragon of the Forgotten Moon,Ikram Saito,fantasy,2022,314
+169,Ten Days in Borneo,Pablo Musa,travel,2021,291
+170,Small Habits,Carlos Morales,self-help,2017,306
+171,Beyond the Equinox,Xavier Hashemi,science fiction,2018,274
+172,The Second Witness,Zainab Owusu,mystery,2015,344
+173,The Garden Kitchen,Pablo Musa,cooking,2019,295
+174,Deep Frontier,Aisyah Banda,science fiction,2021,328
+175,Rain in Lisbon,Ikram Banda,romance,2016,308
+176,The Clocktower Affair,Zainab Owusu,mystery,2024,249
+177,Walking the Atlas Mountains,Valentina Kowalski,travel,2007,304
+178,Minh and the Clever Fox,Xin Ramos,children,2021,35
+179,Letters from Istanbul,Wei Saito,romance,2010,284
+180,Ports: A Global History,Farah Lee,history,2020,314
+181,Seven Rules for Hard Decisions,Bilal Mahlangu,business,2011,389
+182,Dragon of the Broken Moon,Pablo Korhonen,fantasy,2026,288
+183,Inside the Living Clouds,Ivan Suzuki,science,1989,225
+184,Beyond the Nebula,Rahul Alvarez,science fiction,2024,207
+185,Moonlight in Istanbul,Amara Yusuf,romance,2023,329
+186,Dara and the Tiny Balloon,Luca Fischer,children,2016,88
+187,Yogurt Every Day,Yasmin Pereira,cooking,2025,178
+188,Rain in Kyoto,Xin Yildiz,romance,2022,245
+189,Inside the Living Rivers,Wanjiru Yusuf,science,2022,348
+190,Map of the Hidden Moon,Oluwaseun Kaya,fantasy,2020,403
+191,Spring in Kyoto,Ikram Banda,romance,2004,364
+192,The Coastal Kitchen,Marta Nowak,cooking,2021,213
+193,Small Steps to Balance,Grace Yamamoto,self-help,2017,380
+194,The Silent Station,Yaw Nguyen,mystery,1989,301
+195,Poems from the Steppe,Aisyah Banda,poetry,2016,225
+196,The Brave Penguin,Ravi Yamamoto,children,2020,122
+197,Naledi and the Tiny Fox,Dara Boateng,children,2017,30
+198,Death at Bridge,Jin Gupta,mystery,2014,310
+199,Gate of the Hidden Moon,Tomás Tanaka,fantasy,2013,275
+200,Sunrise in Penang,Wei Saito,romance,2022,260
+201,Beyond the Lattice,Carlos Morales,science fiction,2015,470
+202,The Village Kitchen,Felipe Zhang,cooking,2025,168
+203,The Harbour House Affair,Wei Musa,mystery,2022,384
+204,Markets: A Global History,Farah Lee,history,2025,321
+205,Moonlight in Nairobi,Marta Shah,romance,2021,328
+206,The Science of Oceans,Dev Nguyen,science,2016,341
+207,Chen and the Lost Kite,Tomás Salazar,children,2007,55
+208,The Market Kitchen,Marta Shah,cooking,1998,202
+209,Hana and the Lost Turtle,Lucía Li,children,2021,44
+210,Deep Lattice,Kai Horvat,science fiction,2018,331
+211,Inside the Secret Soil,Wanjiru Yusuf,science,2022,431
+212,Inside the Hidden Bees,Bongani Khan,science,2025,306
+213,Small Steps to Rest,Oscar Abdullah,self-help,2025,325
+214,The Silent Witness,Naledi Ortiz,mystery,2017,289
+215,The Pricing Playbook,Ana Musa,business,2022,466
+216,The Science of Bees,Ivan Suzuki,science,2011,231
+217,On the Road in the Atlas Mountains,Valentina Khan,travel,2023,373
+218,Kai and the Tiny Robot,Lucía Horvat,children,2013,97
+219,Bread: A Global History,Javier Kamau,history,2025,354
+220,A Year of Chillies,Oluwaseun Fischer,cooking,2013,225
+221,The Locked Pier,Quang Hernández,mystery,2022,351
+222,The Age of Ink,Xin Ahmed,history,2014,335
+223,The Second Harbour House,Oluwaseun Nguyen,mystery,2023,364
+224,Twelve Rules for Hard Decisions,Samir Fischer,business,1997,267
+225,The Frontier Protocol,Carlos Morales,science fiction,2021,265
+226,Ten Rules for Small Teams,Chidi Adeyemi,business,2012,399
+227,Why Rivers Matters,Bongani Khan,science,2014,481
+228,Why Forests Matters,Carlos Lim,science,2023,360
+229,Death at Clocktower,Tomás Garcia,mystery,2025,380
+230,Songs of the Coast,Jin Gupta,poetry,2019,96
+231,Deep Echo,Esra Hassan,science fiction,2006,337
+232,Rain in Istanbul,Hamza Morales,romance,2020,419
+233,Winter in Hanoi,Yara Patel,romance,2023,221
+234,On the Road in Rajasthan,Layla Garcia,travel,1981,374
+235,Inside the Hidden Clouds,Ibrahim Bianchi,science,2011,327
+236,Forest of the Crimson Moon,Vikram Morales,fantasy,1998,375
+237,Beyond the Machine,Yara Patel,science fiction,2023,341
+238,The Mountain Kitchen,Hamza Schmidt,cooking,2002,206
+239,The Midnight Orchard,Luca Ramos,mystery,2023,343
+240,Mountain Recipes,Dara Nguyen,cooking,2024,221
+241,The Iron Dragon,Lucía Haddad,fantasy,2009,321
+242,Winter in Marrakesh,Chen Hoang,romance,2025,273
+243,Summer in Kyoto,Valentina Haddad,romance,2017,346
+244,Rain in Valparaíso,Tunde Hernández,romance,2006,294
+245,The Tiny Owl,Javier Kamau,children,2014,139
+246,Sunrise in Hanoi,Rosa Akhtar,romance,2013,253
+247,The Lattice Protocol,Soo-ah Kaya,science fiction,2021,270
+248,Rain in Hanoi,Felipe Kowalski,romance,2009,253
+249,Honey and City,Dara Farouk,poetry,2024,197
+250,The Hidden Kingdom,Ji-woo Müller,fantasy,2004,345
+251,Sword of the Iron Moon,Rin Abdullah,fantasy,1989,290
+252,Ink: A Global History,Yara Dubois,history,2015,243
+253,The Small Teams Playbook,Samir Fischer,business,2024,226
+254,Death at Key,Santiago Pereira,mystery,2017,371
+255,The Happy Dragon,Chidi Adeyemi,children,2023,24
+256,Ten Days in the Andes,Sofia Garcia,travel,2018,289
+257,Ash and City,Sofia Singh,poetry,2007,69
+258,Spring in Istanbul,Pablo Asante,romance,2014,316
+259,Songs of the Harbour,Sofia Singh,poetry,2011,104
+260,Layla and the Happy Penguin,Jin Lim,children,2010,60
+261,Why Oceans Matters,Quang Cohen,science,2016,245
+262,Sunrise in Nairobi,Vikram Mensah,romance,1990,275
+263,The Age of Silk,Rahul Tanaka,history,2003,302
+264,The Missing Vineyard,Quang Korhonen,mystery,2000,205
+265,Numbers: A Global History,Rahul Tanaka,history,2024,345
+266,Deep Archive,Felipe Zhang,science fiction,2021,450
+267,Songs of the Lake,Felipe Fernandes,poetry,1983,76
+268,The Hidden Crown,Zeynep Haile,fantasy,2020,286
+269,Sword of the Burning Moon,Yasmin Kaplan,fantasy,2017,265
+270,Inside the Hidden Rivers,Ikram Wu,science,2013,280
+271,Elif and the Brave Balloon,Chidi Adeyemi,children,2022,54
+272,Garden Recipes,Ikram Santos,cooking,2014,226
+273,The Last Station,Thabo Olsen,mystery,2012,306
+274,Spring in Zanzibar,Marta Shah,romance,2008,339
+275,The Orchard Affair,Hana Banda,mystery,2025,401
+276,Spring in Lisbon,Santiago Kaya,romance,2012,206
+277,The Locked Orchard,Elif Vargas,mystery,2013,210
+278,Fish Every Day,Kai Horvat,cooking,2001,157
+279,Letters from Hanoi,Thabo Öztürk,romance,2022,441
+280,A History of Rice,Nikhil Asante,history,2023,298
+281,Summer in Zanzibar,Daniel Qureshi,romance,2006,407
+282,Moonlight in Zanzibar,Sana Novak,romance,2014,296
+283,On the Road in the Mekong,Camila Vargas,travel,2014,311
+284,The Silent Ferry,Yasmin Haile,mystery,2019,289
+285,Poems from the Delta,Wanjiru Yusuf,poetry,2016,97
+286,Chen and the Sleepy Elephant,Bongani Khan,children,2010,24
+287,Noodles Every Day,Thabo Öztürk,cooking,2021,279
+288,A History of Cotton,Bilal Osei,history,2010,276
+289,The Lost Elephant,Sipho Jensen,children,2024,171
+290,Inside the Hidden Oceans,Ikram Nasser,science,2024,449
+291,Sunrise in Oaxaca,Vikram Mensah,romance,2015,249
+292,Rain in Marrakesh,Ibrahim Moreau,romance,2025,442
+293,The Glass Forest,Mei Jensen,fantasy,2026,272
+294,The Midnight Key,Zainab Owusu,mystery,2020,327
+295,The Remote Work Playbook,Vikram Mensah,business,2001,344
+296,Lucía and the Lost Lion,Isabela Dubois,children,2022,24
+297,Inside the Invisible Clouds,Kai Saito,science,2017,363
+298,A History of Paper,Tomás Garcia,history,2020,365
+299,A Year of Corn,Wei Lindqvist,cooking,2007,192
+300,Silk: A Global History,Ji-woo Khan,history,1995,298
+301,Honey and Steppe,Chen Morales,poetry,2021,129
+302,Poems from the Desert,Minh Demir,poetry,2012,147
+303,The Horizon Protocol,Chen Morales,science fiction,2011,225
+304,Leading Small Teams,Farah Farouk,business,2026,267
+305,Cooking with Bread,Grace Hashemi,cooking,2022,277
+306,River of the Burning Moon,Quang Cohen,fantasy,2015,265
+307,Orbit Archive,Bilal Patel,science fiction,1999,290
+308,The Nebula Protocol,Felipe Kowalski,science fiction,2015,329
+309,The Missing Pier,Lerato Gonzalez,mystery,1999,315
+310,The Locked Observatory,Ikram Saito,mystery,1980,376
+311,Winter in Lisbon,Tunde Hernández,romance,2007,387
+312,Moonlight in Valparaíso,Hamza Morales,romance,2023,407
+313,The Calm Mind,Grace Abdullah,self-help,2023,354
+314,The Drift Protocol,Sofia Garcia,science fiction,1998,297
+315,On the Road in Anatolia,Abebe Kim,travel,2015,329
+316,Songs of the Delta,Felipe Fernandes,poetry,2013,85
+317,Death at Orchard,Lerato Gonzalez,mystery,2023,320
+318,Sunrise in Zanzibar,Felipe Kowalski,romance,2019,358
+319,Moonlight in Hanoi,Ibrahim Moreau,romance,2022,355
+320,Quantum Archive,Rahul Alvarez,science fiction,2022,377
+321,The Science of Soil,Layla Kim,science,2014,320
+322,Spring in Marrakesh,Felipe Kowalski,romance,2014,241
+323,Death at Ferry,Arjun Singh,mystery,1997,318
+324,The Hidden Map,Tomás Tanaka,fantasy,2025,306
+325,Death at Garden,Naledi Ortiz,mystery,2024,286
+326,Summer in Oaxaca,Oscar Ramos,romance,2013,266
+327,Forty Days in Patagonia,Nour Kowalski,travel,2023,221
+328,Summer in Lisbon,Wei Saito,romance,2026,262
+329,The Crimson Crown,Kenji Iyer,fantasy,2025,322
+330,Thirty Days in Patagonia,Felipe Tanaka,travel,2006,358
+331,The Museum Affair,Lina Adeyemi,mystery,2011,335
+332,The Science of Memory,Khalid Eze,science,2023,337
+333,A Year of Tomatoes,Tomás Zhang,cooking,1993,231
+334,Orbit Machine,Rahul Alvarez,science fiction,2007,260
+335,Signal Archive,Felipe Kowalski,science fiction,2018,327
+336,Winter in Zanzibar,Mateo Farouk,romance,2020,364
+337,Throne of the Forgotten Moon,Tomás Tanaka,fantasy,2026,291
+338,Map of the Shadow Moon,Pablo Korhonen,fantasy,2019,327
+339,The Happy Turtle,Mehmet Diallo,children,2013,24
+340,Why Clouds Matters,Ikram Wu,science,1997,323
+341,Sunrise in Valparaíso,Wanjiru Akhtar,romance,2017,381
+342,The Crimson Sword,Ibrahim Martin,fantasy,2022,306
+343,On the Road in Lapland,Layla Garcia,travel,2023,249
+344,The Age of Glass,Ji-woo Khan,history,2016,339
+345,Colony Relay,Xavier Hashemi,science fiction,2021,227
+346,The Missing Station,Santiago Pereira,mystery,2020,275
+347,River of the Hidden Moon,Ikram Khan,fantasy,2003,290
+348,The Sleeping Throne,Vikram Morales,fantasy,2015,318
+349,Inside the Invisible Light,Hiroshi Kim,science,2011,417
+350,Seven Days in the Mekong,Wanjiru Salazar,travel,2018,290
+351,Leading Startups,Bilal Mahlangu,business,2020,347
+352,Gate of the Broken Moon,Rin Abdullah,fantasy,2026,341
+353,Kingdom of the Forgotten Moon,Oluwaseun Kaya,fantasy,2015,357
+354,Inside the Hidden Light,Ikram Wu,science,2020,384
+355,The Equinox Protocol,Dmitri Müller,science fiction,2002,383
+356,Rain in Nairobi,Daniel Qureshi,romance,1998,323
+357,Death at Museum,Kai Saito,mystery,2019,405
+358,Colony Equinox,Layla Kim,science fiction,2023,273
+359,Ten Rules for Startups,Rosa Kim,business,2006,248
+360,Death at Station,Dara Akhtar,mystery,2010,316
+361,Poems from the Island,Wanjiru Akhtar,poetry,2019,106
+362,A History of Lighthouses,Ikram Wu,history,2025,311
+363,The Crimson Throne,Jin Lim,fantasy,2000,360
+364,The Science of Volcanoes,Hiroshi Kim,science,2019,367
+365,The Hidden River,Thabo Olsen,fantasy,2016,252
+366,Forest of the Burning Moon,Quang Cohen,fantasy,2008,189
+367,Dragon of the Iron Moon,Sipho Jensen,fantasy,2012,479
+368,On the Road in the Balkans,Layla Garcia,travel,2020,295
+369,Dust and Desert,Sofia Singh,poetry,2023,127
+370,The Bridge Affair,Chen Rossi,mystery,2002,452
+371,A History of Sugar,Nina Yamamoto,history,2011,344
+372,The Last Key,Lerato Gonzalez,mystery,2010,349
+373,Small Steps to Listening,Xavier Horvat,self-help,2025,283
+374,Lentils Every Day,Yaw Bekele,cooking,2023,328
+375,Death at Letter,Rin Hernández,mystery,2005,227
+376,Rain in Zanzibar,Jin Haddad,romance,2020,410
+377,The Shadow Tower,Wei Tesfaye,fantasy,2018,400
+378,Station Echo,Xin Ramos,science fiction,2025,358
+379,The Last Witness,Oluwaseun Nguyen,mystery,2018,372
+380,Quantum Frontier,Quang Mensah,science fiction,2013,287
+381,The Locked Station,Elif Vargas,mystery,2022,329
+382,Quantum Machine,Xin Ramos,science fiction,2023,293
+383,The Archive Protocol,Omar Chen,science fiction,2022,275
+384,Rain in Oaxaca,Pablo Asante,romance,2006,432
+385,A History of Silk,Camila Rahman,history,1977,293
+386,The Science of Rivers,Quang Gupta,science,2018,243
+387,Lighthouses: A Global History,Wei Lindqvist,history,2022,302
+388,Moonlight in Oaxaca,Felipe Kowalski,romance,1998,340
+389,Cooking with Vegetables,Pablo Musa,cooking,2021,213
+390,A History of Ports,Ivan Wang,history,2010,218
+391,Weeknight Recipes,Hamza Schmidt,cooking,2018,169
+392,Signal Horizon,Fatima Bekele,science fiction,1979,369
+393,Rice Every Day,Ikram Banda,cooking,2012,187
+394,Forty Days in the Pampas,Rosa Akhtar,travel,2015,375
+395,Ten Days in the Atlas Mountains,Nina Morales,travel,2011,367
+396,The Art of Listening,Sana Mwangi,self-help,2021,342
+397,Making Time for Listening,Dara Farouk,self-help,2025,322
+398,Wei and the Happy Elephant,Layla Garcia,children,2024,63
+399,The Broken Crown,Sipho Jensen,fantasy,2008,322
+400,Dragon of the Silver Moon,Yuki Morales,fantasy,2025,340

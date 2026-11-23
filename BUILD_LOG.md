@@ -4,9 +4,115 @@ What each build session did, newest first. Read the block below at the start of 
 
 ## Current state / Next step
 
-**Current state (2026-11-23):** Stages 0 and 1 are done. The platform is in place, byte for byte from the spec, except for one fix to the setup page (the macOS `libomp` step; see the entry below and `DECISIONS.md`): `course.json`, the templates, `course.js`, `course.css`, the home and setup pages, every tool, the learner helpers, the unit tests, the workflows, the sample lesson M03-L04 and `examples/spec05-examples.html`. The Prism bundle and fonts are built. `python tools/ci.py --partial` passes every step. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Pages uses GitHub Actions as its source, and every push to `main` runs `ci.py --partial` and then deploys.
+**Current state (2026-11-23):** Stages 0, 1 and 2 are done. The platform is in place, byte for byte from the spec, except for one fix to the setup page (the macOS `libomp` step). `site/data/` now holds the course datasets:
+* 18 generated files from 11 seeded datasets (`tools/make_datasets.py`);
+* `glove-mini.json`, a 2,368-word GloVe subset;
+* `docs/`, the 18-page Colibrí handbook.
 
-**Next step:** Stage 2, the datasets (`spec/11`). Start `claude` with `.venv` active and type `/stage 2`.
+`site/data/README.md` documents all of them. `python tools/ci.py --partial` passes every step, including 12 new dataset tests. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Every push to `main` runs `ci.py --partial` and then deploys. The Stage 2 commit is not pushed yet.
+
+**Before the M05 project:** decide how packs get files from `site/data/` (first open issue under Stage 2).
+
+**Next step:** Stage 3, the site shell pages: `syllabus.html`, `glossary.html` and `certificate.html` (`spec/11`). Start `claude` with `.venv` active and type `/stage 3`.
+
+## Stage 2 · Datasets (2026-11-23)
+
+**Done**
+
+* Listed every dataset that the phase files and the project briefs (`spec/09`) need. `tools/make_datasets.py` generates 11 datasets, 18 files and 9.33 MB in all, into `site/data/` in about 1 second. Each dataset has its own `np.random.default_rng(seed)`, so changing one never changes another.
+
+  | Dataset (seed) | Files | Used in |
+  |---|---|---|
+  | `server_logs` (101) | `server_logs.txt`: 1,696 lines | M05-L04, M05 project, M06-L01 |
+  | `server_logs_large` (102) | `server_logs_large.txt`: 22,411 lines | M08-L02, M08 project, M10-L05 |
+  | `images` (111) | `images.npz`: 6 `uint8` arrays | M11-L05, M11 project, E2 |
+  | `shop` (121) | `customers.csv` (1,985 rows), `sales.csv` (11,824 rows), `shop.db` (5 tables) | M12, M13-L01, M15-L01 to L03 |
+  | `food_delivery` (131) | `food_delivery.db` (150 restaurants, 16,682 orders), `food_delivery_customers.csv` (4,778 rows), `food_delivery_promotions.json` (12 codes), `food_delivery_messy.csv` (2,876 rows) | M12-L04, M12 project, M15, P3 |
+  | `student_performance` (141) | `student_performance.csv`: 1,000 rows | M13-L03, M13-L04, M14 |
+  | `housing` (161) | `housing_small.csv`: 1,500 rows | M16-L03, M16 project |
+  | `telco_churn` (171) | `telco_churn.csv` (7,000 rows), `telco_churn_current.csv` (2,000 rows) | M17, M19, P4, M24, M25-L06, P6 |
+  | `transactions_fraud` (181) | `transactions_fraud.csv`: 15,000 rows | M16-L07, M17-L07, M25-L07 |
+  | `sms` (191) | `sms_small.csv`: 2,400 rows | M18-L05 |
+  | `book_ratings` (201) | `books.csv` (400 rows), `ratings.csv` (32,164 rows) | M18-L08, E6, capstone |
+
+* Each generator asserts the patterns its lessons rely on. If a later edit breaks one, the run fails at once instead of a lesson going wrong. The docstrings list what is planted; the README, which learners read, describes only the columns. The planted patterns:
+  * **M05 logs:** busiest hour 13:00 (at least 10 lines ahead); the top errors are 34, 26, 17 and 11.
+  * **M08 logs:** tracebacks and 6 cut-off lines.
+  * **Shop:** a July sale and a Black Friday peak; regional trends; a tracking outage that leaves `channel` empty; 15 deleted customers whose orders remain; referrals; tied salaries for `RANK`.
+  * **Food delivery (the P3 story):** in 2026-Q3 total orders rise 4.7% while repeat orders fall 13%. There are three causes:
+    * the LOYAL10 promotion ends;
+    * a courier shortage in Lima raises its late share from 0.15 to 0.44;
+    * a paid-social campaign brings in customers who reorder less.
+
+    It also has a censoring trap. The messy export has duplicates, label variants, decimal commas, mixed date formats, impossible values and more. The conditions in every promotion's name are enforced, so the data never contradicts them.
+  * **Students:** Simpson's paradox for tutoring, outliers and missing values.
+  * **Telco:** churn 0.217; Central is the noisiest region. The later batch has data drift and concept drift.
+  * **Fraud:** 2.65% fraud, in bursts plus single cases. No single column gives it away.
+  * **SMS:** wanted and unwanted versions of service notices; 3.9% duplicate texts.
+  * **Ratings:** 3 hidden taste factors and missing-not-at-random ratings.
+* `glove-mini.json`, built by `make_datasets.py --glove`:
+  * Contents: 2,368 words with 50 dimensions (1.03 MB). These are the 2,000 most frequent alphabetic words plus 368 words chosen for the lessons: analogies, categories and job titles for bias probes.
+  * Source: cut from `glove.6B.50d.txt` (SHA-256 `c99ba128…b4aa5b`). Only that member was fetched from `glove.6B.zip` on the official Hugging Face mirror, using HTTP range requests (about 80 MB instead of 862 MB).
+  * Licence: PDDL, checked in the GloVe README.
+  * Checks: analogies work (king − man + woman → queen; Peru : Lima = Colombia : Bogotá).
+* `site/data/docs/` holds the hand-written handbook of Colibrí, the fictional food-delivery company.
+  * 18 pages, about 5,300 words.
+  * Each page starts with a header: id, title, owner, updated, status, audience.
+  * The archived 2024 hybrid-work policy conflicts with the current one, which tests metadata filters.
+  * `bogota-office-notes.md` contains a deliberate prompt-injection line for M23-L07, disclosed in the README.
+* `site/data/README.md` covers:
+  * the conventions;
+  * a table of every file with its exact shape and lessons;
+  * column tables for every file, with no spoilers;
+  * licences: CC0 1.0, the owner's choice; GloVe under PDDL with its citation and source hash;
+  * what is not in the folder, and how to rebuild it.
+* `tools/tests/test_datasets.py` adds 12 tests:
+  * two runs give identical bytes;
+  * every file is at most 2 MB;
+  * `site/data/` matches a fresh run;
+  * datasets are independent, and seeds are unique;
+  * `--check` reports changed and unexpected files;
+  * the README row for every file states its shape and the licences;
+  * GloVe subset rounding, ordering and missing-word errors, tested on a fixture;
+  * `glove-mini.json` contains every lesson word;
+  * every handbook page has a valid header.
+* `site/data/.gitkeep` removed. A new `.gitattributes` marks `site/data/**` as `-text`, so git never converts line endings in the data (`DECISIONS.md`).
+* Model checks on the final data (scratch scripts, not committed), for the module builders.
+  * **Fraud**, seed 181, split by card 70/30 with `GroupShuffleSplit(random_state=0)`:
+    * logistic regression at the default threshold catches only 48% of fraud;
+    * on the raw columns, the best precision at recall 0.80 is 0.36 for HistGradientBoosting and 0.43 for logistic regression with `class_weight="balanced"`;
+    * with an hour-of-day feature, 0.63 and 0.49;
+    * so the M17-L07 E1 target (recall ≥ 0.80 at precision ≥ 0.30) can be met with threshold tuning. Check it again with the exercise's own split.
+  * **SMS**, stratified 75/25 split: F1 0.957 (Naive Bayes on counts), 0.948 (logistic regression on TF-IDF), 0.971 (linear SVM on 1–2-grams). A threshold near 0.90 suits M18-L05 E1.
+  * **Housing** (log price): R² 0.925 for linear and Ridge, 0.84 for k-NN and 0.92 for a random forest; the dummy model scores 0.
+  * **Telco:** logistic regression AUC 0.81 overall, with Central the lowest region at 0.74. The same model scores 0.76 on the later batch.
+
+**Checks**
+
+* `make_datasets.py`: "make_datasets: wrote 18 file(s) to /Users/nazeef05/Projects/python-ai-course/site/data, 9.33 MB in all, largest 1.76 MB". `--check`: "make_datasets --check: 18 file(s), 0 problem(s)". Two separate runs and `site/data/` have the same SHA-256 for all 18 files, `.db` and `.npz` included.
+* `build.py` had nothing to regenerate (exit 0).
+* `ci.py --partial` printed "CI passed". The step results were:
+  * "52 passed in 9.06s" (the 40 earlier tests plus the 12 new ones);
+  * library checks: 22 PASS, "all checks passed";
+  * ruff: "All checks passed!";
+  * "build --check: all generated files up to date";
+  * "check_site: 4 page(s), 0 problem(s)";
+  * "check_coverage: 4 page(s), 0 error(s), 5 pending";
+  * "check_content: 4 page(s), 41 blocks compiled, 29 examples, 9 sessions, 4 exercises, 2 quizzes, 0 skipped, 0 problem(s)";
+  * the spec/05 patterns: "check_content: 1 page(s), 18 blocks compiled, 0 examples, 0 sessions, 6 exercises, 1 quizzes, 0 skipped, 0 problem(s)";
+  * "smoke_pages: 51 of 51 checks passed".
+
+**Open issues**
+
+* **Packs cannot ship files from `site/data/`. Decide before the M05 project**, which is graded against `data/server_logs.txt`.
+  * The conflict: the Phase 3 notes say "exercise packs include the files their tests read", but `tools/packs.py` ships only inline `x-file` blocks from inside the exercise article. A 1 MB CSV cannot sensibly go inline.
+  * Option 1: let an `x-file` block name a file in `site/data/` for the pack to copy. This changes a platform contract (`spec/05` §3, `packs.py` and its tests; `CLAUDE.md` rule 12), so the owner must approve it.
+  * Option 2: inline small samples.
+  * Option 3: tests that build their own data.
+* **The certificate step on macOS.** The python.org build of Python has no CA certificates until "Install Certificates.command" is run. Downloads with `urllib.request` then fail with `CERTIFICATE_VERIFY_FAILED`, as the GloVe download did here; it worked with `SSL_CERT_FILE` set to certifi's bundle. pip is not affected. The setup page needs this step before M15-L04, which teaches `urllib.request`.
+* **Deferred datasets:** sentiment text, images for the M21 project and P5 option B, and the elective data (`DECISIONS.md`).
+* **Cross-platform freshness.** `test_site_data_matches_a_fresh_run` compares the files made on macOS (Apple silicon) with a fresh run on GitHub's Linux runner. NumPy's draws are expected to be identical there; the first push will confirm it.
+* For the record: `glove.6B.50d.txt` has 400,001 lines, each a distinct word with 50 values. The archive's CRC-32 matched on extraction, and GloVe's "400K vocab" is a rounded figure. Nothing to fix.
 
 ## Fix · The macOS OpenMP step (2026-11-23)
 

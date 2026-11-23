@@ -1,0 +1,2 @@
+# The course data must stay exactly as tools/make_datasets.py writes it: no line-ending conversion
+site/data/** -text

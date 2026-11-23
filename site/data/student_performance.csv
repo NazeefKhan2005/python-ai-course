@@ -1,0 +1,1001 @@
+student_id,programme,year,age,previous_grade,study_hours,attendance_pct,sleep_hours,work_hours,commute_minutes,tutoring,internet_at_home,extracurricular,final_exam,passed
+S0001,Business,3,21,70.6,20.9,92.5,,0,11,no,no,no,75,yes
+S0002,Design,1,18,70.5,6.6,67.9,6.5,20,44,no,yes,no,48,no
+S0003,Computer Science,2,19,50.7,8.4,89.8,5.9,0,31,no,yes,yes,38,no
+S0004,Computer Science,2,19,70.6,20.3,86.6,6.6,0,75,no,no,no,65,yes
+S0005,Engineering,1,18,62.0,16.7,79.5,6.3,0,89,yes,yes,yes,67,yes
+S0006,Business,1,19,68.9,8.2,93.2,7.2,15,42,yes,yes,yes,66,yes
+S0007,Data Science,2,21,53.4,4.8,87.4,6.8,0,27,yes,yes,no,40,no
+S0008,Data Science,1,18,48.7,16.8,87.5,6.5,0,15,yes,yes,yes,44,no
+S0009,Engineering,2,20,59.4,12.2,94.4,6.6,0,5,no,no,no,50,yes
+S0010,Business,3,20,39.9,29.8,89.6,6.6,8,27,yes,yes,no,41,no
+S0011,Business,2,20,70.6,5.0,86.5,7.2,0,12,no,yes,no,61,yes
+S0012,Engineering,3,20,80.9,3.6,92.7,7.3,22,16,no,yes,no,69,yes
+S0013,Computer Science,1,19,72.2,11.2,89.5,6.3,0,15,no,yes,yes,58,yes
+S0014,Biology,2,19,85.0,7.0,77.6,8.4,18,35,no,yes,no,48,no
+S0015,Business,3,20,84.4,16.8,87.4,5.9,29,53,no,yes,no,67,yes
+S0016,Computer Science,1,19,73.9,12.5,78.1,7.3,16,30,no,yes,no,58,yes
+S0017,Data Science,2,19,62.0,3.0,67.6,6.3,14,5,no,yes,yes,49,no
+S0018,Computer Science,3,21,58.4,15.3,49.6,7.4,16,15,yes,yes,no,40,no
+S0019,Design,2,19,67.3,7.3,66.9,6.4,7,19,no,yes,no,51,yes
+S0020,Data Science,1,18,66.1,9.0,83.6,7.3,0,40,no,yes,yes,58,yes
+S0021,Data Science,2,20,77.8,9.2,82.7,5.1,0,22,no,yes,no,55,yes
+S0022,Design,3,21,67.7,19.1,74.7,7.4,18,23,no,yes,no,53,yes
+S0023,Computer Science,1,18,88.0,8.2,65.1,7.3,0,5,no,yes,yes,80,yes
+S0024,Computer Science,3,20,74.3,14.9,50.0,8.1,23,24,no,yes,no,55,yes
+S0025,Biology,2,19,53.6,10.2,77.5,6.7,0,24,no,yes,yes,52,yes
+S0026,Business,1,19,50.9,9.5,81.3,,0,57,yes,yes,no,48,no
+S0027,Computer Science,2,19,63.8,3.3,93.0,9.7,0,28,yes,yes,no,61,yes
+S0028,Design,2,19,73.8,6.8,94.1,,0,14,no,yes,yes,66,yes
+S0029,Data Science,2,27,46.6,18.2,76.0,7.5,15,51,yes,yes,no,53,yes
+S0030,Business,2,20,77.7,17.0,100.0,7.0,17,31,no,yes,no,59,yes
+S0031,Computer Science,1,24,50.4,15.1,72.1,6.1,9,47,no,yes,yes,35,no
+S0032,Business,1,18,70.9,19.6,79.3,8.0,21,36,no,yes,yes,61,yes
+S0033,Design,3,20,73.4,11.6,83.8,7.4,0,20,no,yes,no,55,yes
+S0034,Engineering,2,20,64.5,12.5,91.5,6.9,0,,no,yes,no,57,yes
+S0035,Business,3,21,52.2,6.7,92.8,8.4,0,9,yes,yes,no,47,no
+S0036,Computer Science,2,29,64.4,1.8,80.5,,30,5,no,yes,no,53,yes
+S0037,Computer Science,1,19,73.8,16.9,73.2,7.3,0,64,no,yes,no,75,yes
+S0038,Business,2,19,65.0,10.1,62.3,6.6,27,23,no,yes,yes,47,no
+S0039,Computer Science,2,19,77.9,8.1,89.3,5.4,26,59,no,yes,no,52,yes
+S0040,Engineering,1,26,81.8,6.1,80.5,6.7,18,20,no,yes,yes,62,yes
+S0041,Design,2,19,62.0,26.9,92.3,6.5,0,36,no,yes,no,67,yes
+S0042,Computer Science,1,18,46.6,13.9,90.1,6.4,10,6,yes,yes,yes,56,yes
+S0043,Computer Science,1,18,78.4,4.6,85.9,8.6,0,13,no,yes,no,65,yes
+S0044,Computer Science,1,20,64.1,12.3,89.3,6.2,0,16,no,yes,yes,59,yes
+S0045,Data Science,3,20,55.7,7.3,85.7,5.9,19,57,no,no,no,40,no
+S0046,Business,1,19,90.2,16.5,88.9,6.7,21,15,no,yes,no,74,yes
+S0047,Computer Science,2,28,43.0,3.5,87.9,5.1,0,26,yes,yes,no,35,no
+S0048,Data Science,2,20,64.0,21.0,66.1,6.6,0,50,no,yes,yes,53,yes
+S0049,Business,1,19,52.2,6.9,84.6,,30,6,yes,no,no,38,no
+S0050,Engineering,2,20,67.8,12.3,95.8,6.7,0,21,yes,yes,no,72,yes
+S0051,Computer Science,2,20,85.2,12.7,98.9,5.3,0,33,no,yes,yes,68,yes
+S0052,Business,2,19,70.1,6.6,90.7,7.7,0,31,no,yes,yes,55,yes
+S0053,Engineering,2,20,81.8,4.0,82.0,6.2,19,33,no,yes,no,56,yes
+S0054,Business,1,19,63.6,3.3,89.5,7.0,0,75,no,yes,yes,49,no
+S0055,Engineering,2,19,79.5,5.6,82.6,9.8,0,72,yes,yes,no,53,yes
+S0056,Computer Science,1,18,60.9,16.4,77.0,7.4,28,19,no,yes,no,41,no
+S0057,Business,3,20,62.6,6.2,88.4,7.3,8,21,no,no,yes,49,no
+S0058,Biology,3,20,64.0,17.8,86.6,6.7,0,37,yes,yes,yes,67,yes
+S0059,Computer Science,2,20,71.0,16.6,93.1,6.7,0,86,no,yes,yes,65,yes
+S0060,Biology,2,19,48.8,14.4,78.4,7.0,22,15,yes,yes,no,35,no
+S0061,Data Science,3,22,69.4,21.6,96.0,6.8,18,15,no,yes,no,58,yes
+S0062,Engineering,2,19,75.5,13.9,93.4,,5,47,no,yes,no,65,yes
+S0063,Engineering,1,19,77.0,7.8,93.4,7.0,0,9,no,yes,no,66,yes
+S0064,Biology,2,19,67.1,15.4,80.3,7.1,0,7,no,yes,yes,59,yes
+S0065,Computer Science,2,20,74.7,9.4,88.1,9.2,14,10,no,yes,no,59,yes
+S0066,Computer Science,3,20,69.9,5.3,76.0,5.6,25,15,yes,yes,yes,41,no
+S0067,Computer Science,1,21,64.7,18.7,93.2,8.5,30,34,no,yes,no,51,yes
+S0068,Business,3,21,66.9,16.6,62.6,5.4,0,42,no,yes,no,52,yes
+S0069,Design,3,21,75.1,19.0,82.2,6.4,24,11,no,no,yes,60,yes
+S0070,Engineering,2,20,75.0,5.5,82.6,9.0,0,29,no,yes,yes,56,yes
+S0071,Biology,1,22,49.7,12.2,89.8,7.0,0,17,no,yes,yes,41,no
+S0072,Business,1,18,55.0,5.3,70.8,,5,24,yes,yes,no,50,yes
+S0073,Computer Science,3,20,57.9,18.0,94.0,6.4,0,26,no,yes,no,56,yes
+S0074,Data Science,2,19,68.6,11.5,73.2,7.0,0,14,no,yes,no,63,yes
+S0075,Data Science,3,20,50.7,15.3,80.6,8.8,23,120,yes,yes,no,34,no
+S0076,Computer Science,2,20,61.8,28.2,76.5,7.8,0,45,no,yes,yes,59,yes
+S0077,Data Science,1,18,49.9,0.5,88.4,6.8,0,43,no,yes,yes,33,no
+S0078,Business,3,27,64.1,13.6,60.9,7.2,30,17,yes,yes,yes,43,no
+S0079,Design,3,21,54.1,7.8,91.5,6.4,0,60,yes,yes,no,57,yes
+S0080,Computer Science,3,20,71.5,4.5,79.9,8.3,0,46,no,yes,no,49,no
+S0081,Engineering,2,20,75.1,9.3,56.1,6.9,0,27,no,yes,yes,56,yes
+S0082,Biology,2,19,80.4,15.6,82.3,6.3,16,50,no,yes,no,61,yes
+S0083,Engineering,1,18,47.7,9.0,85.9,7.4,0,16,yes,yes,no,45,no
+S0084,Computer Science,3,20,73.7,15.9,76.3,6.1,0,13,no,yes,yes,47,no
+S0085,Business,2,24,77.9,28.3,98.7,5.7,0,,no,yes,yes,66,yes
+S0086,Business,2,19,85.4,18.8,100.0,5.6,12,28,no,yes,yes,67,yes
+S0087,Data Science,3,21,50.2,12.1,69.4,6.4,6,68,no,yes,yes,41,no
+S0088,Design,1,28,62.9,17.0,94.2,6.5,0,10,no,yes,yes,48,no
+S0089,Business,2,19,57.1,23.7,79.5,7.5,0,5,no,no,no,49,no
+S0090,Engineering,2,19,47.5,16.2,92.8,6.4,15,5,no,yes,yes,40,no
+S0091,Engineering,1,19,56.5,7.3,81.1,7.1,0,29,no,yes,yes,38,no
+S0092,Computer Science,3,20,78.4,15.6,90.1,7.4,0,41,no,yes,yes,80,yes
+S0093,Computer Science,2,20,62.2,11.1,87.9,7.4,0,9,yes,yes,no,55,yes
+S0094,Computer Science,1,19,70.7,9.0,76.3,7.5,0,5,yes,yes,yes,67,yes
+S0095,Business,3,21,85.0,6.2,88.1,5.8,0,56,no,yes,yes,70,yes
+S0096,Engineering,2,19,67.9,22.5,75.9,7.0,0,5,no,yes,no,65,yes
+S0097,Biology,1,18,86.4,31.6,98.8,8.6,12,20,no,yes,yes,69,yes
+S0098,Data Science,2,21,61.8,18.7,73.1,6.1,27,5,no,yes,yes,47,no
+S0099,Business,1,18,76.2,4.9,93.4,6.6,5,34,no,yes,no,61,yes
+S0100,Design,2,24,63.3,18.4,82.6,8.4,0,85,yes,yes,no,57,yes
+S0101,Business,3,21,69.0,8.9,82.5,7.5,15,12,no,yes,no,59,yes
+S0102,Engineering,1,18,80.2,8.8,91.0,7.2,26,57,yes,yes,no,63,yes
+S0103,Data Science,1,19,64.4,29.8,80.0,8.1,28,47,no,yes,yes,62,yes
+S0104,Biology,1,19,65.0,12.2,70.6,7.7,8,70,no,yes,no,55,yes
+S0105,Biology,1,20,79.2,11.5,77.3,7.7,0,18,no,no,no,65,yes
+S0106,Engineering,3,21,61.1,7.3,82.6,6.0,0,13,yes,yes,yes,63,yes
+S0107,Computer Science,1,19,62.9,4.0,87.0,7.7,0,25,no,yes,yes,45,no
+S0108,Engineering,2,28,76.9,15.4,76.4,6.8,0,,no,yes,no,68,yes
+S0109,Computer Science,1,20,76.4,4.1,80.7,7.5,0,17,yes,yes,yes,57,yes
+S0110,Engineering,2,19,52.0,12.9,77.7,7.4,22,,yes,yes,yes,52,yes
+S0111,Computer Science,3,22,57.5,8.6,74.3,5.7,7,120,no,yes,no,36,no
+S0112,Engineering,1,18,69.7,7.7,72.4,6.2,0,6,no,yes,no,64,yes
+S0113,Computer Science,2,20,62.3,13.2,81.8,8.2,27,39,no,yes,no,52,yes
+S0114,Business,2,19,92.2,8.2,67.2,7.1,0,52,no,yes,yes,67,yes
+S0115,Engineering,3,20,69.4,3.4,69.8,7.4,10,33,no,yes,no,55,yes
+S0116,Computer Science,3,20,65.2,14.2,69.3,7.4,5,10,yes,yes,no,57,yes
+S0117,Design,2,26,63.1,10.5,83.3,5.3,0,7,yes,yes,no,58,yes
+S0118,Business,3,20,56.1,12.9,70.2,6.4,0,21,no,yes,yes,42,no
+S0119,Biology,3,22,58.7,14.8,92.0,6.1,29,10,no,yes,yes,44,no
+S0120,Computer Science,1,18,67.9,4.7,85.3,7.7,14,21,no,yes,no,56,yes
+S0121,Engineering,1,18,89.6,7.6,71.5,7.8,0,16,no,yes,yes,76,yes
+S0122,Computer Science,3,21,62.9,15.5,85.4,6.7,16,18,no,yes,no,37,no
+S0123,Business,1,20,67.9,10.3,75.0,6.6,0,14,yes,yes,no,55,yes
+S0124,Data Science,1,18,60.3,3.1,84.6,5.1,16,7,no,yes,no,48,no
+S0125,Engineering,3,20,81.8,17.0,100.0,6.0,28,68,no,yes,yes,51,yes
+S0126,Computer Science,1,19,48.9,7.5,84.9,6.2,8,9,yes,yes,no,40,no
+S0127,Computer Science,3,21,65.7,5.2,66.8,8.0,0,,no,yes,no,53,yes
+S0128,Business,3,20,52.8,12.7,74.6,7.7,0,23,yes,yes,yes,54,yes
+S0129,Computer Science,3,20,68.3,11.6,80.6,7.1,16,77,yes,no,no,66,yes
+S0130,Computer Science,1,18,57.1,13.0,81.9,7.0,22,50,no,yes,no,40,no
+S0131,Design,2,19,64.3,5.9,90.8,7.2,17,8,no,yes,no,48,no
+S0132,Data Science,2,19,76.7,23.6,94.8,6.8,13,22,no,yes,no,67,yes
+S0133,Computer Science,2,19,82.1,6.4,73.4,10.0,20,17,no,yes,yes,56,yes
+S0134,Engineering,2,25,49.8,11.0,84.8,8.6,30,63,no,yes,no,36,no
+S0135,Data Science,1,18,78.8,18.1,89.4,6.5,16,33,no,yes,no,54,yes
+S0136,Business,3,20,90.7,8.5,77.8,9.0,24,37,no,yes,yes,67,yes
+S0137,Biology,3,20,48.5,12.4,72.3,6.8,0,7,yes,yes,no,47,no
+S0138,Biology,2,19,73.6,1.6,99.1,6.3,0,26,no,yes,yes,64,yes
+S0139,Business,3,20,56.4,7.7,86.8,7.6,0,20,yes,yes,no,44,no
+S0140,Computer Science,2,20,76.4,20.6,72.2,8.2,0,48,no,yes,no,65,yes
+S0141,Biology,1,19,37.6,11.9,58.3,7.3,22,43,yes,no,no,35,no
+S0142,Business,1,19,91.0,12.8,88.3,6.3,0,44,no,yes,yes,70,yes
+S0143,Computer Science,3,20,65.2,18.1,91.9,7.1,0,13,no,yes,yes,56,yes
+S0144,Computer Science,1,19,83.7,9.6,56.6,,0,39,no,yes,no,62,yes
+S0145,Biology,1,18,69.8,30.7,89.1,6.3,18,9,no,yes,yes,54,yes
+S0146,Engineering,2,19,67.8,7.4,85.9,7.4,0,62,no,yes,no,46,no
+S0147,Computer Science,1,18,68.1,10.4,55.3,8.9,0,33,no,yes,no,43,no
+S0148,Biology,1,19,63.2,15.1,75.7,8.0,26,21,no,yes,no,52,yes
+S0149,Engineering,3,20,65.6,7.9,91.8,6.6,28,8,no,yes,yes,43,no
+S0150,Data Science,1,19,92.2,14.9,96.8,6.4,0,35,no,yes,yes,85,yes
+S0151,Design,2,19,43.0,16.2,91.7,6.3,26,70,yes,yes,yes,44,no
+S0152,Computer Science,1,18,65.6,18.8,91.2,7.7,0,27,yes,yes,yes,68,yes
+S0153,Biology,1,20,63.3,8.0,93.8,6.9,14,,no,yes,yes,62,yes
+S0154,Computer Science,3,21,60.8,12.1,73.1,5.4,0,66,no,yes,yes,41,no
+S0155,Engineering,1,18,59.1,14.1,79.6,7.6,10,32,yes,yes,yes,55,yes
+S0156,Data Science,1,18,89.0,11.8,66.2,6.0,0,29,no,yes,yes,74,yes
+S0157,Engineering,3,22,72.2,27.5,76.3,6.1,0,35,no,yes,no,55,yes
+S0158,Engineering,3,20,49.1,16.0,79.5,7.1,0,18,no,yes,no,46,no
+S0159,Engineering,2,19,56.3,26.9,58.5,7.1,29,7,no,yes,no,35,no
+S0160,Computer Science,3,20,75.1,8.6,89.9,8.1,0,24,no,yes,yes,62,yes
+S0161,Computer Science,1,18,56.9,5.5,91.5,6.4,10,65,yes,yes,no,56,yes
+S0162,Data Science,2,19,50.6,11.5,91.9,,0,40,yes,yes,no,46,no
+S0163,Computer Science,3,22,66.8,3.2,86.1,7.0,0,41,no,yes,yes,58,yes
+S0164,Engineering,2,26,69.9,11.2,90.4,8.0,0,26,no,yes,no,63,yes
+S0165,Business,3,21,69.2,10.7,87.0,9.1,0,11,yes,yes,no,63,yes
+S0166,Engineering,1,18,55.9,23.9,67.5,8.3,0,,yes,yes,yes,58,yes
+S0167,Business,1,19,83.5,5.8,79.4,7.5,0,5,no,yes,yes,68,yes
+S0168,Biology,3,28,79.9,10.5,49.7,8.3,22,16,no,yes,yes,69,yes
+S0169,Business,1,18,75.8,8.9,97.2,6.4,0,48,no,yes,yes,59,yes
+S0170,Engineering,3,21,66.9,23.2,92.1,6.3,0,25,no,yes,no,56,yes
+S0171,Business,3,20,70.8,11.8,79.9,6.3,29,33,no,yes,no,51,yes
+S0172,Computer Science,3,21,53.1,14.1,89.1,7.4,21,19,no,yes,yes,35,no
+S0173,Computer Science,2,20,66.5,8.7,96.1,6.1,27,,no,yes,no,36,no
+S0174,Computer Science,1,19,66.4,6.7,78.8,6.1,0,17,no,yes,no,57,yes
+S0175,Computer Science,1,20,78.8,22.4,100.0,8.0,9,48,no,yes,yes,68,yes
+S0176,Engineering,1,19,83.2,8.9,94.2,6.8,4,38,no,yes,no,79,yes
+S0177,Business,3,21,62.0,6.1,97.1,,28,,no,yes,no,49,no
+S0178,Engineering,2,20,44.3,5.2,90.4,6.2,0,20,yes,yes,no,34,no
+S0179,Computer Science,2,20,79.4,4.6,75.4,6.2,0,9,no,yes,yes,63,yes
+S0180,Engineering,3,20,49.1,8.1,90.9,7.1,0,30,yes,yes,yes,52,yes
+S0181,Computer Science,1,28,76.1,4.4,86.4,6.0,22,6,no,yes,no,48,no
+S0182,Engineering,3,20,50.1,7.7,67.6,7.5,21,44,no,yes,no,36,no
+S0183,Data Science,3,20,51.9,10.1,96.5,6.5,30,7,yes,yes,no,54,yes
+S0184,Business,1,25,86.1,20.6,94.4,6.7,16,11,no,yes,no,66,yes
+S0185,Computer Science,2,19,77.0,22.6,37.4,6.3,0,48,yes,yes,yes,63,yes
+S0186,Data Science,3,21,41.2,6.6,70.5,7.7,0,30,no,yes,no,31,no
+S0187,Business,2,28,56.9,14.2,65.7,6.6,19,6,no,yes,no,47,no
+S0188,Engineering,3,20,68.3,7.6,80.0,6.7,0,15,yes,yes,no,73,yes
+S0189,Biology,1,18,74.9,5.1,77.0,4.8,27,13,no,yes,no,45,no
+S0190,Computer Science,2,20,89.5,11.3,100.0,8.3,0,23,no,yes,no,80,yes
+S0191,Business,3,20,63.4,10.8,75.8,7.7,21,36,no,yes,no,49,no
+S0192,Computer Science,3,21,56.7,14.9,79.5,6.5,0,24,yes,yes,yes,50,yes
+S0193,Business,3,21,78.5,8.9,93.6,7.3,7,13,yes,yes,yes,70,yes
+S0194,Computer Science,1,19,61.4,8.0,87.6,7.0,13,49,no,yes,no,46,no
+S0195,Biology,2,20,57.0,5.6,81.5,5.8,0,51,no,yes,no,50,yes
+S0196,Business,1,19,64.6,9.6,72.7,5.3,17,5,no,yes,no,39,no
+S0197,Business,2,19,78.8,9.4,88.9,7.8,0,5,yes,yes,no,77,yes
+S0198,Engineering,1,18,61.7,12.2,76.0,7.3,30,7,no,yes,no,42,no
+S0199,Biology,3,20,72.6,12.9,79.5,8.1,0,5,yes,yes,no,68,yes
+S0200,Computer Science,2,21,68.1,3.2,90.0,7.9,0,11,no,no,no,55,yes
+S0201,Data Science,3,20,98.0,6.4,88.1,8.8,19,20,no,yes,yes,77,yes
+S0202,Computer Science,3,21,64.8,12.8,84.9,,0,62,no,yes,yes,49,no
+S0203,Data Science,1,20,72.0,8.6,67.4,7.1,0,35,no,yes,no,58,yes
+S0204,Data Science,1,19,64.9,6.9,78.4,8.6,4,51,no,yes,no,48,no
+S0205,Business,2,21,75.9,12.9,85.4,7.0,23,13,no,yes,no,64,yes
+S0206,Computer Science,2,19,55.5,12.0,81.9,8.0,0,41,no,no,no,53,yes
+S0207,Computer Science,3,21,64.2,6.9,92.6,6.6,0,40,no,yes,no,55,yes
+S0208,Data Science,1,18,70.8,15.7,88.9,7.3,0,13,no,yes,no,66,yes
+S0209,Business,2,27,64.7,6.4,85.4,7.0,0,,no,yes,yes,59,yes
+S0210,Data Science,1,18,50.2,4.7,74.4,7.5,0,92,yes,yes,yes,34,no
+S0211,Data Science,3,20,59.5,9.6,78.5,7.0,0,71,no,yes,no,41,no
+S0212,Engineering,2,21,72.1,16.3,98.6,6.3,24,32,no,yes,no,44,no
+S0213,Data Science,2,21,60.6,45.0,79.8,5.4,0,24,no,yes,yes,56,yes
+S0214,Business,2,20,60.6,6.4,92.0,,0,35,no,yes,no,47,no
+S0215,Design,2,19,60.8,8.8,79.5,8.9,9,42,no,no,no,32,no
+S0216,Data Science,2,19,57.4,9.4,69.7,7.9,0,60,no,yes,yes,51,yes
+S0217,Biology,2,20,53.2,21.3,85.6,7.5,22,17,yes,yes,yes,48,no
+S0218,Data Science,1,19,78.6,9.3,85.0,8.9,0,41,no,yes,no,66,yes
+S0219,Engineering,2,19,59.5,3.4,90.2,7.0,15,60,yes,yes,yes,57,yes
+S0220,Computer Science,1,19,59.4,9.3,75.5,9.5,0,9,yes,yes,no,48,no
+S0221,Engineering,2,19,82.1,14.5,64.2,7.2,27,7,no,no,yes,74,yes
+S0222,Design,2,30,63.8,13.1,75.6,7.0,0,11,yes,yes,no,60,yes
+S0223,Biology,3,21,72.3,15.8,97.6,6.8,23,13,no,yes,yes,58,yes
+S0224,Data Science,2,21,66.5,7.4,97.3,,0,9,no,yes,no,55,yes
+S0225,Business,1,18,87.5,15.0,66.0,8.9,17,46,yes,yes,yes,84,yes
+S0226,Business,3,24,46.6,6.2,89.3,7.9,0,26,yes,yes,no,48,no
+S0227,Business,1,18,68.6,17.7,87.4,7.5,24,16,no,no,yes,54,yes
+S0228,Design,2,19,49.3,13.1,88.9,6.9,5,6,yes,yes,no,52,yes
+S0229,Engineering,1,20,67.3,14.3,75.4,7.3,22,38,no,yes,yes,57,yes
+S0230,Computer Science,1,19,81.2,21.3,97.7,6.2,5,38,no,yes,yes,59,yes
+S0231,Business,2,19,59.9,9.0,96.6,8.5,0,8,no,yes,yes,51,yes
+S0232,Business,3,20,55.8,17.8,80.2,8.4,0,74,no,yes,yes,47,no
+S0233,Computer Science,3,21,98.0,20.4,87.1,7.5,0,90,no,yes,no,81,yes
+S0234,Design,2,19,70.2,13.4,85.3,8.3,20,50,no,yes,no,55,yes
+S0235,Business,2,19,61.0,11.8,75.0,7.9,27,20,yes,yes,no,50,yes
+S0236,Business,2,20,52.1,9.0,85.5,4.8,25,44,no,yes,no,26,no
+S0237,Design,2,19,69.3,2.4,63.3,7.4,0,22,no,yes,no,53,yes
+S0238,Data Science,2,19,65.5,12.6,83.7,6.0,4,17,yes,yes,no,53,yes
+S0239,Engineering,1,18,73.1,16.6,90.9,7.8,29,29,no,yes,no,62,yes
+S0240,Business,3,20,73.2,15.1,87.1,6.0,20,19,no,yes,yes,57,yes
+S0241,Business,1,20,56.8,12.7,89.0,7.3,0,36,no,yes,no,54,yes
+S0242,Design,1,20,64.3,5.0,96.7,7.2,24,8,no,yes,no,58,yes
+S0243,Data Science,3,20,57.2,7.1,51.7,7.9,17,28,no,yes,yes,43,no
+S0244,Business,1,19,74.7,1.9,97.7,7.7,16,36,no,yes,yes,56,yes
+S0245,Engineering,2,19,30.0,8.0,78.1,6.2,0,37,no,yes,no,19,no
+S0246,Engineering,2,20,62.9,22.4,76.7,7.0,23,21,no,yes,yes,39,no
+S0247,Business,3,20,66.3,11.3,76.4,5.7,0,12,yes,yes,no,55,yes
+S0248,Computer Science,1,18,66.5,4.7,86.2,6.3,0,8,no,yes,yes,55,yes
+S0249,Data Science,3,20,74.5,14.7,59.4,6.9,0,17,no,yes,yes,61,yes
+S0250,Biology,2,21,54.5,1.9,90.1,8.2,0,19,yes,no,yes,55,yes
+S0251,Data Science,1,19,83.1,5.6,78.1,6.6,6,17,yes,yes,no,75,yes
+S0252,Design,3,21,60.7,11.8,80.4,7.6,9,34,no,yes,no,51,yes
+S0253,Biology,3,26,62.2,22.5,80.0,8.7,25,71,no,yes,no,43,no
+S0254,Business,3,20,50.7,5.5,68.8,8.1,0,16,yes,yes,no,51,yes
+S0255,Engineering,3,20,63.1,6.2,76.6,6.0,20,67,no,yes,yes,41,no
+S0256,Design,2,27,42.6,17.1,73.1,7.7,0,15,yes,yes,no,39,no
+S0257,Data Science,1,19,58.3,6.4,65.2,,0,7,yes,yes,no,41,no
+S0258,Engineering,1,20,67.8,4.5,78.3,6.9,0,24,no,yes,yes,60,yes
+S0259,Engineering,1,18,81.2,10.2,97.6,6.2,16,26,yes,yes,no,70,yes
+S0260,Data Science,1,18,66.6,12.9,86.4,8.5,11,14,yes,yes,no,50,yes
+S0261,Computer Science,1,20,38.7,4.7,94.7,7.2,6,7,no,yes,yes,32,no
+S0262,Computer Science,3,20,58.9,8.8,79.1,8.7,0,66,no,yes,yes,45,no
+S0263,Business,1,18,76.8,21.7,71.7,8.4,28,5,no,yes,yes,64,yes
+S0264,Computer Science,3,21,87.0,8.1,88.5,6.7,6,5,no,yes,yes,74,yes
+S0265,Design,1,19,69.6,12.3,80.9,5.9,0,28,yes,yes,no,71,yes
+S0266,Engineering,3,20,59.8,14.9,64.6,7.1,9,10,no,yes,no,46,no
+S0267,Data Science,1,19,70.8,5.1,74.3,6.7,0,18,no,yes,yes,56,yes
+S0268,Data Science,3,21,62.3,8.8,87.5,7.3,0,27,no,yes,yes,56,yes
+S0269,Computer Science,3,21,83.3,14.3,98.2,8.0,18,18,no,yes,yes,77,yes
+S0270,Engineering,2,26,59.1,1.9,60.5,8.9,0,21,no,yes,no,50,yes
+S0271,Business,3,20,67.0,120.0,91.5,,0,19,no,yes,no,73,yes
+S0272,Engineering,1,19,72.6,8.6,100.0,7.2,0,25,no,yes,yes,62,yes
+S0273,Engineering,2,19,68.1,5.5,98.6,8.3,17,52,no,yes,no,50,yes
+S0274,Biology,3,20,58.6,9.5,89.9,7.3,0,5,no,no,yes,44,no
+S0275,Computer Science,2,21,73.9,9.6,95.7,6.7,13,53,no,yes,no,50,yes
+S0276,Engineering,3,20,80.7,15.7,91.2,7.6,0,36,no,yes,no,68,yes
+S0277,Business,1,20,79.3,11.3,69.6,,28,34,yes,yes,no,59,yes
+S0278,Data Science,1,30,56.1,5.0,79.9,6.1,0,16,no,yes,no,46,no
+S0279,Business,2,29,71.9,10.3,92.8,6.8,28,5,no,yes,no,55,yes
+S0280,Biology,3,21,55.9,4.7,93.3,7.9,15,14,no,yes,yes,53,yes
+S0281,Engineering,3,21,67.4,16.0,81.5,7.7,29,59,no,yes,yes,45,no
+S0282,Engineering,3,20,57.8,11.1,58.6,7.7,9,28,no,yes,no,38,no
+S0283,Biology,2,19,76.8,6.5,89.5,7.7,0,,no,yes,no,62,yes
+S0284,Engineering,2,28,59.3,13.4,74.8,6.1,0,48,no,no,no,47,no
+S0285,Engineering,3,20,90.1,6.3,67.7,6.8,0,9,no,yes,yes,55,yes
+S0286,Computer Science,3,20,66.0,4.4,56.6,9.6,0,49,no,yes,yes,51,yes
+S0287,Business,1,19,51.6,3.0,67.8,7.0,24,12,yes,yes,no,33,no
+S0288,Business,3,20,56.9,2.8,73.5,8.8,8,55,no,yes,yes,40,no
+S0289,Design,3,22,87.9,6.8,84.3,7.5,7,32,no,yes,no,69,yes
+S0290,Business,2,21,49.8,9.3,66.2,7.0,0,36,no,yes,yes,38,no
+S0291,Computer Science,1,20,53.1,7.1,81.7,6.5,6,18,no,no,yes,41,no
+S0292,Biology,1,20,58.5,3.9,90.0,6.6,0,29,no,yes,no,47,no
+S0293,Engineering,3,20,67.4,10.2,71.6,8.5,0,33,yes,yes,no,63,yes
+S0294,Business,3,20,55.8,1.7,97.3,7.5,0,28,no,yes,no,45,no
+S0295,Computer Science,1,19,35.9,11.2,92.0,8.6,0,31,no,yes,yes,36,no
+S0296,Biology,3,21,59.4,11.0,93.2,,25,17,no,yes,yes,42,no
+S0297,Biology,3,20,71.5,25.5,67.5,6.3,0,53,yes,yes,yes,68,yes
+S0298,Business,1,18,41.9,4.4,63.8,6.2,7,16,yes,yes,no,30,no
+S0299,Data Science,3,22,59.2,11.7,93.0,6.1,0,34,no,no,no,44,no
+S0300,Biology,1,19,62.6,5.4,86.8,7.0,4,18,yes,yes,no,51,yes
+S0301,Data Science,1,19,92.4,7.2,100.0,7.9,9,10,no,yes,no,87,yes
+S0302,Design,1,18,72.2,9.7,82.3,7.0,0,27,no,yes,yes,55,yes
+S0303,Data Science,1,18,72.2,2.7,85.0,7.2,0,35,no,yes,no,53,yes
+S0304,Computer Science,3,20,71.7,11.6,64.3,4.8,5,19,no,yes,yes,44,no
+S0305,Engineering,2,20,72.7,13.3,84.6,7.4,4,39,no,yes,no,67,yes
+S0306,Computer Science,1,18,79.1,13.9,86.4,7.1,24,60,no,yes,no,71,yes
+S0307,Data Science,1,18,81.5,36.1,92.2,8.4,0,21,no,yes,yes,78,yes
+S0308,Engineering,3,20,79.2,6.0,93.3,6.0,14,23,no,yes,no,66,yes
+S0309,Biology,2,20,76.0,6.8,90.8,8.0,0,57,no,no,no,69,yes
+S0310,Business,1,18,72.1,7.1,78.1,8.7,0,9,no,yes,no,62,yes
+S0311,Engineering,1,20,67.7,8.5,81.5,7.6,0,30,no,yes,no,67,yes
+S0312,Computer Science,1,18,78.3,11.2,86.0,8.2,16,,yes,yes,no,80,yes
+S0313,Computer Science,1,18,62.4,11.4,72.8,6.7,0,69,no,yes,no,53,yes
+S0314,Engineering,2,19,67.8,17.7,70.0,4.8,0,55,no,yes,no,43,no
+S0315,Engineering,1,18,75.1,28.4,93.1,7.0,0,25,yes,yes,yes,74,yes
+S0316,Biology,1,20,59.1,17.6,95.3,8.1,0,57,no,yes,no,53,yes
+S0317,Engineering,1,18,68.3,15.9,87.9,4.4,12,8,no,yes,yes,23,no
+S0318,Data Science,3,21,62.0,6.0,78.4,7.6,0,5,no,yes,yes,52,yes
+S0319,Computer Science,2,20,89.1,7.7,100.0,8.4,21,40,no,yes,yes,70,yes
+S0320,Computer Science,2,19,49.1,19.1,88.0,,0,89,yes,no,yes,51,yes
+S0321,Data Science,3,20,62.6,10.3,86.2,7.3,16,18,no,yes,no,60,yes
+S0322,Data Science,1,21,71.8,5.1,58.4,6.8,8,19,no,yes,no,51,yes
+S0323,Engineering,3,20,78.3,11.4,89.0,7.8,0,20,no,yes,no,67,yes
+S0324,Business,1,18,71.9,9.9,66.5,7.4,0,68,no,yes,no,53,yes
+S0325,Data Science,2,20,74.3,11.4,74.4,5.8,9,17,no,yes,no,53,yes
+S0326,Biology,1,18,66.4,12.0,84.0,8.7,0,32,no,yes,yes,50,yes
+S0327,Business,1,19,89.4,11.2,57.5,7.9,0,16,yes,yes,no,67,yes
+S0328,Business,3,26,70.9,26.2,78.9,6.1,13,25,no,yes,no,53,yes
+S0329,Biology,1,18,60.0,15.9,74.1,4.6,0,21,no,yes,no,38,no
+S0330,Computer Science,2,20,70.9,4.2,90.5,7.9,0,33,no,yes,no,61,yes
+S0331,Business,3,22,48.4,7.9,81.9,7.1,18,31,yes,yes,no,37,no
+S0332,Business,1,18,65.1,4.5,87.8,7.1,28,13,no,yes,yes,50,yes
+S0333,Data Science,1,19,70.9,9.5,97.2,7.1,5,70,no,yes,no,65,yes
+S0334,Engineering,1,19,64.8,25.2,72.9,7.6,5,53,no,yes,yes,52,yes
+S0335,Computer Science,1,19,77.3,13.0,69.0,6.9,0,6,no,yes,yes,62,yes
+S0336,Engineering,1,18,73.9,19.7,97.4,,0,52,no,yes,yes,70,yes
+S0337,Computer Science,2,20,58.8,10.8,72.1,7.0,0,68,no,yes,no,53,yes
+S0338,Design,1,19,78.8,13.6,85.5,5.6,26,50,no,yes,yes,54,yes
+S0339,Data Science,3,20,80.6,14.7,89.5,8.8,27,57,no,yes,no,56,yes
+S0340,Engineering,3,21,75.3,12.5,91.8,7.3,24,,no,yes,no,63,yes
+S0341,Engineering,2,22,85.5,20.8,90.1,6.6,0,19,no,yes,yes,80,yes
+S0342,Computer Science,2,23,47.5,9.8,96.3,7.9,0,12,no,yes,no,47,no
+S0343,Design,2,19,64.3,6.2,97.0,7.6,0,18,no,yes,no,59,yes
+S0344,Design,3,20,47.3,5.2,90.7,6.2,0,15,no,yes,no,37,no
+S0345,Engineering,3,21,75.4,4.5,95.1,9.0,0,5,no,yes,no,61,yes
+S0346,Engineering,1,18,76.2,5.8,77.1,5.9,0,11,no,yes,yes,54,yes
+S0347,Design,1,18,73.2,11.2,95.3,7.4,11,17,no,no,yes,70,yes
+S0348,Design,3,21,54.6,4.2,77.0,7.9,27,47,yes,yes,no,41,no
+S0349,Business,3,20,56.7,7.3,77.2,7.4,14,34,no,yes,no,50,yes
+S0350,Design,1,19,79.1,10.3,99.5,6.4,0,28,no,yes,yes,72,yes
+S0351,Business,3,20,50.0,8.4,81.4,8.7,6,7,yes,yes,no,56,yes
+S0352,Computer Science,2,19,80.7,7.3,89.7,6.9,0,7,no,yes,yes,56,yes
+S0353,Engineering,1,18,88.8,7.0,65.5,7.1,0,12,no,yes,no,72,yes
+S0354,Business,2,20,91.0,8.7,75.2,8.1,0,47,no,yes,no,85,yes
+S0355,Computer Science,1,18,88.2,3.4,71.6,6.9,0,36,no,yes,no,64,yes
+S0356,Business,2,20,68.6,12.5,65.8,6.1,29,58,no,yes,yes,47,no
+S0357,Engineering,1,20,82.0,9.1,81.8,6.7,16,13,no,yes,yes,61,yes
+S0358,Biology,1,19,71.1,12.8,86.1,5.6,9,24,no,yes,no,54,yes
+S0359,Biology,2,19,75.7,31.3,95.7,8.2,0,29,no,yes,no,69,yes
+S0360,Business,1,19,71.5,19.0,89.9,7.1,18,31,no,yes,yes,60,yes
+S0361,Business,3,20,83.6,8.3,89.0,7.2,30,5,no,yes,no,63,yes
+S0362,Engineering,1,25,50.9,2.8,95.7,6.7,12,21,yes,yes,no,31,no
+S0363,Biology,2,19,57.0,15.0,80.7,7.2,0,54,no,yes,no,55,yes
+S0364,Business,3,22,72.1,23.0,76.4,8.5,0,8,no,yes,no,60,yes
+S0365,Computer Science,2,20,76.2,8.8,86.3,6.3,0,115,no,yes,no,60,yes
+S0366,Business,3,20,85.8,20.4,91.2,8.0,0,15,no,yes,yes,86,yes
+S0367,Engineering,2,19,62.7,23.9,77.7,5.8,0,5,no,yes,no,41,no
+S0368,Engineering,2,21,53.6,6.4,81.0,5.7,8,29,yes,yes,no,39,no
+S0369,Business,3,22,77.4,150.0,93.5,7.3,0,39,no,yes,yes,69,yes
+S0370,Engineering,3,21,56.7,6.8,89.9,4.6,25,51,yes,yes,no,36,no
+S0371,Business,1,18,76.6,16.0,82.6,7.2,0,22,no,yes,no,69,yes
+S0372,Biology,3,21,57.7,12.7,86.7,6.8,0,7,no,yes,no,61,yes
+S0373,Business,2,20,75.2,6.6,84.9,6.7,30,16,no,yes,yes,52,yes
+S0374,Data Science,3,20,65.4,4.4,90.9,6.2,9,28,no,yes,no,43,no
+S0375,Computer Science,3,20,79.5,14.4,99.2,6.5,14,19,no,yes,no,59,yes
+S0376,Design,2,19,75.5,7.5,72.9,8.8,26,7,no,yes,yes,53,yes
+S0377,Engineering,3,20,53.6,4.7,97.5,5.1,10,5,yes,yes,yes,35,no
+S0378,Design,1,19,66.1,8.3,46.4,9.0,0,42,yes,yes,no,62,yes
+S0379,Business,2,19,74.2,8.0,98.4,7.7,10,29,no,yes,yes,69,yes
+S0380,Data Science,1,18,84.8,10.9,95.9,5.6,0,8,no,yes,no,62,yes
+S0381,Engineering,2,24,70.5,15.8,94.6,8.0,0,49,no,yes,no,67,yes
+S0382,Business,1,18,47.4,12.0,59.2,7.7,0,15,no,yes,no,32,no
+S0383,Biology,1,19,72.5,15.2,92.4,7.8,0,20,no,yes,no,67,yes
+S0384,Computer Science,1,23,68.8,2.8,80.0,5.1,9,5,no,no,yes,45,no
+S0385,Business,1,20,46.6,10.4,88.0,9.2,14,15,yes,yes,no,38,no
+S0386,Data Science,2,19,61.5,6.5,79.0,7.2,6,25,no,yes,no,44,no
+S0387,Design,3,20,30.6,8.2,54.0,6.1,8,68,yes,yes,yes,15,no
+S0388,Business,1,18,73.9,28.1,76.5,7.3,25,41,no,yes,no,61,yes
+S0389,Design,2,19,36.9,0.8,89.0,7.9,0,12,yes,yes,no,40,no
+S0390,Business,2,21,69.4,22.9,85.6,8.5,12,5,no,yes,no,59,yes
+S0391,Design,1,18,72.5,12.2,99.1,,0,84,no,yes,no,56,yes
+S0392,Data Science,3,20,51.4,15.7,80.8,7.3,0,71,yes,yes,yes,58,yes
+S0393,Data Science,3,21,62.6,7.7,75.2,7.7,0,42,no,yes,no,57,yes
+S0394,Engineering,1,18,72.3,6.4,94.9,6.7,0,7,no,yes,yes,67,yes
+S0395,Engineering,1,19,64.3,9.2,61.1,7.4,0,48,no,yes,yes,51,yes
+S0396,Computer Science,1,19,58.8,4.1,75.6,7.9,4,44,no,yes,yes,51,yes
+S0397,Business,3,20,61.0,2.7,81.8,6.0,13,47,no,yes,no,32,no
+S0398,Business,2,19,63.6,8.5,88.9,7.4,19,20,no,yes,yes,51,yes
+S0399,Data Science,2,19,59.1,6.4,80.9,7.8,9,13,no,no,no,43,no
+S0400,Data Science,2,19,72.8,3.0,93.1,6.9,0,16,yes,yes,no,59,yes
+S0401,Data Science,3,20,56.2,10.9,71.2,6.3,0,47,no,yes,yes,50,yes
+S0402,Biology,2,24,74.1,12.2,55.5,8.9,0,21,no,yes,no,57,yes
+S0403,Biology,1,20,40.4,105.0,74.0,5.4,0,8,no,yes,yes,25,no
+S0404,Engineering,2,27,65.7,15.1,88.9,6.5,16,81,no,yes,yes,51,yes
+S0405,Data Science,1,18,72.5,4.9,91.4,8.3,29,67,no,yes,yes,50,yes
+S0406,Data Science,3,20,90.5,15.4,73.9,7.4,0,29,no,yes,no,77,yes
+S0407,Engineering,1,18,75.4,13.9,70.3,5.5,0,54,no,yes,no,56,yes
+S0408,Data Science,1,18,76.6,17.0,93.1,6.9,0,41,no,yes,no,74,yes
+S0409,Design,3,20,59.9,6.5,68.9,8.4,30,56,no,yes,no,32,no
+S0410,Engineering,2,21,74.7,10.4,87.5,7.1,0,19,no,yes,yes,70,yes
+S0411,Engineering,1,30,41.9,5.4,87.6,5.5,9,14,yes,yes,no,36,no
+S0412,Data Science,1,18,58.7,10.0,75.4,8.6,0,64,yes,yes,no,59,yes
+S0413,Engineering,1,18,75.7,10.4,81.5,8.9,0,5,no,yes,yes,71,yes
+S0414,Computer Science,3,20,66.4,15.5,72.2,6.6,0,5,yes,yes,yes,64,yes
+S0415,Business,3,21,83.7,2.8,68.3,6.1,14,16,no,yes,no,61,yes
+S0416,Biology,1,19,71.4,11.5,72.1,6.3,11,24,no,yes,yes,53,yes
+S0417,Design,2,20,50.6,5.5,82.3,7.7,0,25,yes,yes,no,43,no
+S0418,Engineering,1,18,78.9,13.4,99.5,6.6,10,64,no,yes,yes,65,yes
+S0419,Data Science,2,19,76.9,8.7,82.0,7.2,0,52,no,yes,no,72,yes
+S0420,Design,3,30,64.3,19.8,64.7,7.5,23,7,no,yes,no,48,no
+S0421,Business,1,18,69.6,25.1,91.9,5.5,0,54,no,yes,yes,57,yes
+S0422,Business,3,20,79.1,7.6,95.5,7.2,20,60,no,yes,no,63,yes
+S0423,Computer Science,1,18,63.5,12.6,58.4,8.5,0,11,no,yes,yes,51,yes
+S0424,Business,3,20,66.7,2.6,83.7,6.7,0,65,no,yes,no,39,no
+S0425,Computer Science,1,19,67.7,22.4,96.4,,0,9,yes,yes,no,58,yes
+S0426,Computer Science,3,20,59.3,5.9,73.5,6.2,4,28,yes,yes,yes,43,no
+S0427,Design,1,18,58.2,1.9,75.4,7.1,0,5,yes,yes,no,49,no
+S0428,Business,2,20,72.4,4.1,98.0,8.4,14,9,no,yes,no,53,yes
+S0429,Business,1,18,65.2,9.6,79.8,6.9,0,36,no,yes,no,54,yes
+S0430,Design,2,19,64.8,11.3,85.3,9.8,6,43,no,yes,yes,48,no
+S0431,Engineering,1,21,67.6,9.8,85.5,7.0,0,21,yes,yes,no,74,yes
+S0432,Computer Science,2,20,61.7,16.4,57.8,7.9,5,60,yes,yes,yes,55,yes
+S0433,Design,1,19,90.9,8.1,81.4,7.4,12,16,yes,yes,yes,84,yes
+S0434,Computer Science,1,24,82.3,18.6,91.5,6.4,24,8,no,yes,no,62,yes
+S0435,Data Science,1,18,59.8,1.6,68.9,7.4,0,34,no,yes,yes,37,no
+S0436,Data Science,2,20,56.1,5.9,77.7,8.6,13,19,no,yes,yes,35,no
+S0437,Business,1,18,71.3,8.0,89.5,6.1,17,12,no,yes,no,56,yes
+S0438,Computer Science,2,19,58.3,8.0,86.9,5.9,0,28,yes,yes,no,45,no
+S0439,Data Science,3,20,37.8,11.8,86.7,6.3,25,19,yes,yes,no,32,no
+S0440,Engineering,3,21,69.1,9.4,89.4,6.8,27,8,no,yes,no,61,yes
+S0441,Computer Science,1,19,72.1,13.6,93.4,7.3,0,34,no,yes,no,69,yes
+S0442,Computer Science,1,19,69.8,9.9,99.9,6.6,0,18,no,yes,yes,53,yes
+S0443,Business,1,18,67.5,14.1,96.3,5.0,30,26,no,yes,yes,48,no
+S0444,Computer Science,1,19,57.5,2.7,86.1,8.8,0,5,no,yes,yes,52,yes
+S0445,Biology,2,28,69.5,11.8,90.6,7.5,25,22,no,yes,no,59,yes
+S0446,Computer Science,3,22,69.4,14.1,84.9,6.6,0,23,no,yes,yes,64,yes
+S0447,Computer Science,1,19,61.5,26.7,78.8,7.6,26,25,yes,yes,yes,70,yes
+S0448,Data Science,1,20,78.3,13.7,75.9,9.5,0,55,no,yes,no,61,yes
+S0449,Computer Science,1,19,67.9,3.7,68.3,8.7,0,33,no,yes,yes,47,no
+S0450,Engineering,2,19,64.7,14.7,77.6,5.9,8,42,no,yes,yes,38,no
+S0451,Computer Science,3,21,60.6,7.7,75.8,5.9,0,21,no,yes,no,54,yes
+S0452,Computer Science,1,20,88.8,7.3,98.8,6.6,0,5,no,yes,yes,79,yes
+S0453,Data Science,1,18,86.4,19.1,64.8,7.1,10,7,yes,yes,no,71,yes
+S0454,Business,3,21,61.6,30.6,90.9,7.0,0,5,no,yes,yes,56,yes
+S0455,Biology,2,20,74.0,5.5,81.8,7.9,0,25,no,no,no,59,yes
+S0456,Data Science,1,19,92.0,12.8,93.0,4.4,0,81,yes,yes,yes,74,yes
+S0457,Data Science,2,19,57.6,13.2,86.2,7.9,24,97,yes,yes,yes,42,no
+S0458,Business,1,20,66.0,2.4,70.0,7.0,27,50,no,yes,yes,43,no
+S0459,Computer Science,3,22,64.8,10.5,93.4,7.2,5,17,no,yes,no,64,yes
+S0460,Business,2,21,58.3,10.3,92.2,7.8,0,8,no,yes,no,59,yes
+S0461,Computer Science,2,21,61.9,2.3,68.8,9.4,0,18,yes,yes,yes,36,no
+S0462,Engineering,1,19,76.1,27.3,78.4,7.6,0,6,no,yes,yes,71,yes
+S0463,Biology,1,18,80.2,4.3,96.6,6.2,21,38,no,yes,no,59,yes
+S0464,Business,3,20,51.8,13.0,93.3,8.4,0,5,yes,yes,no,50,yes
+S0465,Biology,3,21,86.0,12.6,65.2,5.5,30,17,yes,no,yes,52,yes
+S0466,Computer Science,3,20,44.7,2.6,72.1,6.7,0,47,yes,yes,yes,43,no
+S0467,Biology,3,21,31.7,12.6,88.2,7.0,0,46,yes,yes,yes,28,no
+S0468,Business,1,19,52.9,14.9,79.8,6.5,15,35,yes,yes,no,44,no
+S0469,Data Science,1,18,84.9,14.8,89.9,8.4,0,30,no,yes,no,74,yes
+S0470,Data Science,2,19,56.5,30.7,86.3,7.4,0,22,no,yes,yes,52,yes
+S0471,Engineering,1,18,70.1,6.1,81.6,7.3,12,32,no,no,no,45,no
+S0472,Data Science,3,20,79.6,9.0,73.5,7.2,8,8,no,yes,yes,65,yes
+S0473,Data Science,2,20,69.3,2.4,96.5,,23,50,yes,yes,no,57,yes
+S0474,Engineering,2,21,58.8,25.1,83.1,8.9,27,45,no,yes,yes,38,no
+S0475,Computer Science,2,19,69.2,19.4,77.4,8.2,0,19,no,yes,no,54,yes
+S0476,Engineering,3,20,62.9,4.9,79.7,6.6,13,28,yes,yes,no,58,yes
+S0477,Design,2,19,58.0,7.6,71.3,6.4,14,42,no,yes,no,42,no
+S0478,Data Science,1,18,84.9,7.8,86.1,7.3,30,20,no,yes,yes,58,yes
+S0479,Business,3,20,60.7,3.9,88.9,5.4,25,36,no,yes,yes,51,yes
+S0480,Engineering,2,19,71.0,9.0,87.9,8.6,13,5,no,yes,yes,50,yes
+S0481,Design,1,18,74.6,23.9,89.9,8.0,0,12,no,yes,no,69,yes
+S0482,Business,1,18,51.3,10.5,30.5,6.9,0,11,yes,yes,no,37,no
+S0483,Design,1,18,66.5,21.0,92.3,8.0,20,58,no,yes,no,56,yes
+S0484,Business,2,19,54.4,7.0,84.9,8.1,0,13,yes,yes,yes,59,yes
+S0485,Engineering,1,18,68.8,8.5,88.2,6.0,21,48,yes,yes,no,64,yes
+S0486,Computer Science,1,28,56.4,3.5,94.5,7.7,14,33,no,yes,no,40,no
+S0487,Design,2,20,86.9,10.5,62.1,6.9,18,7,no,yes,no,64,yes
+S0488,Engineering,3,20,59.3,19.8,96.3,6.9,0,15,no,yes,no,51,yes
+S0489,Biology,1,18,73.6,18.1,69.4,8.4,26,53,no,yes,no,53,yes
+S0490,Business,1,18,55.2,15.4,71.7,7.0,27,45,no,yes,yes,43,no
+S0491,Business,2,19,56.8,10.6,89.6,5.7,17,48,no,yes,no,45,no
+S0492,Engineering,3,21,58.1,8.9,84.1,6.6,12,18,no,yes,no,46,no
+S0493,Computer Science,2,19,66.1,11.6,56.7,7.4,0,14,yes,yes,no,59,yes
+S0494,Engineering,1,18,54.6,14.9,72.7,6.5,0,42,yes,yes,no,41,no
+S0495,Business,1,18,55.3,0.4,81.4,7.2,23,53,no,yes,yes,40,no
+S0496,Computer Science,1,19,63.7,16.3,87.8,8.2,24,69,no,yes,no,44,no
+S0497,Computer Science,1,19,81.7,10.0,67.3,7.2,20,34,no,yes,yes,60,yes
+S0498,Computer Science,3,27,49.9,5.3,69.9,6.9,0,16,yes,yes,no,38,no
+S0499,Design,1,18,80.7,24.4,62.0,5.7,9,39,no,yes,no,69,yes
+S0500,Data Science,2,21,55.9,6.8,67.6,9.4,27,50,no,yes,no,32,no
+S0501,Computer Science,3,21,55.5,18.7,95.9,7.3,0,36,no,yes,yes,47,no
+S0502,Business,1,18,78.3,5.8,94.8,6.9,15,33,no,yes,yes,60,yes
+S0503,Computer Science,3,20,86.3,7.6,92.4,7.6,23,71,no,yes,yes,73,yes
+S0504,Computer Science,2,20,61.9,5.4,85.5,8.1,0,52,no,yes,no,62,yes
+S0505,Engineering,1,18,71.0,14.2,94.2,7.8,29,15,no,yes,no,56,yes
+S0506,Engineering,3,21,74.1,23.8,86.1,6.9,23,11,no,yes,yes,64,yes
+S0507,Data Science,1,18,80.4,26.3,94.3,6.6,16,23,yes,yes,no,66,yes
+S0508,Design,2,20,62.5,11.5,82.4,8.0,0,18,no,no,no,61,yes
+S0509,Computer Science,2,19,68.5,7.1,72.1,7.8,0,45,no,yes,yes,42,no
+S0510,Biology,2,19,64.2,31.9,79.9,8.5,0,24,no,yes,yes,57,yes
+S0511,Data Science,1,19,61.4,10.8,86.6,5.9,0,42,no,yes,no,57,yes
+S0512,Business,3,20,62.1,3.5,92.1,5.3,7,41,no,yes,yes,41,no
+S0513,Computer Science,1,18,71.5,7.7,99.0,,26,23,no,yes,yes,54,yes
+S0514,Computer Science,1,18,40.6,2.2,73.9,4.9,0,12,no,yes,yes,24,no
+S0515,Engineering,1,18,85.6,16.3,54.2,6.6,10,17,no,yes,yes,62,yes
+S0516,Computer Science,2,19,63.7,6.4,68.9,8.1,12,17,yes,no,no,48,no
+S0517,Business,1,18,62.4,18.9,62.9,6.1,0,50,yes,yes,no,53,yes
+S0518,Business,2,20,61.9,25.9,91.2,7.7,5,43,no,no,yes,45,no
+S0519,Business,3,21,68.9,10.5,86.7,8.9,12,36,no,yes,yes,59,yes
+S0520,Computer Science,3,21,71.0,12.7,86.1,6.1,0,30,no,yes,yes,62,yes
+S0521,Computer Science,2,19,47.3,16.1,82.4,6.3,0,9,yes,yes,no,58,yes
+S0522,Computer Science,1,20,73.4,8.3,87.9,8.5,0,38,no,yes,no,62,yes
+S0523,Engineering,3,20,63.0,19.1,81.2,9.2,0,11,no,yes,no,50,yes
+S0524,Design,1,21,53.9,5.0,59.7,7.7,0,12,yes,yes,yes,50,yes
+S0525,Business,3,20,74.8,19.2,40.9,7.1,20,9,no,no,yes,63,yes
+S0526,Computer Science,2,20,63.6,14.7,85.1,5.9,0,15,no,yes,no,59,yes
+S0527,Engineering,3,22,76.1,6.4,78.8,6.3,14,43,no,yes,no,59,yes
+S0528,Engineering,1,18,71.2,8.7,93.5,8.5,0,53,no,yes,no,62,yes
+S0529,Data Science,2,20,62.2,12.5,75.1,6.5,25,5,yes,yes,yes,52,yes
+S0530,Engineering,3,20,69.7,21.9,58.9,8.0,0,15,no,yes,no,57,yes
+S0531,Biology,2,19,66.4,23.9,81.0,7.4,0,5,no,yes,yes,72,yes
+S0532,Computer Science,3,32,69.1,3.6,89.7,5.7,25,7,no,yes,no,42,no
+S0533,Engineering,1,18,52.8,22.6,95.6,5.5,14,52,no,yes,no,49,no
+S0534,Business,2,20,59.7,3.6,63.0,6.4,0,23,no,yes,yes,47,no
+S0535,Business,3,20,59.7,16.9,88.3,6.1,15,65,yes,yes,yes,55,yes
+S0536,Engineering,3,20,69.5,17.3,66.1,7.6,0,22,no,yes,yes,68,yes
+S0537,Data Science,2,19,68.1,14.0,87.8,8.3,0,18,no,yes,yes,54,yes
+S0538,Business,2,28,71.1,7.0,82.1,7.4,0,56,no,yes,no,64,yes
+S0539,Business,2,19,50.8,12.5,88.2,6.9,28,15,yes,yes,yes,53,yes
+S0540,Biology,1,28,50.5,13.2,90.7,7.6,0,36,yes,yes,no,39,no
+S0541,Computer Science,3,21,54.0,4.4,70.2,7.7,9,46,yes,no,yes,49,no
+S0542,Biology,2,21,82.4,3.2,75.1,,18,45,no,yes,yes,60,yes
+S0543,Computer Science,3,29,77.3,10.8,80.1,6.1,0,7,no,yes,no,61,yes
+S0544,Biology,3,20,59.0,7.0,65.4,6.1,0,47,no,yes,yes,36,no
+S0545,Engineering,2,30,87.2,9.3,100.0,5.0,0,8,no,yes,yes,62,yes
+S0546,Computer Science,1,18,62.0,9.8,39.1,7.0,16,11,no,yes,no,42,no
+S0547,Design,1,18,51.4,16.2,74.6,8.0,19,5,yes,yes,no,47,no
+S0548,Computer Science,3,20,63.8,12.6,67.9,5.6,30,,no,yes,no,44,no
+S0549,Data Science,2,19,87.8,9.4,94.6,7.8,0,35,no,yes,yes,86,yes
+S0550,Design,2,19,63.2,14.7,70.0,7.0,4,55,no,yes,yes,51,yes
+S0551,Engineering,2,25,51.7,6.6,92.2,6.1,0,17,yes,no,no,43,no
+S0552,Biology,3,21,80.7,4.6,83.8,6.3,9,40,no,yes,no,57,yes
+S0553,Computer Science,3,20,54.7,10.2,81.9,5.3,4,30,yes,yes,yes,52,yes
+S0554,Engineering,1,20,86.1,15.3,80.4,8.0,8,82,no,yes,no,71,yes
+S0555,Data Science,1,19,40.8,10.3,82.2,,22,41,yes,yes,yes,25,no
+S0556,Computer Science,2,19,62.9,6.1,87.9,,18,23,no,yes,no,43,no
+S0557,Computer Science,3,22,75.0,15.0,86.6,6.2,0,84,no,yes,no,62,yes
+S0558,Biology,2,19,77.0,7.9,94.0,7.1,18,6,no,yes,yes,68,yes
+S0559,Business,2,19,98.0,16.7,83.6,6.5,0,15,no,yes,yes,85,yes
+S0560,Computer Science,2,20,79.4,3.8,96.4,5.7,0,9,no,yes,no,60,yes
+S0561,Data Science,3,21,66.1,18.7,86.0,6.8,0,21,no,yes,no,58,yes
+S0562,Business,1,19,66.4,5.0,85.6,6.6,0,9,no,yes,no,48,no
+S0563,Business,2,20,49.4,0.8,79.6,6.9,0,41,yes,yes,no,41,no
+S0564,Computer Science,1,18,63.5,8.7,79.8,6.6,7,13,yes,yes,no,42,no
+S0565,Design,3,20,52.7,12.8,61.3,6.7,26,18,yes,yes,no,41,no
+S0566,Engineering,2,20,85.3,18.7,61.8,7.4,0,8,no,yes,yes,71,yes
+S0567,Engineering,3,20,75.0,5.7,92.6,6.5,0,53,no,yes,no,59,yes
+S0568,Design,2,20,40.4,12.5,71.8,7.1,22,22,no,yes,yes,35,no
+S0569,Business,1,19,65.5,16.7,79.7,9.0,0,15,no,yes,no,54,yes
+S0570,Engineering,3,20,54.4,9.3,93.5,6.1,0,63,yes,yes,yes,54,yes
+S0571,Data Science,2,24,65.1,10.3,79.3,5.9,0,,yes,yes,no,56,yes
+S0572,Engineering,1,18,47.5,0.1,92.6,7.9,18,15,yes,no,no,38,no
+S0573,Computer Science,2,21,67.8,20.9,95.2,6.4,0,32,no,yes,no,61,yes
+S0574,Biology,3,21,57.2,10.9,57.5,6.8,12,22,no,no,yes,37,no
+S0575,Engineering,1,19,36.7,2.3,65.1,7.0,23,53,yes,no,yes,25,no
+S0576,Engineering,2,20,79.0,16.4,89.7,9.1,0,33,yes,yes,yes,81,yes
+S0577,Business,2,20,79.5,16.4,94.2,7.6,0,25,no,yes,no,64,yes
+S0578,Design,3,21,80.7,5.9,55.7,6.0,19,38,no,yes,yes,58,yes
+S0579,Biology,1,18,61.8,3.1,74.0,7.0,16,27,no,yes,yes,39,no
+S0580,Business,3,21,59.8,9.3,73.9,8.6,6,71,yes,yes,no,50,yes
+S0581,Business,2,19,45.5,4.3,50.2,6.2,16,52,yes,yes,yes,19,no
+S0582,Engineering,3,20,89.2,23.5,96.7,7.9,0,23,no,yes,yes,81,yes
+S0583,Engineering,1,18,85.8,15.8,81.4,7.0,6,13,no,yes,yes,69,yes
+S0584,Computer Science,1,19,57.0,5.7,76.7,5.5,0,35,no,yes,yes,45,no
+S0585,Business,1,18,60.6,2.5,80.0,,17,37,no,yes,no,49,no
+S0586,Business,2,19,77.7,8.7,84.6,8.1,0,31,no,yes,no,62,yes
+S0587,Computer Science,3,20,55.8,15.4,84.8,7.3,0,19,no,yes,no,49,no
+S0588,Computer Science,3,23,69.4,23.3,93.0,6.5,0,16,no,yes,no,65,yes
+S0589,Engineering,2,20,72.9,12.7,90.8,7.1,0,21,no,yes,no,55,yes
+S0590,Design,3,21,71.3,11.3,57.1,6.7,0,25,no,no,yes,43,no
+S0591,Biology,3,21,44.7,10.0,95.8,7.3,0,54,yes,yes,yes,51,yes
+S0592,Design,1,19,55.1,16.4,69.2,5.1,21,10,no,yes,no,43,no
+S0593,Computer Science,2,19,69.2,3.5,59.4,8.9,0,8,yes,yes,yes,55,yes
+S0594,Design,2,21,90.9,13.7,65.4,8.2,0,6,no,yes,no,81,yes
+S0595,Computer Science,2,31,41.0,10.7,60.2,6.8,0,30,yes,yes,no,42,no
+S0596,Business,3,22,47.2,15.0,90.8,6.0,14,23,yes,yes,yes,31,no
+S0597,Computer Science,2,19,78.7,22.2,75.1,6.4,0,45,no,yes,yes,64,yes
+S0598,Business,1,18,60.6,42.0,86.5,6.3,5,45,yes,yes,yes,61,yes
+S0599,Design,2,21,60.1,13.4,75.4,7.4,0,5,yes,yes,yes,57,yes
+S0600,Data Science,1,18,83.9,13.1,76.2,6.3,14,73,no,yes,no,66,yes
+S0601,Engineering,2,19,76.1,7.8,83.2,9.1,6,51,no,yes,no,65,yes
+S0602,Computer Science,3,20,55.0,4.3,72.7,6.7,14,63,no,yes,no,37,no
+S0603,Data Science,3,21,50.6,16.7,61.0,7.6,0,33,no,yes,no,44,no
+S0604,Engineering,2,22,48.2,11.2,96.2,6.2,0,29,no,yes,no,34,no
+S0605,Data Science,1,20,76.0,12.5,81.5,7.0,0,30,no,yes,yes,69,yes
+S0606,Biology,3,20,63.9,9.1,85.2,8.1,0,26,no,yes,yes,47,no
+S0607,Business,2,19,62.2,10.0,83.8,7.8,0,15,no,yes,no,49,no
+S0608,Computer Science,2,20,60.9,7.8,86.4,5.5,0,6,no,yes,no,46,no
+S0609,Computer Science,3,20,55.0,4.4,93.1,9.3,0,15,yes,yes,yes,33,no
+S0610,Engineering,3,20,58.0,23.8,76.0,7.0,25,36,no,yes,no,39,no
+S0611,Biology,2,19,74.6,13.9,98.6,7.1,0,17,no,yes,no,61,yes
+S0612,Computer Science,3,20,70.9,9.5,75.4,7.3,19,30,no,yes,yes,37,no
+S0613,Biology,3,21,77.7,21.0,73.0,5.8,0,26,no,yes,no,59,yes
+S0614,Business,3,20,61.8,13.5,83.5,,0,5,yes,no,yes,59,yes
+S0615,Computer Science,2,21,51.5,5.8,56.6,5.5,0,,no,yes,yes,27,no
+S0616,Data Science,1,19,67.7,11.0,97.7,5.2,0,27,no,yes,no,51,yes
+S0617,Business,1,19,91.2,8.8,92.8,7.6,14,5,no,yes,no,84,yes
+S0618,Data Science,1,19,50.5,8.9,74.0,6.9,0,35,yes,yes,no,45,no
+S0619,Computer Science,2,19,58.2,4.8,81.9,6.6,16,5,no,yes,no,45,no
+S0620,Design,2,19,62.7,29.7,96.4,7.3,0,28,no,yes,yes,68,yes
+S0621,Engineering,3,21,64.9,10.0,72.6,7.5,0,80,no,yes,yes,72,yes
+S0622,Design,1,18,74.1,26.2,85.0,8.1,12,,no,yes,no,69,yes
+S0623,Computer Science,2,19,81.5,13.7,95.0,6.9,9,8,no,yes,yes,73,yes
+S0624,Biology,1,19,89.1,13.2,92.2,6.7,8,28,no,yes,yes,89,yes
+S0625,Biology,1,18,89.7,32.9,72.6,7.7,23,43,no,yes,no,60,yes
+S0626,Computer Science,3,20,55.7,19.8,78.4,6.8,0,30,no,yes,no,49,no
+S0627,Computer Science,3,21,79.4,3.8,84.1,6.2,10,21,no,yes,no,58,yes
+S0628,Biology,1,18,72.0,10.4,96.3,7.7,14,24,no,yes,no,59,yes
+S0629,Computer Science,1,19,50.3,16.9,86.7,6.7,0,36,yes,yes,yes,50,yes
+S0630,Business,2,21,66.8,18.3,97.6,6.1,0,25,yes,no,no,59,yes
+S0631,Biology,1,18,57.3,5.1,74.6,6.4,16,,no,yes,yes,40,no
+S0632,Design,3,22,63.8,19.9,75.8,6.6,0,17,yes,yes,yes,68,yes
+S0633,Computer Science,1,19,59.9,9.0,41.9,6.4,0,32,no,no,yes,54,yes
+S0634,Computer Science,2,20,47.6,5.7,85.4,6.8,4,120,yes,yes,yes,42,no
+S0635,Data Science,2,20,65.7,2.8,82.9,8.4,6,13,no,yes,no,43,no
+S0636,Business,1,19,47.4,9.8,69.7,6.9,29,33,yes,yes,yes,41,no
+S0637,Computer Science,1,18,78.5,11.6,93.2,8.3,23,6,no,yes,yes,50,yes
+S0638,Biology,3,31,81.6,9.0,100.0,6.4,5,39,no,yes,yes,63,yes
+S0639,Data Science,1,19,79.0,18.6,99.5,8.2,0,21,no,yes,yes,69,yes
+S0640,Computer Science,2,19,67.5,9.2,87.2,6.0,0,20,no,yes,yes,53,yes
+S0641,Business,1,29,52.8,3.0,76.4,6.8,20,39,yes,yes,no,47,no
+S0642,Computer Science,1,20,52.7,6.3,77.4,,0,9,no,yes,yes,42,no
+S0643,Business,3,21,82.0,13.2,78.8,8.8,0,57,no,yes,yes,64,yes
+S0644,Computer Science,3,22,65.9,13.3,80.0,7.8,0,9,no,yes,no,58,yes
+S0645,Computer Science,3,20,67.5,3.1,76.1,8.0,0,8,no,yes,no,50,yes
+S0646,Biology,3,21,50.7,5.8,78.9,6.8,13,62,no,yes,yes,34,no
+S0647,Computer Science,2,20,55.3,2.4,69.3,5.9,0,17,no,yes,no,47,no
+S0648,Data Science,1,18,82.1,10.7,87.5,5.8,0,21,no,no,no,63,yes
+S0649,Data Science,2,19,57.3,2.2,60.6,8.9,12,107,no,yes,no,32,no
+S0650,Biology,2,19,48.4,12.2,93.8,7.6,0,21,yes,yes,no,48,no
+S0651,Engineering,2,19,78.4,14.6,95.4,6.5,28,81,no,yes,yes,67,yes
+S0652,Business,2,19,72.2,11.4,90.2,6.7,0,75,no,no,no,69,yes
+S0653,Business,2,21,67.0,4.1,90.2,6.9,19,5,yes,yes,no,60,yes
+S0654,Data Science,1,18,57.5,19.1,63.4,7.9,19,29,no,yes,no,44,no
+S0655,Engineering,1,18,47.7,5.1,47.3,7.4,7,46,yes,yes,no,35,no
+S0656,Engineering,2,19,74.4,22.8,78.4,7.0,20,31,no,yes,no,65,yes
+S0657,Business,3,20,77.2,17.0,45.4,6.3,0,43,no,yes,no,60,yes
+S0658,Computer Science,2,21,63.4,11.8,83.7,6.4,4,18,no,yes,yes,49,no
+S0659,Business,3,31,74.4,15.4,100.0,6.7,0,16,no,yes,yes,63,yes
+S0660,Data Science,3,20,54.3,6.3,84.9,8.0,27,21,yes,yes,yes,53,yes
+S0661,Computer Science,1,19,92.0,23.4,89.3,8.3,0,34,yes,yes,no,82,yes
+S0662,Engineering,1,18,35.1,6.1,87.3,8.4,22,49,no,yes,no,22,no
+S0663,Business,1,19,76.7,3.8,85.5,7.6,11,56,no,yes,no,65,yes
+S0664,Data Science,1,29,65.5,12.3,97.0,7.9,0,6,yes,yes,no,70,yes
+S0665,Computer Science,1,18,69.6,3.0,75.8,8.5,17,23,yes,no,yes,57,yes
+S0666,Data Science,2,19,58.3,5.4,47.1,7.8,11,19,no,no,no,48,no
+S0667,Engineering,2,19,68.4,15.6,74.0,6.9,0,22,no,yes,no,53,yes
+S0668,Design,1,20,68.4,15.0,89.3,6.8,0,21,no,yes,yes,54,yes
+S0669,Computer Science,2,19,80.6,7.3,87.7,8.1,0,22,no,yes,yes,69,yes
+S0670,Biology,3,20,73.9,11.1,86.3,8.0,0,18,no,yes,no,62,yes
+S0671,Engineering,1,20,90.9,14.2,63.5,6.7,0,5,no,yes,yes,71,yes
+S0672,Engineering,2,21,47.2,3.9,58.7,6.7,28,11,yes,yes,yes,35,no
+S0673,Biology,2,19,60.7,6.1,67.3,7.4,0,45,no,no,no,55,yes
+S0674,Computer Science,2,21,73.6,19.6,77.9,6.7,7,78,yes,yes,no,67,yes
+S0675,Data Science,1,18,66.1,11.6,70.8,7.2,0,23,no,yes,no,53,yes
+S0676,Data Science,1,20,66.3,38.9,92.6,6.7,0,21,no,no,yes,60,yes
+S0677,Engineering,3,22,70.1,24.9,90.0,,0,40,no,yes,yes,59,yes
+S0678,Computer Science,2,19,45.9,18.1,68.2,6.9,0,21,no,yes,no,36,no
+S0679,Engineering,3,21,58.8,12.7,76.9,7.4,11,44,yes,yes,no,56,yes
+S0680,Data Science,2,19,65.4,5.3,74.3,6.6,29,44,no,yes,no,39,no
+S0681,Biology,1,18,69.6,4.5,84.6,5.8,20,62,no,yes,no,52,yes
+S0682,Engineering,3,22,54.8,6.4,91.3,6.2,15,43,yes,no,yes,37,no
+S0683,Computer Science,1,20,65.1,6.0,73.3,8.5,0,20,no,yes,no,59,yes
+S0684,Computer Science,1,19,45.0,27.6,74.5,7.7,6,22,no,yes,yes,39,no
+S0685,Engineering,3,20,71.1,14.0,77.4,7.3,7,12,no,no,no,60,yes
+S0686,Computer Science,2,20,58.0,16.0,76.5,8.5,0,36,no,yes,no,43,no
+S0687,Biology,1,26,60.4,18.6,96.6,7.5,9,21,no,no,no,51,yes
+S0688,Computer Science,1,19,65.9,8.2,54.0,6.4,26,15,no,yes,yes,50,yes
+S0689,Engineering,1,22,61.5,8.2,82.1,8.8,25,55,yes,yes,no,57,yes
+S0690,Computer Science,1,18,89.9,12.5,90.0,6.1,0,12,no,yes,no,69,yes
+S0691,Data Science,1,18,74.5,3.5,73.2,5.7,20,15,no,yes,no,36,no
+S0692,Business,3,21,84.9,11.2,68.5,7.4,20,46,no,yes,yes,71,yes
+S0693,Computer Science,1,18,56.5,10.9,91.2,,0,27,yes,yes,no,61,yes
+S0694,Engineering,2,19,84.2,10.7,91.2,7.5,0,10,no,no,no,78,yes
+S0695,Computer Science,2,26,85.0,18.0,81.0,8.1,11,22,no,no,no,64,yes
+S0696,Data Science,1,22,38.4,32.7,75.9,7.6,0,44,no,yes,yes,40,no
+S0697,Business,3,22,47.6,8.4,56.2,5.7,26,6,yes,yes,no,29,no
+S0698,Design,2,21,82.6,4.3,76.8,7.7,28,11,yes,yes,yes,69,yes
+S0699,Design,2,19,76.7,20.9,86.9,7.9,0,19,no,yes,yes,62,yes
+S0700,Design,3,20,64.3,8.2,90.7,9.5,27,54,yes,yes,yes,46,no
+S0701,Engineering,2,19,54.7,9.0,56.6,8.5,0,22,no,yes,yes,56,yes
+S0702,Data Science,1,19,61.0,2.7,96.2,6.6,4,28,no,yes,no,47,no
+S0703,Computer Science,1,18,71.6,7.9,91.6,7.2,29,76,no,yes,yes,43,no
+S0704,Data Science,1,29,66.7,4.7,95.2,8.7,0,10,no,yes,yes,58,yes
+S0705,Design,1,18,83.3,7.2,63.9,7.8,0,7,no,yes,yes,62,yes
+S0706,Business,1,18,64.7,8.0,79.9,7.5,0,23,yes,yes,no,58,yes
+S0707,Data Science,2,20,65.7,10.2,89.9,7.5,14,75,yes,yes,no,57,yes
+S0708,Business,2,21,68.8,5.9,82.0,8.6,5,28,yes,yes,yes,60,yes
+S0709,Biology,1,19,72.3,15.4,87.2,7.7,0,41,no,yes,yes,67,yes
+S0710,Engineering,3,20,81.3,3.7,94.5,7.4,0,17,no,no,no,81,yes
+S0711,Data Science,1,19,60.0,6.1,69.4,6.5,0,39,no,yes,no,49,no
+S0712,Business,3,20,82.9,6.7,96.4,5.8,0,5,no,yes,no,71,yes
+S0713,Business,1,18,76.1,17.2,94.4,6.2,0,24,no,yes,yes,62,yes
+S0714,Data Science,2,20,56.8,3.0,91.2,7.5,0,,no,yes,no,42,no
+S0715,Engineering,2,20,66.2,12.7,93.6,5.5,0,8,yes,yes,no,57,yes
+S0716,Business,1,18,66.7,11.6,99.2,6.8,0,18,no,no,yes,55,yes
+S0717,Engineering,3,20,61.4,15.3,78.7,8.0,22,21,no,yes,yes,53,yes
+S0718,Computer Science,3,20,69.2,22.1,82.0,8.7,16,27,yes,yes,yes,61,yes
+S0719,Engineering,3,20,55.1,15.1,81.4,5.6,0,13,no,yes,yes,50,yes
+S0720,Biology,2,19,67.6,12.0,83.4,7.9,28,78,no,no,no,49,no
+S0721,Computer Science,1,18,76.5,7.1,84.4,7.0,0,41,no,yes,yes,59,yes
+S0722,Computer Science,2,19,62.4,16.0,57.8,6.4,0,47,no,yes,no,52,yes
+S0723,Engineering,1,18,64.7,21.0,86.9,,0,20,no,yes,no,53,yes
+S0724,Business,2,19,69.9,8.4,77.2,6.2,0,5,no,yes,no,53,yes
+S0725,Data Science,3,20,78.6,13.7,86.2,,8,8,no,yes,yes,66,yes
+S0726,Biology,1,18,67.3,14.2,70.6,6.1,28,27,no,yes,yes,52,yes
+S0727,Data Science,1,21,70.4,11.3,79.7,6.1,4,47,no,yes,no,47,no
+S0728,Data Science,3,20,65.1,44.3,65.9,6.5,26,36,yes,no,yes,47,no
+S0729,Design,2,20,78.7,8.4,89.6,5.2,0,31,no,yes,no,58,yes
+S0730,Design,3,21,69.4,16.2,78.6,7.1,0,26,yes,no,yes,71,yes
+S0731,Computer Science,3,20,63.7,9.2,54.5,7.9,0,34,no,yes,yes,50,yes
+S0732,Computer Science,3,21,59.4,16.8,85.2,,22,29,no,yes,yes,46,no
+S0733,Biology,1,18,63.0,15.2,75.0,5.8,17,24,no,no,yes,44,no
+S0734,Data Science,2,28,67.3,16.5,55.2,6.7,0,11,yes,yes,yes,59,yes
+S0735,Engineering,1,18,42.1,13.7,77.4,6.7,0,5,yes,yes,no,39,no
+S0736,Design,3,22,51.7,14.5,85.6,8.4,0,9,no,yes,no,47,no
+S0737,Engineering,1,25,73.6,30.8,69.8,6.8,0,37,yes,yes,no,70,yes
+S0738,Computer Science,1,18,56.5,5.1,83.7,6.7,0,41,no,yes,yes,45,no
+S0739,Business,2,21,74.4,11.2,81.6,6.2,0,28,no,yes,yes,63,yes
+S0740,Biology,3,20,64.6,24.9,76.1,7.2,7,32,no,yes,no,60,yes
+S0741,Computer Science,1,19,44.3,4.2,91.3,6.1,0,13,yes,yes,yes,41,no
+S0742,Computer Science,2,19,68.0,4.5,89.4,7.6,0,18,no,yes,yes,48,no
+S0743,Data Science,1,20,44.7,30.2,89.2,6.7,13,40,no,yes,no,39,no
+S0744,Computer Science,3,20,54.6,5.3,83.8,7.3,7,16,yes,yes,no,54,yes
+S0745,Data Science,2,19,76.4,13.0,79.7,6.2,4,18,no,no,yes,57,yes
+S0746,Computer Science,2,19,51.1,21.4,87.0,7.9,4,120,yes,yes,no,51,yes
+S0747,Engineering,1,18,71.9,4.0,82.8,7.5,21,36,yes,yes,no,66,yes
+S0748,Data Science,1,18,58.3,8.5,64.9,6.5,17,32,no,yes,no,37,no
+S0749,Engineering,1,18,76.9,6.9,88.1,6.3,23,26,no,yes,yes,60,yes
+S0750,Design,1,18,68.2,13.7,87.3,6.6,23,35,no,yes,no,61,yes
+S0751,Biology,1,19,84.6,11.0,100.0,,0,30,no,yes,yes,78,yes
+S0752,Engineering,2,20,61.3,29.5,90.0,7.8,0,35,yes,yes,no,62,yes
+S0753,Computer Science,3,21,68.6,13.6,84.1,6.7,6,37,no,yes,no,54,yes
+S0754,Computer Science,2,20,80.3,15.8,96.2,6.7,0,17,no,yes,yes,70,yes
+S0755,Engineering,3,20,72.8,7.6,74.6,7.5,0,62,no,yes,yes,63,yes
+S0756,Data Science,1,18,71.4,18.0,67.3,9.6,0,63,no,yes,no,45,no
+S0757,Computer Science,1,18,55.7,10.6,92.6,6.2,0,9,no,yes,yes,52,yes
+S0758,Engineering,1,19,63.9,14.6,71.6,5.4,23,44,no,yes,no,50,yes
+S0759,Engineering,2,20,63.1,29.2,87.2,5.4,0,19,no,yes,no,55,yes
+S0760,Computer Science,3,20,65.5,11.2,87.1,6.3,15,9,yes,yes,no,53,yes
+S0761,Engineering,1,19,62.5,25.7,89.0,5.5,0,16,yes,yes,no,63,yes
+S0762,Engineering,2,19,48.8,0.8,79.7,6.3,5,13,yes,yes,no,44,no
+S0763,Business,1,19,88.6,23.3,63.4,5.2,13,9,no,yes,no,60,yes
+S0764,Biology,1,18,42.4,11.4,91.7,7.2,0,23,yes,yes,yes,48,no
+S0765,Computer Science,3,21,49.0,5.9,89.1,8.0,0,8,no,no,no,28,no
+S0766,Data Science,3,20,72.4,12.6,73.7,6.4,18,73,yes,yes,yes,60,yes
+S0767,Engineering,1,19,78.9,8.1,94.3,6.6,26,22,no,yes,yes,53,yes
+S0768,Engineering,3,30,62.5,14.9,81.2,8.2,10,20,no,yes,no,55,yes
+S0769,Computer Science,1,20,74.4,13.1,80.3,8.2,7,12,yes,yes,yes,58,yes
+S0770,Biology,3,25,70.5,5.2,71.1,6.9,23,62,no,yes,no,58,yes
+S0771,Biology,2,19,69.1,4.0,91.1,6.5,0,16,yes,yes,no,68,yes
+S0772,Engineering,1,29,47.4,2.6,70.1,,24,13,yes,yes,no,33,no
+S0773,Data Science,1,19,60.0,23.4,76.4,7.2,0,8,yes,yes,no,45,no
+S0774,Engineering,3,20,63.0,13.9,84.0,5.7,19,28,no,no,yes,27,no
+S0775,Computer Science,3,20,66.8,9.1,97.6,8.0,11,42,no,yes,no,52,yes
+S0776,Engineering,1,19,78.9,5.6,80.7,9.0,0,56,no,yes,no,64,yes
+S0777,Design,3,20,62.1,19.1,93.3,7.7,20,5,no,yes,yes,50,yes
+S0778,Business,1,19,45.3,4.6,72.7,7.3,0,83,yes,no,no,39,no
+S0779,Data Science,1,18,77.7,17.3,98.9,8.3,0,15,no,yes,yes,71,yes
+S0780,Computer Science,1,18,65.7,2.5,87.2,6.6,0,14,no,yes,no,50,yes
+S0781,Computer Science,2,19,50.5,3.1,70.3,6.0,0,33,yes,yes,yes,39,no
+S0782,Data Science,1,19,61.8,4.5,87.5,7.0,24,33,no,yes,no,47,no
+S0783,Biology,2,30,60.3,4.7,93.4,7.4,21,34,no,yes,yes,50,yes
+S0784,Data Science,1,19,75.1,9.8,81.1,7.0,18,15,no,yes,yes,56,yes
+S0785,Engineering,2,20,83.8,19.2,80.5,7.9,0,31,no,yes,yes,72,yes
+S0786,Data Science,1,18,81.4,12.2,74.1,9.5,0,28,no,yes,yes,63,yes
+S0787,Data Science,2,20,56.4,27.7,80.6,7.3,19,18,no,yes,yes,40,no
+S0788,Computer Science,1,19,57.7,9.3,59.4,7.4,0,40,no,yes,no,51,yes
+S0789,Biology,1,18,78.8,5.8,71.7,6.4,14,14,yes,yes,no,71,yes
+S0790,Data Science,2,19,87.9,42.1,70.8,6.3,0,23,no,yes,no,67,yes
+S0791,Business,1,18,80.3,7.7,89.0,8.5,7,64,no,yes,yes,69,yes
+S0792,Business,1,19,77.4,14.8,94.5,6.8,0,11,no,yes,yes,66,yes
+S0793,Data Science,2,21,44.9,12.8,83.8,6.2,10,58,no,yes,no,31,no
+S0794,Computer Science,1,19,66.1,7.6,88.2,5.9,0,50,no,yes,no,47,no
+S0795,Computer Science,2,21,71.1,11.8,81.5,7.2,5,19,no,yes,no,64,yes
+S0796,Computer Science,1,18,90.4,24.9,94.7,7.0,20,8,no,yes,no,89,yes
+S0797,Computer Science,3,20,64.4,26.7,95.0,6.7,0,10,no,no,yes,63,yes
+S0798,Design,2,19,59.3,4.8,75.1,7.2,0,17,yes,yes,no,45,no
+S0799,Computer Science,2,19,59.9,1.4,93.2,8.7,0,10,yes,yes,yes,53,yes
+S0800,Computer Science,3,20,57.2,2.7,78.1,5.8,29,14,yes,yes,yes,35,no
+S0801,Biology,2,19,88.0,19.2,78.3,6.7,0,13,no,yes,no,79,yes
+S0802,Engineering,2,19,64.1,5.9,87.9,9.0,17,49,no,no,no,51,yes
+S0803,Biology,1,22,56.4,9.4,82.2,4.8,5,22,no,yes,no,34,no
+S0804,Engineering,2,27,64.2,18.8,84.2,7.1,0,48,no,yes,no,54,yes
+S0805,Business,3,20,52.7,11.7,75.7,6.8,0,31,no,yes,yes,45,no
+S0806,Design,1,18,55.2,3.5,84.5,6.5,0,42,no,no,yes,53,yes
+S0807,Biology,2,19,71.1,10.2,89.8,,0,11,no,yes,no,48,no
+S0808,Business,1,19,65.0,19.7,89.4,4.8,0,6,yes,yes,yes,56,yes
+S0809,Computer Science,1,18,72.0,7.1,84.1,7.6,16,31,no,yes,yes,57,yes
+S0810,Business,2,21,74.3,7.2,84.4,6.9,0,5,no,yes,no,48,no
+S0811,Computer Science,1,18,71.8,4.3,84.0,6.3,19,35,no,no,no,49,no
+S0812,Computer Science,2,20,76.4,16.6,94.3,7.6,22,51,yes,yes,no,64,yes
+S0813,Computer Science,3,21,69.6,7.4,75.5,6.3,11,7,no,yes,no,53,yes
+S0814,Data Science,2,20,66.9,7.9,90.8,7.7,0,7,no,yes,yes,53,yes
+S0815,Biology,2,19,63.9,8.7,82.9,8.5,0,89,no,yes,yes,50,yes
+S0816,Business,3,20,65.9,4.1,93.2,5.9,7,10,yes,yes,no,51,yes
+S0817,Data Science,2,19,62.7,4.7,74.4,7.5,30,18,no,yes,no,39,no
+S0818,Design,3,22,68.6,11.8,76.4,7.5,10,43,no,yes,no,60,yes
+S0819,Biology,2,21,64.9,15.3,88.8,6.7,21,32,no,yes,yes,65,yes
+S0820,Engineering,2,20,66.2,10.1,93.1,7.7,6,18,no,yes,yes,58,yes
+S0821,Business,3,20,63.6,27.9,83.2,5.7,0,34,no,yes,yes,57,yes
+S0822,Engineering,2,19,50.3,5.6,56.5,8.9,0,15,yes,yes,no,51,yes
+S0823,Data Science,3,20,62.3,6.0,65.6,6.4,6,75,no,yes,no,49,no
+S0824,Engineering,2,19,46.8,11.7,80.5,6.1,0,25,yes,no,yes,43,no
+S0825,Business,2,19,78.2,8.8,57.9,,0,35,yes,yes,yes,63,yes
+S0826,Data Science,1,19,59.7,4.3,88.0,8.0,29,35,no,yes,yes,48,no
+S0827,Computer Science,1,18,82.2,16.9,94.8,7.6,0,23,yes,no,yes,66,yes
+S0828,Engineering,1,18,81.8,35.2,96.1,7.7,16,,no,yes,no,69,yes
+S0829,Data Science,1,18,68.0,19.3,68.0,9.5,18,33,no,yes,yes,49,no
+S0830,Data Science,2,19,76.2,9.9,83.0,8.0,13,16,no,yes,no,57,yes
+S0831,Business,1,18,60.3,27.1,56.1,8.7,0,38,no,yes,no,46,no
+S0832,Data Science,2,21,93.8,29.1,77.1,6.5,0,35,no,yes,no,73,yes
+S0833,Business,1,18,70.9,20.4,100.0,5.3,0,66,no,yes,yes,61,yes
+S0834,Business,2,21,59.3,9.6,88.7,7.1,10,29,no,yes,yes,52,yes
+S0835,Engineering,2,21,68.9,6.8,76.9,7.5,14,66,no,yes,yes,51,yes
+S0836,Data Science,1,18,58.0,14.2,79.5,6.3,0,8,yes,yes,no,57,yes
+S0837,Biology,2,20,71.1,3.5,88.4,8.3,0,15,no,yes,no,52,yes
+S0838,Business,1,18,69.8,7.1,90.9,6.6,24,23,no,yes,yes,54,yes
+S0839,Computer Science,2,20,74.5,13.7,70.3,7.1,27,31,no,yes,yes,62,yes
+S0840,Data Science,1,18,57.0,4.1,80.8,7.5,0,12,no,yes,yes,49,no
+S0841,Biology,2,20,66.9,2.0,83.2,6.2,12,36,no,no,no,47,no
+S0842,Data Science,1,18,44.6,7.8,84.7,5.7,0,45,yes,yes,yes,53,yes
+S0843,Design,2,21,68.8,22.6,74.4,8.0,30,13,no,yes,yes,59,yes
+S0844,Biology,3,20,71.0,20.2,79.7,,0,41,no,yes,yes,67,yes
+S0845,Business,1,19,52.2,18.9,79.9,7.7,0,5,yes,yes,no,51,yes
+S0846,Engineering,3,21,75.8,5.2,93.9,6.4,25,6,no,yes,no,61,yes
+S0847,Engineering,3,20,62.9,6.0,92.4,7.6,0,31,yes,yes,yes,58,yes
+S0848,Computer Science,3,31,62.3,15.7,78.4,7.1,0,40,no,yes,yes,60,yes
+S0849,Computer Science,3,20,88.1,4.8,98.2,5.7,29,10,no,yes,yes,50,yes
+S0850,Business,2,20,63.5,3.5,73.4,7.9,0,34,no,yes,yes,58,yes
+S0851,Design,1,29,41.8,17.5,65.3,8.1,20,20,yes,yes,yes,32,no
+S0852,Engineering,1,18,70.2,10.5,86.3,6.6,0,5,no,yes,no,80,yes
+S0853,Engineering,3,21,56.7,16.2,92.3,6.2,0,51,yes,yes,yes,46,no
+S0854,Engineering,3,20,89.9,6.2,83.5,6.5,0,34,no,yes,no,87,yes
+S0855,Business,3,21,48.6,4.3,91.0,7.0,0,34,no,yes,yes,43,no
+S0856,Data Science,1,19,60.7,11.3,92.3,6.2,19,27,no,yes,yes,42,no
+S0857,Design,2,20,37.8,13.2,59.5,7.3,4,78,yes,yes,yes,34,no
+S0858,Data Science,3,20,75.5,8.4,97.0,6.4,17,23,no,yes,yes,62,yes
+S0859,Engineering,1,24,81.7,7.5,77.8,6.6,0,57,yes,yes,yes,64,yes
+S0860,Computer Science,2,20,70.0,4.2,76.3,6.7,28,35,no,yes,no,55,yes
+S0861,Computer Science,1,18,74.5,9.8,81.4,7.1,0,22,no,yes,no,64,yes
+S0862,Data Science,1,20,53.9,4.4,66.1,7.5,11,14,yes,yes,no,56,yes
+S0863,Engineering,1,18,75.2,7.5,89.5,6.4,0,13,no,yes,no,59,yes
+S0864,Engineering,1,18,63.3,18.9,82.3,,25,35,no,yes,no,53,yes
+S0865,Design,1,18,72.0,8.4,79.9,6.7,4,53,no,yes,yes,55,yes
+S0866,Engineering,1,20,71.7,8.2,88.4,7.9,0,98,yes,yes,yes,58,yes
+S0867,Engineering,2,20,54.8,0.6,93.4,8.6,0,22,no,yes,yes,42,no
+S0868,Data Science,2,21,57.9,8.6,37.8,,17,41,no,yes,yes,37,no
+S0869,Computer Science,3,20,57.5,11.3,75.2,6.5,0,16,no,yes,no,39,no
+S0870,Engineering,1,18,62.4,7.9,86.3,6.6,5,56,no,yes,no,55,yes
+S0871,Business,1,19,41.8,18.0,80.7,6.9,0,90,yes,yes,yes,50,yes
+S0872,Business,3,20,69.0,9.6,82.4,6.8,0,8,no,no,no,65,yes
+S0873,Data Science,1,18,68.6,8.2,99.1,6.6,27,6,no,yes,no,61,yes
+S0874,Engineering,2,19,74.4,14.5,98.2,6.0,20,44,no,yes,yes,56,yes
+S0875,Computer Science,3,20,58.2,12.4,61.3,8.2,28,82,no,yes,yes,37,no
+S0876,Computer Science,2,19,64.9,5.6,80.0,8.7,27,56,yes,yes,no,36,no
+S0877,Engineering,1,19,77.4,13.1,82.2,6.6,0,26,no,yes,yes,60,yes
+S0878,Computer Science,2,20,81.9,6.9,89.4,8.1,0,5,no,yes,no,69,yes
+S0879,Engineering,2,19,56.4,13.6,75.4,7.1,21,6,no,yes,yes,49,no
+S0880,Business,1,18,84.5,9.1,78.6,6.0,0,40,no,yes,no,70,yes
+S0881,Data Science,3,21,62.1,28.7,75.7,6.5,0,50,no,yes,no,52,yes
+S0882,Design,2,19,55.9,9.1,98.3,7.7,0,,yes,no,no,58,yes
+S0883,Business,1,18,62.8,18.9,64.3,6.4,0,41,no,yes,yes,50,yes
+S0884,Data Science,1,19,69.0,26.9,81.7,6.9,0,14,yes,yes,no,67,yes
+S0885,Computer Science,2,21,75.6,24.4,71.6,6.7,11,12,no,yes,yes,55,yes
+S0886,Engineering,3,21,53.3,2.7,78.9,6.9,0,71,no,yes,no,35,no
+S0887,Computer Science,3,20,53.7,8.8,86.3,6.1,19,16,no,yes,no,31,no
+S0888,Business,2,19,70.1,13.8,83.2,7.0,29,8,no,yes,yes,54,yes
+S0889,Engineering,2,19,54.1,10.9,75.3,7.3,14,20,yes,yes,yes,42,no
+S0890,Computer Science,1,18,46.6,8.6,88.3,6.8,0,43,yes,yes,no,40,no
+S0891,Engineering,1,20,78.9,13.6,92.2,5.7,23,74,no,yes,yes,53,yes
+S0892,Design,2,19,58.1,8.8,76.8,5.7,10,67,no,yes,yes,29,no
+S0893,Business,1,23,62.1,12.2,82.2,,0,33,no,yes,yes,42,no
+S0894,Biology,3,20,67.9,9.5,94.0,7.9,0,23,yes,yes,yes,66,yes
+S0895,Engineering,1,26,74.3,15.7,79.2,7.4,0,16,no,yes,yes,64,yes
+S0896,Business,2,19,73.3,26.4,78.3,,0,31,no,yes,no,53,yes
+S0897,Design,2,19,63.2,16.8,96.9,5.4,0,25,yes,yes,no,49,no
+S0898,Computer Science,1,18,66.4,11.2,96.9,8.3,23,20,no,yes,no,47,no
+S0899,Business,1,20,56.1,2.0,84.1,7.8,0,34,no,yes,no,40,no
+S0900,Design,3,21,55.5,9.2,89.4,5.8,21,15,no,yes,no,36,no
+S0901,Data Science,1,19,53.8,7.2,74.2,,17,31,no,yes,yes,41,no
+S0902,Biology,2,20,56.5,5.8,94.5,7.2,15,26,yes,yes,yes,45,no
+S0903,Engineering,2,20,55.8,9.0,91.5,7.8,24,76,no,yes,no,39,no
+S0904,Data Science,1,19,58.6,6.7,85.6,7.0,0,15,no,yes,yes,47,no
+S0905,Business,3,21,72.6,13.1,93.5,,0,10,no,yes,yes,65,yes
+S0906,Design,3,20,61.2,32.3,83.7,7.0,0,15,no,yes,yes,66,yes
+S0907,Computer Science,2,19,57.0,6.5,95.9,,14,41,no,yes,no,52,yes
+S0908,Engineering,3,21,58.0,35.2,84.4,7.5,0,28,no,yes,no,57,yes
+S0909,Business,3,20,61.7,22.9,88.8,6.8,23,18,no,yes,yes,49,no
+S0910,Engineering,1,18,76.7,12.8,75.4,7.5,0,36,no,yes,no,61,yes
+S0911,Computer Science,3,20,72.1,11.6,92.2,7.2,30,33,no,no,no,61,yes
+S0912,Biology,1,19,71.8,15.4,91.2,6.7,0,62,no,yes,no,51,yes
+S0913,Biology,1,19,75.7,19.0,97.0,8.5,21,9,no,yes,no,54,yes
+S0914,Engineering,1,18,66.7,18.9,76.3,6.4,20,45,yes,yes,yes,59,yes
+S0915,Design,3,20,66.7,23.4,72.9,6.6,6,54,no,yes,no,58,yes
+S0916,Business,3,20,69.3,11.1,82.3,8.8,13,71,no,yes,yes,61,yes
+S0917,Design,1,19,70.7,16.0,90.5,8.2,0,12,no,no,no,62,yes
+S0918,Design,3,20,65.7,10.4,81.7,6.8,5,22,no,yes,no,64,yes
+S0919,Business,3,20,57.1,13.4,81.3,7.9,19,78,no,yes,yes,46,no
+S0920,Business,2,21,53.1,7.9,77.9,5.8,18,11,yes,yes,no,46,no
+S0921,Data Science,2,19,47.2,26.7,70.3,8.2,14,50,yes,no,yes,37,no
+S0922,Data Science,1,18,74.6,10.7,83.0,9.2,19,12,no,yes,no,42,no
+S0923,Business,2,19,86.3,6.0,82.4,8.4,0,8,no,yes,no,76,yes
+S0924,Engineering,1,27,82.2,17.0,95.2,8.2,19,42,no,yes,yes,73,yes
+S0925,Computer Science,1,18,47.8,9.2,49.1,6.8,0,5,yes,yes,yes,43,no
+S0926,Design,2,22,73.8,9.6,64.0,8.4,0,17,no,yes,yes,56,yes
+S0927,Computer Science,1,18,75.4,5.3,98.3,7.3,0,35,no,yes,no,57,yes
+S0928,Engineering,2,20,90.2,5.3,100.0,8.6,0,22,yes,no,no,87,yes
+S0929,Computer Science,2,21,72.3,8.4,83.9,7.5,24,53,no,yes,no,63,yes
+S0930,Data Science,2,20,81.9,25.8,90.2,6.8,0,29,no,yes,no,77,yes
+S0931,Computer Science,2,27,72.7,6.9,79.6,7.1,26,16,no,yes,no,58,yes
+S0932,Engineering,3,20,64.9,6.8,83.2,7.5,0,22,no,yes,no,64,yes
+S0933,Business,2,20,57.5,10.3,59.6,5.7,14,6,yes,yes,no,37,no
+S0934,Data Science,1,18,69.7,7.4,89.0,6.9,0,22,no,yes,yes,53,yes
+S0935,Engineering,1,19,52.4,20.2,74.3,7.5,28,62,yes,yes,yes,37,no
+S0936,Data Science,1,18,68.9,3.9,69.9,7.7,0,5,yes,no,yes,62,yes
+S0937,Engineering,1,18,90.2,13.2,100.0,8.6,0,26,no,yes,yes,79,yes
+S0938,Business,3,21,62.2,11.9,90.5,7.5,0,19,no,no,no,51,yes
+S0939,Design,1,18,72.5,6.4,93.4,7.1,0,15,no,yes,no,58,yes
+S0940,Business,3,31,86.3,8.0,86.5,8.5,0,38,yes,yes,no,79,yes
+S0941,Engineering,1,18,52.5,6.7,50.4,5.8,0,97,yes,yes,yes,39,no
+S0942,Business,2,20,94.2,25.3,94.6,5.6,0,23,no,yes,yes,79,yes
+S0943,Design,3,20,69.5,0.9,92.8,5.8,20,77,yes,yes,no,45,no
+S0944,Biology,1,19,58.0,8.1,84.3,8.6,24,43,no,yes,no,42,no
+S0945,Engineering,3,21,53.1,11.9,94.4,6.2,0,50,no,yes,yes,53,yes
+S0946,Computer Science,2,19,75.9,14.2,88.0,7.0,0,43,no,no,no,59,yes
+S0947,Engineering,3,20,53.5,3.5,91.7,6.3,22,33,no,yes,no,35,no
+S0948,Computer Science,1,24,66.5,12.5,68.0,6.9,0,29,no,yes,yes,54,yes
+S0949,Computer Science,3,20,61.0,10.2,60.8,5.8,16,31,no,yes,no,37,no
+S0950,Engineering,3,20,65.7,6.7,85.9,5.4,0,23,no,yes,yes,46,no
+S0951,Business,1,20,44.7,5.0,82.5,6.8,0,53,yes,yes,yes,45,no
+S0952,Computer Science,2,20,70.8,11.9,83.4,6.5,0,23,no,yes,no,50,yes
+S0953,Biology,3,20,69.5,17.0,58.6,7.8,13,27,no,yes,yes,67,yes
+S0954,Business,3,23,53.2,3.5,94.1,6.8,0,35,yes,yes,no,50,yes
+S0955,Data Science,3,21,56.5,6.6,94.8,6.9,0,,no,yes,no,47,no
+S0956,Engineering,2,19,70.3,8.2,79.2,6.5,0,15,no,yes,yes,66,yes
+S0957,Computer Science,1,18,53.7,6.4,79.4,6.8,0,23,yes,yes,yes,51,yes
+S0958,Computer Science,1,23,53.1,7.8,83.7,7.0,5,21,yes,yes,no,65,yes
+S0959,Business,3,21,87.3,5.4,78.9,,4,6,no,yes,yes,61,yes
+S0960,Design,2,19,53.1,8.7,82.3,6.0,25,21,yes,yes,yes,46,no
+S0961,Design,1,18,44.1,2.5,69.1,6.6,0,21,yes,yes,no,43,no
+S0962,Business,1,19,89.2,14.1,68.7,7.3,0,20,no,yes,no,68,yes
+S0963,Data Science,1,18,69.0,11.5,77.9,8.5,0,19,no,yes,yes,43,no
+S0964,Design,1,18,66.4,12.4,90.5,7.8,20,5,no,yes,no,45,no
+S0965,Engineering,3,20,64.4,7.5,72.1,9.0,0,,no,yes,no,38,no
+S0966,Engineering,2,21,65.7,11.1,92.7,,27,23,no,no,yes,40,no
+S0967,Business,3,20,61.4,14.1,76.3,8.0,7,31,no,yes,no,38,no
+S0968,Business,3,20,75.0,8.8,89.6,7.0,0,23,no,yes,no,62,yes
+S0969,Computer Science,2,20,39.6,11.0,71.1,7.8,0,8,yes,no,yes,46,no
+S0970,Data Science,3,24,77.1,13.8,89.7,8.4,11,15,no,yes,yes,65,yes
+S0971,Data Science,2,20,73.1,6.8,61.8,6.1,8,50,no,yes,yes,43,no
+S0972,Design,1,18,57.9,4.8,89.3,7.5,0,44,yes,yes,no,51,yes
+S0973,Engineering,3,20,78.7,21.1,85.1,7.6,6,51,no,yes,yes,73,yes
+S0974,Data Science,2,19,71.3,6.2,89.8,7.3,16,13,yes,no,no,63,yes
+S0975,Data Science,2,20,74.8,7.0,71.9,6.5,0,15,no,yes,yes,62,yes
+S0976,Computer Science,2,19,77.7,9.5,76.2,8.5,4,84,no,yes,yes,58,yes
+S0977,Design,1,18,65.2,5.9,52.9,7.7,0,13,yes,yes,yes,62,yes
+S0978,Computer Science,3,21,58.9,10.9,94.3,7.1,9,8,yes,yes,no,55,yes
+S0979,Business,2,21,60.0,3.5,92.2,6.0,16,99,no,yes,no,44,no
+S0980,Design,2,19,85.0,9.1,82.3,6.3,11,9,no,yes,no,63,yes
+S0981,Data Science,1,18,58.2,7.5,74.3,6.8,0,,no,yes,yes,43,no
+S0982,Engineering,2,19,61.0,11.5,92.1,6.6,0,23,no,yes,no,53,yes
+S0983,Business,3,21,54.7,3.8,83.3,10.0,0,28,no,yes,yes,28,no
+S0984,Engineering,3,22,73.7,4.8,81.4,8.3,0,43,no,yes,yes,52,yes
+S0985,Business,2,20,50.1,13.5,94.8,7.6,0,5,yes,yes,yes,59,yes
+S0986,Business,1,18,50.5,1.6,91.9,6.3,28,32,no,yes,yes,24,no
+S0987,Engineering,3,20,62.0,2.1,86.3,7.8,0,36,yes,yes,no,47,no
+S0988,Business,1,18,72.4,6.0,77.3,7.5,27,29,no,no,no,62,yes
+S0989,Computer Science,1,19,75.6,9.4,83.5,6.7,26,9,no,yes,yes,60,yes
+S0990,Engineering,3,20,65.6,5.9,82.9,6.2,27,27,no,yes,yes,45,no
+S0991,Data Science,1,18,72.5,6.6,98.2,7.7,0,35,no,yes,yes,57,yes
+S0992,Computer Science,1,18,43.1,9.2,88.1,7.9,0,18,yes,yes,no,41,no
+S0993,Computer Science,3,20,79.8,26.2,75.0,7.2,4,14,no,yes,yes,76,yes
+S0994,Business,1,19,75.7,11.6,86.0,4.9,0,30,no,yes,yes,52,yes
+S0995,Computer Science,2,29,56.5,15.5,90.2,7.0,26,17,yes,yes,yes,47,no
+S0996,Data Science,1,20,71.4,12.3,86.2,4.4,19,27,no,yes,no,45,no
+S0997,Data Science,2,21,60.9,13.5,80.4,9.0,21,29,yes,yes,yes,44,no
+S0998,Business,1,19,51.6,4.7,90.7,7.1,20,16,yes,no,yes,34,no
+S0999,Business,1,18,64.7,8.4,88.1,7.2,0,32,no,yes,no,49,no
+S1000,Data Science,1,18,72.4,6.3,85.7,6.9,0,51,no,yes,no,59,yes

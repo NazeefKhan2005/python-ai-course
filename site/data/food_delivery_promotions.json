@@ -1,0 +1,180 @@
+{
+  "promotions": [
+    {
+      "promo_code": "WELCOME20",
+      "name": "20% off your first order",
+      "kind": "percent_off",
+      "value": 20,
+      "audience": "new customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2025-01-01",
+      "end_date": null
+    },
+    {
+      "promo_code": "AMIGO",
+      "name": "Invite a friend: 8 off for both of you",
+      "kind": "amount_off",
+      "value": 8,
+      "audience": "referred customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2025-02-01",
+      "end_date": null
+    },
+    {
+      "promo_code": "QUITOGRATIS",
+      "name": "Free delivery on every order in Quito",
+      "kind": "free_delivery",
+      "value": null,
+      "audience": "all customers",
+      "cities": [
+        "Quito"
+      ],
+      "start_date": "2025-03-01",
+      "end_date": "2025-04-30"
+    },
+    {
+      "promo_code": "LOYAL10",
+      "name": "10% off every order for returning customers",
+      "kind": "percent_off",
+      "value": 10,
+      "audience": "returning customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2025-04-01",
+      "end_date": "2026-06-30"
+    },
+    {
+      "promo_code": "CEVICHE5",
+      "name": "5 off seafood orders for Ceviche Day week",
+      "kind": "amount_off",
+      "value": 5,
+      "audience": "all customers",
+      "cities": [
+        "Lima"
+      ],
+      "start_date": "2025-06-28",
+      "end_date": "2025-07-05"
+    },
+    {
+      "promo_code": "LLUVIA15",
+      "name": "15% off on rainy-season evenings",
+      "kind": "percent_off",
+      "value": 15,
+      "audience": "all customers",
+      "cities": [
+        "Bogotá",
+        "Medellín"
+      ],
+      "start_date": "2025-10-01",
+      "end_date": "2025-11-30"
+    },
+    {
+      "promo_code": "BLACKFRIDAY25",
+      "name": "25% off for Black Friday weekend",
+      "kind": "percent_off",
+      "value": 25,
+      "audience": "all customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2025-11-28",
+      "end_date": "2025-11-30"
+    },
+    {
+      "promo_code": "NAVIDAD",
+      "name": "Free delivery on orders over 40 in December",
+      "kind": "free_delivery",
+      "value": null,
+      "audience": "all customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2025-12-15",
+      "end_date": "2025-12-31"
+    },
+    {
+      "promo_code": "LUNCH10",
+      "name": "10% off weekday lunch orders",
+      "kind": "percent_off",
+      "value": 10,
+      "audience": "all customers",
+      "cities": [
+        "Medellín",
+        "Cali"
+      ],
+      "start_date": "2026-02-01",
+      "end_date": "2026-04-30"
+    },
+    {
+      "promo_code": "FUTBOL",
+      "name": "Free delivery during the football tournament",
+      "kind": "free_delivery",
+      "value": null,
+      "audience": "all customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2026-06-11",
+      "end_date": "2026-07-19"
+    },
+    {
+      "promo_code": "VUELVE15",
+      "name": "15% off to welcome back customers who have not ordered for 60 days",
+      "kind": "percent_off",
+      "value": 15,
+      "audience": "lapsed customers",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Medellín",
+        "Cali",
+        "Quito"
+      ],
+      "start_date": "2026-09-15",
+      "end_date": "2026-10-31"
+    },
+    {
+      "promo_code": "STUDENT5",
+      "name": "5 off for verified students",
+      "kind": "amount_off",
+      "value": 5,
+      "audience": "students",
+      "cities": [
+        "Bogotá",
+        "Lima",
+        "Quito"
+      ],
+      "start_date": "2026-08-01",
+      "end_date": null
+    }
+  ]
+}

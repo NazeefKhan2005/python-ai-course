@@ -1,0 +1,1501 @@
+district,property_type,area_m2,bedrooms,bathrooms,year_built,distance_centre_km,distance_station_km,garden,parking,energy_rating,condition,price
+Hillcrest,apartment,74,3,2,1977,4.7,5.3,no,yes,E,3,161000
+Greenfield,apartment,69,2,2,2023,8.8,1.4,no,yes,A,5,172600
+Harbour,detached house,135,4,2,2020,3.7,3.2,yes,yes,B,2,449100
+Harbour,detached house,183,6,3,1966,3.2,0.7,yes,yes,F,3,539600
+Greenfield,detached house,191,6,3,1999,6.1,2.4,yes,yes,E,4,398500
+Riverside,detached house,134,3,3,2025,2.9,1.2,yes,yes,A,3,503100
+Lakeside,terraced house,78,2,1,2025,10.9,1.3,yes,yes,A,5,208300
+Harbour,apartment,63,3,1,2004,3.1,1.3,no,yes,D,4,160100
+Hillcrest,apartment,79,2,1,2022,5.5,0.7,no,no,A,3,206100
+Hillcrest,apartment,100,3,2,2025,9.4,0.5,no,yes,B,4,329400
+Industrial Park,apartment,79,3,1,1955,7.1,1.7,no,yes,G,3,96100
+Greenfield,apartment,66,1,2,1979,10.2,0.6,no,yes,F,3,111400
+Industrial Park,terraced house,90,4,2,1981,6.3,0.8,no,yes,D,3,125600
+Greenfield,detached house,144,4,2,2005,8.9,0.7,yes,yes,B,3,333700
+Harbour,detached house,132,4,3,1968,4.4,2.0,yes,no,G,5,334300
+Hillcrest,apartment,64,2,1,1957,4.7,1.6,no,no,F,5,171000
+Lakeside,detached house,185,6,3,1990,12.7,2.1,yes,yes,D,2,412000
+Old Town,detached house,116,3,1,1972,1.1,1.7,yes,no,E,4,428900
+Lakeside,detached house,151,4,2,2013,9.5,1.8,yes,yes,B,4,363300
+Hillcrest,detached house,178,5,3,1962,4.7,3.3,yes,yes,G,5,488500
+University,terraced house,117,4,2,1995,2.5,1.6,yes,yes,D,3,236500
+Greenfield,detached house,203,6,4,2024,8.4,1.4,yes,no,A,2,514300
+Greenfield,terraced house,92,3,2,1975,6.7,0.6,yes,no,D,3,168600
+Industrial Park,terraced house,97,3,1,2011,3.8,0.7,no,no,C,1,161700
+Greenfield,apartment,70,2,2,1956,9.9,1.7,no,yes,G,2,106000
+Industrial Park,terraced house,101,2,1,2011,5.0,1.1,yes,no,A,4,206100
+Hillcrest,detached house,153,4,2,2025,5.3,2.7,yes,no,C,3,413100
+Industrial Park,terraced house,86,3,2,1987,8.5,0.6,yes,no,E,4,133700
+Harbour,detached house,212,6,3,1985,3.9,2.8,yes,no,B,2,551500
+Lakeside,apartment,87,3,2,1968,9.8,0.2,no,no,G,1,159700
+Greenfield,terraced house,134,4,2,1996,7.1,1.2,no,yes,D,4,261100
+University,detached house,214,7,3,1956,2.7,2.3,yes,no,G,2,566900
+Hillcrest,terraced house,81,2,1,2023,4.9,3.2,yes,no,A,3,246200
+Riverside,terraced house,143,5,2,2013,2.5,1.4,yes,no,B,2,445300
+Greenfield,apartment,50,2,2,1997,8.8,1.0,no,yes,B,5,104800
+Hillcrest,apartment,97,3,2,2009,4.3,1.3,no,yes,C,4,329500
+University,terraced house,113,4,3,2007,5.5,1.0,no,yes,C,4,277500
+University,terraced house,103,4,1,2003,6.4,2.4,yes,yes,E,2,191700
+University,apartment,69,2,1,1986,4.2,2.0,no,yes,G,4,159900
+Riverside,terraced house,91,3,2,2018,2.7,0.9,no,no,B,4,273800
+Greenfield,apartment,75,2,1,1975,7.2,0.4,no,yes,D,3,153600
+Greenfield,detached house,270,7,3,2019,9.0,2.1,yes,yes,C,2,545500
+Greenfield,terraced house,80,2,2,1984,8.0,4.5,yes,no,E,3,153000
+Industrial Park,apartment,68,3,1,2017,8.7,2.3,no,no,D,2,97400
+Hillcrest,terraced house,97,4,1,1960,9.6,2.3,yes,yes,G,3,202600
+Harbour,detached house,118,4,2,1974,5.6,1.0,yes,yes,E,5,344700
+Riverside,apartment,93,3,1,1986,2.4,0.9,no,yes,D,3,230700
+University,apartment,54,3,2,2013,6.3,3.7,no,yes,E,4,127800
+Hillcrest,detached house,86,3,1,1969,9.1,2.3,yes,yes,D,3,199200
+Old Town,apartment,86,3,1,1992,1.2,2.6,no,yes,D,4,205900
+University,apartment,75,2,1,2019,5.2,2.3,no,yes,C,4,163900
+Industrial Park,detached house,192,6,3,1983,6.9,0.7,yes,yes,F,3,292900
+Lakeside,apartment,60,2,1,2011,11.2,0.3,no,no,C,4,103100
+Greenfield,apartment,60,1,1,2004,11.6,0.9,no,no,C,2,109900
+Riverside,apartment,54,2,1,1971,3.3,0.8,no,no,F,2,149500
+Riverside,detached house,194,7,3,1992,3.4,0.7,yes,no,F,4,467500
+Greenfield,terraced house,138,4,3,1994,11.4,2.5,yes,no,D,4,228100
+Hillcrest,terraced house,114,4,2,1980,5.6,0.8,yes,yes,F,4,321800
+Hillcrest,terraced house,92,3,2,1955,8.4,0.8,yes,yes,G,3,213000
+Old Town,apartment,91,2,1,2013,1.1,1.4,no,no,C,3,226700
+Hillcrest,apartment,100,4,2,2006,5.4,0.3,no,no,C,2,275200
+Harbour,apartment,77,3,1,1992,2.1,3.8,yes,yes,D,5,217100
+Industrial Park,apartment,107,3,2,1990,8.2,1.3,no,yes,C,4,166300
+Harbour,apartment,77,3,1,1996,4.0,2.7,no,no,F,2,136900
+Lakeside,apartment,59,3,1,2021,8.3,1.1,no,no,A,4,152400
+Harbour,apartment,75,2,2,2023,2.9,1.2,no,yes,A,3,198100
+Greenfield,apartment,55,2,2,2010,7.1,0.7,no,no,D,3,111400
+Lakeside,terraced house,89,4,2,2023,11.5,1.3,yes,no,A,3,222300
+Lakeside,terraced house,132,5,2,1959,14.2,1.1,yes,yes,G,2,217100
+Lakeside,apartment,82,2,2,2022,8.9,6.8,no,yes,B,3,193200
+Hillcrest,apartment,62,1,1,1987,8.4,0.6,no,yes,D,3,141800
+Old Town,terraced house,72,2,1,1977,0.6,0.7,yes,no,F,5,224600
+Lakeside,apartment,39,1,1,2011,7.5,2.9,no,no,C,3,78900
+Greenfield,terraced house,92,3,2,1957,7.3,1.5,no,yes,F,4,160300
+Harbour,apartment,88,2,1,1992,3.7,1.0,no,yes,E,4,258400
+Riverside,terraced house,88,4,1,2009,2.9,4.5,yes,yes,D,3,241900
+Industrial Park,apartment,89,3,1,2018,5.2,1.5,no,yes,C,3,129900
+Harbour,terraced house,71,2,1,1964,3.4,2.4,yes,yes,E,2,172300
+Riverside,detached house,189,5,3,1984,3.0,1.9,yes,yes,D,3,416300
+Greenfield,terraced house,93,4,1,1969,9.9,2.5,yes,yes,D,2,188300
+Old Town,terraced house,177,6,3,1995,1.2,1.9,yes,no,D,3,645500
+Lakeside,detached house,145,5,2,2004,14.1,1.9,yes,yes,C,3,273900
+University,apartment,73,2,1,2012,4.2,1.2,no,yes,B,4,171800
+Harbour,terraced house,135,5,2,2000,3.2,0.6,yes,no,C,2,396200
+Greenfield,apartment,75,2,2,1998,6.4,3.4,no,no,D,2,155000
+Hillcrest,apartment,89,3,1,2003,6.8,5.5,no,no,C,3,215200
+Hillcrest,apartment,51,1,1,1974,5.4,3.3,no,yes,E,3,133700
+Greenfield,detached house,248,7,4,2022,10.2,2.3,yes,no,B,4,580300
+Greenfield,apartment,73,3,1,2011,9.9,2.7,no,yes,B,4,123200
+Riverside,terraced house,101,3,3,2004,2.0,4.0,no,yes,D,3,292100
+Old Town,apartment,75,2,2,1952,1.5,2.7,no,no,G,5,246900
+Industrial Park,apartment,74,3,1,1975,7.3,1.0,no,yes,E,4,110700
+Lakeside,apartment,54,2,1,2007,7.2,0.6,no,no,B,3,113100
+Harbour,detached house,128,4,2,2002,4.2,1.4,yes,yes,D,5,324000
+Greenfield,apartment,71,3,2,2014,12.4,1.7,no,no,B,2,119800
+Industrial Park,apartment,68,2,1,1977,5.2,1.0,no,yes,E,4,98100
+Industrial Park,terraced house,96,3,2,2022,6.4,1.4,no,no,A,3,193300
+University,apartment,75,3,1,2004,4.1,5.5,no,yes,E,4,165000
+Industrial Park,terraced house,122,4,2,2018,6.9,0.8,yes,no,B,3,216800
+Greenfield,apartment,85,1,2,1963,6.7,0.4,yes,no,G,4,164300
+Riverside,apartment,48,1,1,2024,3.2,3.5,no,yes,C,3,153500
+Greenfield,detached house,114,4,1,2021,5.1,0.6,yes,yes,B,3,283800
+Hillcrest,apartment,85,2,2,2002,5.2,1.0,no,no,C,1,207400
+Lakeside,apartment,43,1,2,1994,10.9,1.3,no,yes,C,3,88100
+University,detached house,165,5,2,1996,3.6,0.9,no,no,E,2,375500
+University,terraced house,119,4,3,1964,3.4,2.2,yes,yes,F,4,253000
+Industrial Park,apartment,67,2,2,1986,7.9,0.6,no,yes,F,3,103000
+Greenfield,apartment,73,2,1,1968,6.9,1.5,no,yes,E,3,134800
+Greenfield,detached house,164,5,3,1970,6.3,3.7,yes,yes,E,3,312000
+Greenfield,terraced house,104,3,1,1958,8.9,1.9,yes,yes,E,3,208900
+Greenfield,terraced house,96,3,2,1979,13.8,2.6,yes,no,E,4,161400
+Hillcrest,detached house,223,7,3,1962,6.6,1.8,yes,yes,G,3,615300
+Old Town,terraced house,107,3,1,1904,1.4,2.3,yes,no,G,3,251500
+University,terraced house,103,3,2,1972,3.2,1.7,yes,yes,E,4,247900
+Industrial Park,apartment,71,2,1,2005,6.6,1.8,no,yes,D,3,102600
+Riverside,terraced house,150,6,3,1997,2.6,5.4,yes,yes,C,1,387200
+Harbour,apartment,89,4,1,2000,2.0,1.9,no,yes,C,4,272200
+Harbour,apartment,76,2,1,2005,5.0,2.7,no,yes,C,3,181000
+Hillcrest,apartment,36,1,1,1994,5.7,2.4,no,yes,D,3,92100
+Greenfield,terraced house,154,4,2,1984,9.4,1.3,yes,yes,E,2,241200
+Greenfield,apartment,70,2,1,1972,7.7,1.4,no,yes,E,4,114200
+Lakeside,apartment,63,1,1,1967,14.9,1.3,no,yes,E,3,97600
+Greenfield,terraced house,81,2,2,2024,10.2,1.3,yes,no,C,3,167200
+Greenfield,detached house,155,5,3,2007,6.9,1.0,yes,yes,B,3,388900
+Greenfield,apartment,81,4,2,1987,11.4,0.6,no,yes,E,4,138000
+Old Town,detached house,110,4,2,1994,1.6,0.5,yes,no,E,5,360400
+Old Town,detached house,111,4,1,1957,1.6,1.2,yes,no,G,4,326300
+University,apartment,42,1,1,1985,3.6,0.8,no,yes,D,3,89800
+Hillcrest,apartment,85,3,2,1960,5.5,0.4,no,yes,G,5,187000
+Greenfield,apartment,94,2,2,2021,7.3,0.4,no,no,B,3,177400
+Harbour,terraced house,93,3,2,1969,2.6,1.7,yes,yes,E,2,204900
+Harbour,apartment,50,2,1,2006,3.8,1.7,no,yes,C,3,155000
+Riverside,apartment,57,1,1,2015,3.1,1.5,no,yes,A,4,207900
+Old Town,detached house,214,7,3,1895,1.3,0.6,yes,no,G,4,762700
+Greenfield,detached house,121,4,2,2014,7.5,0.5,yes,yes,C,4,291200
+Hillcrest,apartment,52,2,1,2005,7.2,2.5,no,no,C,5,131800
+Lakeside,apartment,82,2,1,2022,11.6,0.7,yes,yes,A,2,164300
+Old Town,detached house,189,5,3,1918,1.6,1.5,yes,no,G,4,602000
+Greenfield,terraced house,89,3,2,1990,10.5,1.6,yes,yes,C,3,172500
+Harbour,terraced house,169,5,3,1998,3.0,2.0,yes,yes,D,4,475300
+Greenfield,apartment,77,4,1,1979,10.4,0.7,no,yes,D,2,123100
+Riverside,apartment,103,4,1,1969,2.9,0.6,no,yes,E,2,230900
+Lakeside,terraced house,110,5,2,1959,9.2,2.7,yes,yes,G,3,213000
+Hillcrest,apartment,60,2,1,2002,4.4,1.4,no,yes,B,3,173100
+Lakeside,terraced house,149,5,3,2024,11.1,3.3,yes,yes,C,4,383700
+Greenfield,apartment,66,2,2,1994,8.2,1.8,no,no,F,3,115400
+Industrial Park,apartment,179,6,3,1971,3.7,0.8,no,no,G,4,244900
+Lakeside,detached house,149,4,2,1999,9.1,2.1,yes,no,B,5,301200
+Old Town,terraced house,141,4,2,1956,0.8,1.1,no,no,G,4,409800
+Old Town,apartment,64,2,1,1888,0.9,1.1,no,no,G,2,154600
+Industrial Park,detached house,202,6,3,2010,4.5,1.6,yes,no,C,3,319400
+University,apartment,69,2,2,1964,3.9,2.4,no,no,F,4,120500
+Harbour,apartment,68,2,2,2006,4.6,1.9,no,no,B,2,171000
+Hillcrest,detached house,156,4,2,2015,5.1,5.2,yes,no,E,4,454000
+Greenfield,detached house,164,5,2,1978,7.4,1.8,yes,no,F,5,266300
+Lakeside,detached house,150,4,2,1983,9.6,0.7,yes,no,D,4,348800
+Industrial Park,apartment,74,2,1,2012,6.6,4.3,no,yes,A,3,127400
+Lakeside,apartment,51,2,1,2017,13.1,0.7,yes,yes,A,3,110900
+Lakeside,apartment,70,2,1,1959,8.9,1.2,no,yes,F,4,128200
+Greenfield,apartment,48,1,1,1965,10.4,2.5,no,yes,D,3,90200
+Harbour,detached house,204,6,3,1957,4.1,0.9,yes,yes,F,4,572300
+Hillcrest,apartment,74,1,1,1985,4.2,0.9,no,no,E,4,145000
+Industrial Park,apartment,75,2,2,2001,7.5,2.1,no,no,C,3,131400
+Lakeside,terraced house,87,2,1,1987,19.7,2.2,yes,yes,C,3,151200
+University,apartment,51,2,1,2007,4.6,2.1,no,no,C,4,114300
+Lakeside,apartment,61,1,2,2006,11.8,0.4,no,yes,A,4,125500
+Old Town,apartment,64,3,2,1929,1.0,2.1,no,yes,G,3,194100
+Hillcrest,apartment,97,2,1,1974,6.4,0.8,no,yes,F,2,199400
+Industrial Park,apartment,65,2,1,1968,10.7,2.4,no,yes,G,3,89000
+Lakeside,terraced house,103,3,2,2019,17.1,4.1,no,no,A,4,188700
+Hillcrest,apartment,97,3,2,2017,5.3,0.8,no,no,E,4,259300
+Old Town,terraced house,92,2,2,1992,0.9,2.3,yes,yes,D,5,355500
+Industrial Park,apartment,55,2,2,2014,7.4,3.7,no,yes,B,3,90600
+Hillcrest,apartment,72,2,1,1993,7.2,0.8,no,yes,D,2,164400
+Industrial Park,terraced house,111,4,1,1974,9.3,0.8,yes,yes,F,3,146300
+Harbour,detached house,131,4,2,1972,3.9,0.3,no,yes,E,3,308000
+Greenfield,detached house,149,5,3,1979,10.3,1.1,yes,yes,D,5,334800
+Hillcrest,detached house,155,5,3,1977,5.6,2.0,yes,no,G,3,311300
+Greenfield,terraced house,124,3,2,1995,9.1,2.4,yes,yes,E,1,188300
+University,apartment,61,2,1,1991,4.7,0.8,no,yes,D,2,136900
+Lakeside,apartment,62,2,1,1962,9.3,1.5,no,no,F,3,125000
+University,apartment,61,2,2,1955,3.0,4.1,no,yes,G,3,112500
+Old Town,detached house,207,6,2,1993,0.8,7.0,yes,no,D,5,637800
+Industrial Park,terraced house,158,5,3,2013,8.2,2.3,yes,yes,A,3,334800
+Hillcrest,apartment,75,2,2,2010,4.6,1.8,no,yes,B,5,194300
+Lakeside,terraced house,115,4,1,1988,10.6,2.1,yes,yes,E,3,213100
+Lakeside,detached house,119,4,2,1999,9.4,0.4,yes,no,B,3,261500
+Riverside,detached house,190,7,3,2010,2.3,2.8,yes,yes,D,4,638000
+Hillcrest,apartment,55,2,1,2016,8.6,1.0,no,no,C,3,154400
+Industrial Park,detached house,161,6,2,1996,9.1,1.0,yes,yes,D,5,262400
+Industrial Park,apartment,87,3,2,1956,6.0,0.8,no,yes,G,4,134600
+Industrial Park,apartment,52,1,1,1970,6.3,0.8,no,no,E,3,69000
+Lakeside,apartment,48,1,1,1993,9.3,1.0,no,yes,D,3,123900
+Lakeside,apartment,84,2,1,1960,11.2,1.2,yes,no,G,1,117100
+Industrial Park,detached house,133,3,2,1969,8.0,5.0,yes,no,E,1,206700
+Greenfield,apartment,60,2,1,1998,11.2,1.2,no,no,D,2,92800
+Hillcrest,terraced house,101,3,2,2014,7.6,4.9,yes,no,B,4,274900
+Old Town,apartment,75,2,1,1943,1.2,0.9,no,no,G,3,172000
+Hillcrest,apartment,80,2,1,1974,5.3,1.3,no,yes,D,4,209800
+Lakeside,terraced house,87,3,1,1973,9.6,0.5,yes,no,F,4,194600
+Lakeside,apartment,71,2,1,1958,9.3,3.6,no,yes,F,5,125700
+Riverside,detached house,181,5,4,2023,1.4,1.1,yes,no,B,4,705900
+Lakeside,apartment,72,2,1,1998,5.4,2.9,no,yes,D,5,175700
+Industrial Park,terraced house,74,3,1,1963,8.2,1.6,yes,yes,E,4,84400
+University,apartment,75,2,2,1991,3.0,1.9,no,no,D,3,185400
+Hillcrest,apartment,87,2,2,2003,4.6,1.0,no,yes,C,4,250800
+University,apartment,64,2,1,1974,3.4,0.9,no,yes,E,4,108500
+Old Town,apartment,79,2,2,1888,1.2,2.0,no,no,G,4,236400
+Harbour,terraced house,76,1,2,2008,4.0,2.5,yes,yes,B,3,226800
+Lakeside,detached house,153,5,2,1997,12.3,1.6,no,no,D,3,252800
+Harbour,apartment,80,2,2,1976,3.5,1.4,no,yes,F,3,162000
+University,apartment,75,4,2,1956,5.3,1.4,yes,yes,F,3,149200
+Riverside,apartment,83,3,1,2025,2.2,1.4,no,yes,B,4,245200
+Industrial Park,apartment,74,3,1,2013,4.4,0.8,no,no,C,4,107200
+Riverside,apartment,57,1,1,1959,3.2,4.4,no,yes,F,4,167600
+University,terraced house,88,3,2,1969,3.2,1.9,yes,yes,E,4,200200
+Industrial Park,apartment,55,1,1,1970,6.2,6.5,no,yes,E,3,75500
+Riverside,apartment,81,2,1,1983,3.4,0.7,no,yes,E,3,176700
+Harbour,terraced house,110,4,2,2022,3.4,1.1,no,yes,B,3,306600
+Industrial Park,terraced house,98,4,1,1984,6.1,3.9,no,yes,G,2,132100
+Hillcrest,apartment,79,4,2,1983,5.4,2.3,no,yes,C,4,186900
+Industrial Park,apartment,97,3,2,2001,8.4,2.6,no,yes,C,4,154000
+Old Town,apartment,63,1,1,1927,1.8,0.7,no,no,G,3,177500
+Riverside,apartment,71,2,1,2018,2.6,1.9,no,yes,B,3,210100
+Harbour,apartment,110,4,2,2014,4.3,1.4,yes,yes,C,3,304900
+Hillcrest,terraced house,117,4,2,2012,6.3,3.1,yes,yes,B,1,309800
+Lakeside,detached house,177,6,3,1956,9.7,1.8,yes,yes,F,3,338900
+Old Town,apartment,65,3,1,1893,2.4,1.1,no,no,G,5,195700
+Hillcrest,apartment,80,3,1,2004,9.5,0.3,no,no,D,1,138200
+Old Town,apartment,74,3,1,1925,1.2,1.7,no,no,G,5,249700
+Greenfield,apartment,79,3,2,1976,6.1,1.7,no,yes,F,2,135700
+University,terraced house,106,2,1,2025,3.2,1.8,yes,yes,A,4,343100
+Harbour,apartment,89,2,2,2013,3.5,1.1,no,yes,D,3,199300
+Harbour,apartment,80,3,2,1986,3.6,7.2,no,no,E,3,162600
+Lakeside,detached house,135,5,3,1957,10.6,2.6,yes,no,G,3,268100
+Harbour,apartment,75,2,1,1999,4.5,0.8,no,no,B,2,177700
+Industrial Park,apartment,73,2,1,1991,6.9,1.3,yes,yes,D,4,116200
+Old Town,apartment,111,4,1,1980,1.6,1.1,no,no,F,4,275600
+Hillcrest,apartment,78,3,1,1958,6.8,2.1,no,yes,F,5,177000
+Old Town,terraced house,106,3,2,1911,0.7,2.2,yes,no,G,3,329100
+Industrial Park,apartment,78,2,2,1995,5.4,2.1,yes,yes,E,4,123400
+Greenfield,apartment,63,1,2,1960,8.0,2.3,no,no,F,3,80800
+Riverside,terraced house,97,4,2,2002,2.8,2.3,yes,yes,C,3,278200
+Riverside,detached house,180,6,3,1969,2.5,1.3,yes,yes,D,3,452100
+Old Town,apartment,76,2,2,1954,1.3,0.3,no,yes,G,3,205000
+Greenfield,terraced house,98,2,1,1998,9.1,2.2,yes,yes,C,2,196700
+Hillcrest,apartment,104,4,2,2004,4.5,4.5,no,no,C,1,238900
+Old Town,apartment,79,3,1,1967,1.2,4.0,no,yes,F,2,209100
+Old Town,terraced house,96,4,1,1954,1.3,1.3,yes,no,G,5,268200
+Hillcrest,apartment,69,2,1,1987,7.7,0.4,no,no,C,4,138700
+Harbour,apartment,81,2,1,2014,4.2,1.8,no,yes,D,3,220600
+Old Town,apartment,64,3,1,2005,1.3,0.6,no,no,B,5,229700
+Industrial Park,apartment,44,1,1,1973,10.1,0.3,yes,yes,F,4,57200
+Industrial Park,apartment,52,2,2,1971,6.9,5.5,no,yes,G,3,68400
+Hillcrest,apartment,76,2,1,1962,6.1,6.9,no,no,G,3,136100
+University,detached house,132,4,2,2011,4.5,1.3,yes,yes,C,1,312500
+Lakeside,terraced house,101,3,1,1994,20.0,2.5,no,no,D,3,158200
+Harbour,apartment,56,2,1,1973,2.3,1.8,no,yes,E,3,121800
+University,detached house,198,5,2,2025,5.0,6.9,yes,yes,B,1,457100
+Riverside,apartment,62,1,1,2022,2.1,2.5,no,yes,C,3,175400
+Harbour,apartment,69,3,1,1985,2.8,3.7,yes,no,D,3,157400
+Harbour,apartment,34,1,1,2019,4.3,1.2,no,yes,C,3,80400
+Greenfield,terraced house,161,5,2,2000,6.2,1.3,no,yes,D,4,328400
+Harbour,terraced house,109,4,2,1955,3.2,0.7,yes,yes,G,3,282100
+Riverside,apartment,38,2,1,2002,4.0,1.5,yes,no,B,3,107700
+Industrial Park,apartment,80,3,2,2022,7.7,0.6,no,no,B,4,136500
+Riverside,apartment,134,5,3,1978,2.0,1.9,no,yes,D,3,426700
+Industrial Park,detached house,175,6,2,1965,9.2,1.9,yes,yes,F,4,262400
+Riverside,apartment,53,1,2,2007,3.4,1.3,no,yes,B,4,150400
+Lakeside,apartment,79,3,1,2006,9.2,0.2,no,no,C,3,142000
+Greenfield,apartment,85,2,2,2024,7.3,2.1,no,yes,A,3,174100
+Hillcrest,apartment,71,2,2,2008,4.1,1.4,no,no,C,2,216200
+Industrial Park,apartment,62,2,2,2003,5.3,1.6,no,yes,C,3,93400
+Riverside,apartment,60,1,1,2007,2.5,3.0,no,yes,E,4,156500
+Industrial Park,apartment,56,1,2,1961,8.1,0.8,no,no,G,3,69700
+Industrial Park,detached house,154,5,2,2005,4.7,1.6,yes,no,B,5,308300
+Harbour,apartment,76,3,1,1970,2.5,1.1,no,no,E,2,167500
+Lakeside,detached house,187,6,4,1976,10.0,2.2,yes,no,F,5,334500
+Old Town,terraced house,77,4,1,2003,1.5,3.1,yes,yes,B,4,234700
+University,apartment,83,2,1,1978,5.3,8.0,no,yes,F,4,152400
+Hillcrest,apartment,67,1,1,1967,4.6,1.5,no,yes,F,2,152100
+Greenfield,terraced house,135,6,2,2000,7.1,2.0,yes,yes,B,3,317600
+Hillcrest,apartment,68,2,1,1957,5.0,1.0,no,yes,E,3,185900
+Riverside,apartment,58,1,1,2011,2.1,0.9,no,no,B,4,175300
+Industrial Park,apartment,90,2,1,2013,5.6,1.0,no,yes,C,3,128200
+Harbour,apartment,71,2,2,1956,2.3,2.0,no,no,F,3,153800
+Riverside,terraced house,95,2,2,2014,1.7,0.8,yes,yes,C,2,297700
+Greenfield,detached house,153,6,2,1978,8.9,2.9,yes,yes,E,2,265700
+Old Town,detached house,191,6,3,1884,1.6,1.3,yes,no,G,5,640700
+Greenfield,apartment,98,3,1,1957,7.0,2.9,no,yes,G,2,122100
+Hillcrest,detached house,194,7,3,1999,6.5,2.2,yes,yes,D,5,635700
+Lakeside,apartment,45,2,1,2022,12.2,2.5,no,yes,B,3,94600
+University,apartment,78,3,2,2022,4.3,0.7,no,yes,B,3,208700
+Hillcrest,apartment,56,2,1,1963,4.7,0.6,no,yes,G,3,120700
+Riverside,apartment,85,3,2,1970,1.8,1.7,no,yes,E,5,224800
+Lakeside,terraced house,106,3,2,1970,10.3,0.9,no,yes,E,2,154800
+Riverside,detached house,145,4,2,2008,2.8,3.1,yes,yes,B,4,374400
+Old Town,apartment,81,3,2,1932,1.4,1.8,no,yes,G,5,228600
+Riverside,apartment,65,2,1,1966,2.6,3.8,no,yes,E,3,153300
+Old Town,terraced house,83,2,1,1916,1.3,5.0,no,no,G,3,221200
+Old Town,apartment,75,2,1,1936,1.3,1.8,no,no,G,3,206700
+Lakeside,detached house,184,5,3,1999,13.3,0.5,yes,yes,C,2,358700
+University,terraced house,123,4,1,1970,3.1,1.9,yes,yes,E,3,297700
+Lakeside,apartment,57,1,1,1957,8.4,0.4,no,no,E,2,104100
+Lakeside,detached house,147,5,2,2023,5.9,1.5,yes,yes,C,4,348100
+Greenfield,apartment,78,1,1,1978,9.5,1.5,no,no,D,5,136500
+Old Town,terraced house,102,3,2,1942,1.3,0.4,yes,no,G,5,286300
+Riverside,apartment,79,1,1,1996,2.8,1.0,no,yes,C,3,235400
+Hillcrest,apartment,64,1,1,2009,9.0,0.4,no,no,A,3,199100
+Lakeside,detached house,224,7,4,2012,12.0,2.0,yes,yes,B,1,437500
+University,apartment,55,2,1,2008,4.2,0.3,no,yes,E,4,133000
+Hillcrest,detached house,154,5,2,1970,6.5,1.1,yes,yes,D,4,492600
+Greenfield,apartment,49,2,1,1982,12.9,0.4,no,no,E,3,74600
+Old Town,apartment,52,2,1,1894,1.7,0.7,no,no,G,2,116400
+Old Town,apartment,66,1,1,1931,1.3,2.2,no,yes,G,4,187800
+Lakeside,apartment,46,1,2,1983,8.6,0.6,no,yes,E,5,106900
+Greenfield,apartment,61,2,1,1982,8.4,2.7,no,yes,D,4,112300
+Greenfield,terraced house,95,3,2,1999,8.3,1.7,no,yes,B,3,180200
+Harbour,terraced house,107,3,3,1997,4.3,2.5,yes,yes,D,2,291000
+Hillcrest,apartment,95,2,2,1983,4.3,3.8,no,no,F,2,209000
+Riverside,terraced house,150,5,2,2003,3.1,2.0,yes,no,B,4,396200
+Old Town,terraced house,120,4,2,1888,1.6,0.7,no,yes,G,1,296000
+Harbour,apartment,66,2,1,1988,2.7,1.5,no,yes,C,4,176400
+Old Town,detached house,145,6,2,1895,1.4,0.5,yes,no,G,2,491400
+Greenfield,apartment,47,2,1,1999,8.5,1.8,no,no,D,3,79300
+Hillcrest,terraced house,114,4,2,1968,6.5,2.2,yes,yes,E,3,292700
+Industrial Park,apartment,58,2,2,1972,6.2,0.4,no,no,F,3,78600
+Industrial Park,apartment,74,3,2,1961,6.4,7.7,no,yes,G,1,92200
+Greenfield,detached house,107,4,2,1984,8.7,2.9,yes,no,D,2,184600
+University,apartment,61,2,1,1975,5.5,1.1,no,yes,F,4,125400
+Old Town,terraced house,137,5,2,1936,1.1,0.4,yes,no,G,4,386300
+Harbour,detached house,149,4,2,1991,2.2,1.2,yes,yes,E,3,357700
+University,apartment,70,3,1,1970,3.9,0.7,no,yes,F,3,145800
+Greenfield,terraced house,133,5,2,1996,6.2,2.0,yes,yes,E,4,318100
+Industrial Park,apartment,101,3,2,1961,6.8,0.8,no,yes,G,5,124200
+Harbour,apartment,69,3,2,1985,3.1,2.4,no,yes,D,3,177900
+Old Town,detached house,176,6,2,1978,0.9,0.4,yes,yes,F,4,562000
+Riverside,terraced house,174,5,2,2025,2.8,1.8,yes,yes,B,4,591800
+Industrial Park,apartment,103,3,1,1996,7.0,0.6,no,yes,F,4,141200
+Harbour,apartment,41,2,1,1965,4.3,1.2,no,no,E,4,95100
+Hillcrest,apartment,76,3,1,1973,4.9,1.3,no,no,E,4,184700
+Industrial Park,apartment,71,2,1,2006,3.6,0.5,yes,no,C,3,135000
+Hillcrest,apartment,89,3,2,2011,7.0,0.6,no,no,D,3,215100
+Greenfield,apartment,116,4,2,1985,8.2,1.1,no,yes,E,4,240400
+Industrial Park,apartment,91,2,1,2016,5.8,0.7,no,yes,B,4,186500
+Hillcrest,terraced house,146,5,3,2004,5.4,1.2,yes,no,C,5,513500
+Hillcrest,apartment,64,2,1,2005,5.2,0.5,no,yes,A,3,203700
+Lakeside,detached house,213,6,3,2001,9.0,2.7,yes,yes,B,5,558300
+Harbour,terraced house,128,4,1,2014,2.8,1.6,yes,yes,C,2,300300
+Lakeside,apartment,78,2,1,1970,7.4,0.4,no,no,E,3,153900
+Hillcrest,detached house,192,6,3,1977,4.4,1.2,yes,no,D,3,561900
+Riverside,terraced house,85,2,1,1967,1.7,2.0,yes,yes,F,1,189600
+Lakeside,terraced house,69,2,1,1960,8.1,0.5,yes,yes,G,1,114200
+Industrial Park,detached house,153,4,2,2025,7.5,0.8,yes,yes,B,4,270500
+Greenfield,apartment,69,2,2,1970,7.5,0.7,no,yes,F,4,119900
+Industrial Park,terraced house,122,3,3,1964,6.8,0.6,no,no,G,4,140900
+Greenfield,terraced house,116,3,2,2019,9.5,1.9,yes,no,A,2,238400
+Old Town,detached house,153,4,3,1979,1.0,2.1,yes,no,G,3,384100
+Riverside,apartment,55,1,1,2004,3.3,0.9,yes,yes,E,3,148700
+Greenfield,detached house,148,4,2,1979,8.6,1.1,yes,no,E,4,250400
+Industrial Park,apartment,41,1,1,2021,5.0,2.8,no,no,A,4,85300
+Harbour,terraced house,106,4,2,2025,3.5,3.1,yes,no,A,4,371900
+Lakeside,apartment,88,4,2,2006,6.0,1.0,no,yes,D,3,195400
+Greenfield,apartment,94,1,2,2009,6.6,0.6,yes,yes,C,3,186100
+Hillcrest,apartment,46,2,1,1969,5.9,2.1,no,yes,C,3,102000
+Hillcrest,apartment,40,1,1,1955,4.9,5.4,no,yes,G,3,85300
+University,apartment,108,4,3,1987,3.3,3.8,no,yes,F,5,284300
+University,detached house,222,7,3,1961,2.8,0.9,yes,yes,G,5,465900
+Harbour,detached house,166,5,3,2000,3.3,4.2,yes,yes,C,5,537300
+Lakeside,apartment,101,4,1,1966,6.8,1.9,no,yes,D,3,200600
+University,detached house,121,5,2,1963,3.4,0.7,yes,yes,F,3,244900
+Hillcrest,terraced house,119,3,2,1969,5.9,2.6,no,yes,F,1,252800
+Greenfield,terraced house,128,4,2,2024,10.7,5.7,no,no,A,5,294500
+Hillcrest,terraced house,88,3,1,2010,5.4,1.3,yes,yes,A,3,259800
+Greenfield,apartment,71,2,1,1994,9.3,1.3,no,yes,E,4,130100
+Lakeside,detached house,196,7,3,1975,7.8,2.1,yes,yes,D,3,404700
+Old Town,apartment,83,2,1,1944,1.1,0.6,no,no,G,5,265900
+Hillcrest,terraced house,95,3,1,1978,7.7,1.5,yes,yes,E,3,206800
+Industrial Park,apartment,87,2,2,1987,7.0,0.5,no,yes,D,4,131600
+Greenfield,terraced house,134,4,1,2013,7.7,0.5,yes,no,C,3,255300
+Greenfield,detached house,187,6,2,2014,10.1,0.9,yes,yes,A,2,354200
+Harbour,apartment,57,2,1,1998,2.9,0.6,no,no,D,3,130900
+Industrial Park,terraced house,105,3,2,1957,8.5,3.0,yes,no,G,4,156900
+Greenfield,terraced house,111,4,2,1977,9.4,0.6,no,yes,D,2,150000
+Harbour,apartment,59,2,1,1970,3.3,2.4,no,no,F,3,126700
+Old Town,apartment,60,1,1,1978,0.7,4.0,no,yes,D,3,173700
+Harbour,apartment,51,2,1,1998,2.5,1.3,yes,no,C,4,118900
+Old Town,apartment,67,2,1,1882,1.6,3.0,no,no,G,3,183900
+Riverside,apartment,76,2,2,1955,1.9,2.1,no,no,F,4,160400
+Hillcrest,terraced house,112,4,2,1962,8.8,1.7,yes,yes,G,3,300100
+University,apartment,47,2,1,2003,2.9,0.6,no,no,B,3,123100
+Lakeside,apartment,69,2,1,2024,7.2,2.0,no,yes,A,5,185200
+Lakeside,apartment,61,2,1,1978,10.6,1.0,no,yes,E,3,96500
+Lakeside,apartment,68,1,1,1994,7.2,0.8,no,yes,E,4,161600
+Lakeside,terraced house,90,3,2,2004,12.5,6.4,yes,yes,D,3,167600
+Harbour,detached house,128,4,1,2024,4.0,1.2,yes,no,C,2,326000
+Harbour,apartment,89,3,1,1977,3.4,0.9,no,no,D,3,188900
+Greenfield,apartment,82,3,1,1995,8.1,1.0,no,yes,C,1,129800
+Greenfield,terraced house,135,5,2,2008,7.9,0.7,yes,yes,C,5,284100
+Greenfield,detached house,162,6,2,2002,10.6,1.0,yes,no,D,3,249600
+Riverside,apartment,70,3,1,1965,2.6,3.4,no,yes,F,5,179200
+Old Town,terraced house,98,3,1,1943,1.1,2.1,yes,no,G,3,327000
+Hillcrest,apartment,81,3,2,1992,6.0,1.1,yes,no,C,2,226100
+Lakeside,apartment,48,2,1,1993,6.9,1.8,no,yes,C,3,99600
+University,detached house,158,5,3,1957,4.7,1.2,yes,no,G,5,358500
+University,apartment,53,2,1,1986,2.7,0.8,no,yes,C,3,130200
+Greenfield,terraced house,111,3,2,1981,12.5,1.2,yes,no,F,4,153500
+Hillcrest,apartment,63,2,1,1969,3.6,1.0,no,no,F,3,150900
+University,detached house,136,5,2,2017,2.9,0.8,yes,yes,C,2,327200
+Lakeside,apartment,92,3,1,2011,12.9,0.9,no,yes,B,3,217900
+Greenfield,detached house,141,6,3,1993,8.6,3.1,yes,no,D,4,260300
+University,detached house,303,7,4,1995,2.3,0.5,yes,no,D,3,679000
+Greenfield,terraced house,103,3,2,1976,11.7,0.6,yes,yes,F,3,179300
+Lakeside,apartment,49,3,1,2007,9.5,1.3,no,no,E,3,76500
+Greenfield,terraced house,107,3,2,1997,18.3,1.5,yes,yes,D,3,167600
+Greenfield,detached house,194,6,3,2009,10.8,1.1,yes,yes,D,3,390600
+University,apartment,80,3,1,1956,3.2,2.0,no,no,F,2,164600
+Harbour,apartment,71,3,1,1972,2.7,0.8,no,yes,E,3,165900
+Hillcrest,detached house,124,4,1,2020,5.4,0.9,no,no,A,3,398900
+Hillcrest,apartment,57,2,1,1983,5.4,1.5,no,no,D,3,141000
+Riverside,detached house,204,7,2,1962,2.8,1.2,yes,yes,G,3,439000
+Lakeside,apartment,75,2,1,1957,12.8,1.2,no,yes,G,4,143600
+Lakeside,apartment,45,1,2,2007,9.4,0.6,no,no,D,3,88200
+Old Town,apartment,49,1,1,2020,1.4,0.8,no,no,A,4,159400
+Greenfield,terraced house,109,3,1,2021,6.6,2.0,yes,no,C,5,234800
+Hillcrest,detached house,204,6,4,1963,7.5,2.1,yes,yes,G,3,534000
+Harbour,terraced house,121,4,2,1977,2.6,2.2,yes,yes,E,5,300000
+Greenfield,apartment,62,3,1,1976,13.5,1.2,no,yes,F,3,81100
+Hillcrest,apartment,45,1,1,2013,7.0,1.4,no,no,D,3,101000
+Harbour,terraced house,131,5,2,1958,2.5,3.4,yes,yes,G,4,296200
+University,apartment,71,2,1,1974,4.5,0.9,no,yes,F,1,134400
+Lakeside,apartment,106,4,2,1964,7.8,0.5,yes,no,G,5,220300
+Riverside,terraced house,98,2,2,1985,2.6,1.9,no,no,C,3,260000
+Lakeside,apartment,46,2,1,1975,6.2,2.2,yes,no,G,4,106200
+Greenfield,terraced house,79,2,2,1976,5.1,1.0,yes,yes,E,4,164200
+Industrial Park,apartment,75,2,2,1981,6.5,0.4,no,no,D,2,121500
+Harbour,terraced house,104,4,1,1988,2.5,3.6,no,yes,D,4,276300
+Lakeside,apartment,61,2,1,1988,9.6,1.5,no,yes,D,4,118100
+Industrial Park,apartment,48,1,1,2022,12.6,2.8,no,yes,B,4,77500
+Industrial Park,apartment,72,2,1,1961,6.2,1.5,yes,yes,F,2,89400
+Lakeside,apartment,79,3,1,1960,7.7,0.8,no,yes,F,4,150800
+Industrial Park,detached house,161,5,3,2023,4.9,1.9,yes,yes,A,4,358200
+Greenfield,terraced house,134,5,1,1977,7.5,1.8,yes,no,D,2,205500
+Lakeside,terraced house,81,3,2,1961,13.1,5.5,no,no,G,3,133000
+University,terraced house,138,4,2,2013,2.5,2.1,yes,no,C,4,303600
+Lakeside,apartment,72,1,1,1959,8.9,0.8,no,no,F,4,128700
+Riverside,apartment,55,1,1,1994,2.1,1.6,no,yes,D,2,139200
+Harbour,terraced house,81,2,1,1961,3.2,0.7,yes,yes,G,4,197700
+Lakeside,terraced house,75,2,1,2023,8.5,2.9,yes,no,B,4,166900
+Lakeside,apartment,76,3,1,1999,11.0,0.5,no,yes,D,3,136700
+Industrial Park,terraced house,114,3,2,2011,4.2,0.6,no,yes,E,3,177700
+Hillcrest,apartment,60,3,1,2025,5.6,7.3,no,no,A,2,176600
+Greenfield,apartment,46,2,1,2011,6.6,0.5,no,no,B,3,83200
+Harbour,apartment,66,1,1,1955,2.3,2.5,no,yes,F,3,172700
+Riverside,apartment,94,1,2,1978,2.5,0.4,no,no,D,3,271500
+Industrial Park,apartment,100,4,2,1981,7.8,0.6,no,no,E,3,138400
+Hillcrest,terraced house,92,3,1,1955,7.4,0.7,yes,no,G,4,219300
+Industrial Park,terraced house,86,2,1,1984,5.9,2.7,yes,no,E,4,122500
+Harbour,apartment,96,3,2,2002,4.2,1.2,no,yes,C,2,221700
+Harbour,detached house,119,3,2,1981,4.1,2.8,yes,yes,E,4,332400
+Hillcrest,terraced house,88,3,2,1957,9.1,3.5,yes,yes,F,4,178300
+Riverside,apartment,93,4,1,1956,2.4,2.2,no,no,F,3,186900
+Greenfield,apartment,66,1,1,2003,8.8,0.7,no,yes,D,3,146400
+Riverside,detached house,182,6,3,2019,2.4,0.7,no,no,C,5,689000
+Industrial Park,apartment,87,3,1,1981,6.4,0.6,no,no,E,4,109600
+Old Town,apartment,77,3,1,1949,1.7,0.6,no,yes,G,2,211600
+Harbour,apartment,79,3,1,1965,3.5,1.0,no,no,E,4,198700
+University,terraced house,73,1,2,1960,6.3,0.7,yes,yes,F,3,157500
+Hillcrest,terraced house,117,3,1,1971,5.3,4.1,yes,yes,E,5,336500
+University,detached house,166,5,2,1957,4.0,1.2,yes,yes,F,3,352700
+Hillcrest,apartment,43,1,1,2010,5.6,1.3,no,yes,D,3,104700
+Lakeside,terraced house,117,3,2,2000,10.0,4.9,no,yes,C,2,185600
+Old Town,apartment,83,3,1,1920,2.5,2.5,no,no,G,4,188700
+Greenfield,terraced house,136,4,2,1990,10.3,1.5,no,no,D,3,223600
+Hillcrest,terraced house,128,5,2,1986,8.1,1.8,yes,no,G,5,293000
+Lakeside,detached house,118,3,1,1963,6.6,1.3,yes,yes,F,3,201600
+Harbour,detached house,208,7,3,1993,4.8,1.3,yes,no,D,4,572100
+Harbour,detached house,152,5,3,1966,2.6,0.4,yes,yes,F,5,478400
+Harbour,detached house,310,7,4,2001,5.9,0.5,yes,no,C,4,941400
+Hillcrest,detached house,109,3,1,2001,6.4,3.2,yes,no,D,3,291300
+Lakeside,apartment,78,2,1,1958,9.8,3.5,no,yes,E,3,154800
+Lakeside,detached house,125,4,2,2015,9.2,1.4,yes,yes,B,4,397000
+Old Town,apartment,59,1,2,1958,1.3,1.7,no,yes,G,4,210500
+University,apartment,98,3,2,1989,7.6,0.7,no,yes,D,2,162600
+Industrial Park,apartment,94,3,2,1963,7.4,1.3,no,yes,G,2,102600
+Old Town,apartment,146,5,2,1987,1.3,0.4,no,no,D,1,340400
+Harbour,detached house,188,4,3,1990,4.4,4.4,yes,yes,C,3,436600
+Harbour,apartment,70,2,1,2019,2.4,0.7,no,no,B,5,235300
+Greenfield,apartment,65,2,1,2014,5.7,1.0,no,no,B,3,143800
+Old Town,apartment,96,3,2,1953,1.8,0.5,no,no,G,4,255200
+Greenfield,terraced house,189,7,3,1988,10.5,1.0,no,no,D,3,297700
+Hillcrest,terraced house,111,4,1,1978,8.7,4.8,no,no,F,2,242800
+University,detached house,185,5,3,1984,4.5,0.7,yes,yes,E,2,350300
+Greenfield,terraced house,117,4,2,2000,6.9,2.3,yes,yes,F,3,271400
+Greenfield,apartment,82,3,1,1975,7.6,1.5,no,yes,F,3,124700
+Old Town,apartment,48,2,1,1927,1.4,3.3,yes,no,G,3,126100
+Industrial Park,terraced house,138,4,2,2020,6.0,1.5,yes,yes,B,3,236300
+Lakeside,terraced house,84,3,2,1994,11.6,1.1,yes,yes,D,4,213600
+Riverside,terraced house,109,3,2,2003,4.2,0.6,yes,yes,B,4,364900
+Riverside,detached house,196,7,3,2024,3.0,3.4,yes,no,A,4,628700
+Industrial Park,apartment,52,1,1,2010,7.0,4.8,no,yes,B,2,79100
+Lakeside,apartment,70,3,1,2003,8.7,0.8,no,yes,C,3,137800
+Industrial Park,terraced house,95,2,2,1981,7.3,0.8,yes,yes,E,2,144900
+Hillcrest,apartment,91,3,1,2001,5.5,0.3,no,yes,B,4,254900
+Lakeside,detached house,180,6,3,2006,7.7,3.2,yes,no,C,4,486800
+Greenfield,apartment,70,1,1,1974,13.4,1.5,no,no,F,2,83100
+Riverside,apartment,93,3,1,2020,2.5,0.4,no,yes,C,5,332600
+University,terraced house,96,2,1,2023,3.7,2.3,yes,yes,A,2,237700
+Hillcrest,apartment,75,2,1,1995,6.1,1.6,no,no,C,3,200100
+Industrial Park,terraced house,94,3,1,2008,6.1,1.7,no,yes,C,2,120500
+University,apartment,88,3,2,2010,4.7,0.9,no,yes,C,1,174700
+Greenfield,terraced house,101,3,1,1986,7.9,0.6,yes,no,E,1,175000
+Riverside,apartment,41,2,1,1956,2.3,8.0,no,yes,E,2,109200
+Industrial Park,apartment,76,3,1,2025,7.2,1.0,no,yes,A,2,102000
+Greenfield,apartment,56,3,1,2025,14.3,1.4,no,no,A,4,103900
+University,terraced house,105,3,1,2020,5.5,1.9,yes,yes,C,4,289800
+Old Town,apartment,52,1,1,2016,1.5,3.7,no,no,B,3,158600
+Harbour,terraced house,114,3,3,1978,3.5,0.8,yes,yes,F,4,326300
+Greenfield,terraced house,124,3,2,2017,13.6,2.6,yes,yes,A,1,223000
+Riverside,detached house,186,6,3,1990,2.6,0.9,yes,yes,D,3,719500
+Harbour,apartment,76,3,2,1973,3.4,1.0,no,yes,F,2,190200
+Lakeside,terraced house,111,4,1,2008,8.3,6.0,yes,yes,B,3,214000
+Greenfield,terraced house,64,2,1,1998,4.5,3.9,no,yes,D,4,153000
+Riverside,terraced house,100,3,2,1974,2.0,0.8,yes,yes,F,5,315000
+Greenfield,apartment,63,3,1,2019,8.1,2.2,no,yes,B,2,112300
+Greenfield,apartment,66,2,1,1966,6.6,2.2,yes,no,F,3,116600
+Riverside,detached house,169,4,2,1961,2.5,1.3,yes,yes,F,4,464000
+Old Town,terraced house,111,4,3,2003,0.7,1.4,yes,no,D,3,368000
+Riverside,terraced house,115,5,2,2023,3.7,0.9,yes,yes,C,3,347100
+Riverside,detached house,161,6,2,1955,1.9,1.9,yes,no,F,4,412800
+Hillcrest,detached house,325,7,3,1988,5.6,1.5,yes,no,C,3,847400
+University,terraced house,87,3,2,1972,2.5,0.7,no,yes,F,2,188900
+Riverside,terraced house,128,4,2,1980,2.5,0.9,yes,yes,F,3,292500
+Lakeside,apartment,85,3,2,1992,10.8,3.1,no,yes,C,2,142100
+Industrial Park,detached house,123,4,2,1979,7.6,2.5,yes,yes,E,2,191900
+Hillcrest,detached house,97,4,2,2016,5.0,2.9,yes,no,B,3,305500
+University,apartment,68,2,2,2009,3.8,4.1,no,no,B,3,133000
+Harbour,apartment,84,3,1,2024,3.4,2.4,no,no,B,3,200600
+Old Town,apartment,71,1,1,1896,0.8,2.0,no,no,G,3,183300
+Hillcrest,apartment,54,1,1,1955,8.0,1.3,no,yes,F,2,116300
+Greenfield,detached house,183,6,3,1978,9.8,1.8,yes,no,D,3,340400
+Hillcrest,apartment,65,3,1,1964,8.0,1.9,no,yes,F,3,126300
+Harbour,apartment,55,2,1,1984,3.4,1.3,no,no,E,2,112200
+Riverside,apartment,80,1,1,2013,2.2,0.7,no,no,B,3,198500
+University,apartment,60,2,1,2001,5.6,8.0,no,yes,D,1,106300
+Hillcrest,apartment,95,3,1,1989,6.4,1.6,no,yes,D,4,210400
+Riverside,apartment,109,3,1,1985,2.1,6.7,no,yes,D,3,288500
+Old Town,apartment,96,3,2,2025,1.6,1.5,no,no,B,5,354800
+Industrial Park,terraced house,62,2,1,1967,7.9,2.7,yes,yes,D,3,105500
+Harbour,terraced house,106,3,1,1984,3.2,0.4,yes,no,E,3,253400
+Lakeside,apartment,87,5,2,2025,7.3,1.6,no,yes,A,4,239800
+University,terraced house,153,5,2,1962,3.6,0.4,no,no,F,3,309100
+Old Town,terraced house,107,4,2,1958,1.1,0.8,yes,yes,G,3,341200
+Greenfield,terraced house,126,4,2,1997,6.3,2.4,yes,no,C,3,275500
+University,terraced house,97,4,1,2023,3.7,1.4,no,yes,B,1,232300
+Industrial Park,apartment,71,2,2,1959,9.5,0.4,no,yes,F,3,100000
+Lakeside,apartment,124,5,2,2014,5.1,1.5,no,yes,B,4,252200
+Hillcrest,apartment,76,2,2,1981,6.3,0.5,no,yes,E,3,199000
+University,apartment,70,2,1,1974,2.2,2.2,no,yes,E,5,197600
+Hillcrest,detached house,169,6,3,2021,5.8,3.3,yes,yes,A,4,612200
+Hillcrest,apartment,42,3,1,1996,4.9,0.4,no,no,E,4,112400
+Old Town,apartment,63,3,2,2011,1.4,1.1,no,no,D,4,187100
+Lakeside,detached house,240,7,4,2014,7.4,1.9,yes,yes,D,3,486500
+Industrial Park,detached house,88,4,1,1971,7.0,1.7,yes,yes,E,3,127800
+Greenfield,apartment,82,3,1,2013,13.7,0.6,no,no,C,4,125300
+University,terraced house,147,5,3,2021,2.3,1.5,no,yes,A,4,448600
+Industrial Park,apartment,46,3,1,2011,9.2,5.5,no,yes,D,1,63600
+Industrial Park,apartment,72,3,2,1955,6.0,0.9,no,yes,G,3,102300
+University,terraced house,145,4,1,2019,4.6,5.3,yes,no,C,4,315800
+Hillcrest,apartment,63,1,1,1962,4.6,3.5,no,yes,F,2,150600
+Industrial Park,apartment,75,3,1,1958,5.6,0.6,no,no,G,3,102800
+Lakeside,terraced house,123,4,2,1973,12.9,0.8,yes,yes,F,2,218500
+Hillcrest,apartment,121,3,2,2021,4.5,0.9,no,no,B,3,324100
+Greenfield,apartment,61,3,1,2012,8.4,1.7,no,yes,C,3,91900
+Industrial Park,apartment,117,3,2,1964,8.4,1.1,no,yes,F,4,153800
+Harbour,apartment,50,1,1,2007,3.3,2.7,yes,yes,D,3,140300
+Harbour,detached house,183,6,3,2025,3.5,1.4,yes,no,C,4,490300
+Old Town,terraced house,188,6,3,1966,1.0,1.7,yes,no,F,4,522200
+Harbour,apartment,64,2,2,1974,3.6,0.5,yes,no,C,3,157800
+Greenfield,apartment,105,3,2,1991,6.5,0.9,no,yes,D,3,202300
+University,apartment,39,1,1,2017,2.5,3.5,no,yes,B,3,102900
+Greenfield,apartment,57,2,2,2005,8.6,2.3,no,yes,B,3,109400
+University,terraced house,94,2,1,1957,4.3,1.8,no,yes,F,4,221900
+Lakeside,apartment,88,2,1,1993,6.1,2.7,yes,yes,E,2,187200
+Lakeside,apartment,68,2,2,2019,9.6,0.8,no,yes,C,3,128000
+Hillcrest,apartment,68,2,1,1977,6.4,0.9,no,yes,F,4,166400
+Old Town,apartment,76,1,1,1984,1.3,1.6,no,yes,D,3,200000
+University,detached house,127,4,2,2006,4.4,4.6,no,no,D,4,273800
+Industrial Park,apartment,57,2,2,1992,9.2,1.4,no,yes,C,2,96700
+Industrial Park,apartment,85,3,1,1957,7.9,0.6,no,yes,G,4,127600
+Industrial Park,terraced house,97,1,3,1982,9.3,0.7,no,no,F,5,145100
+Harbour,terraced house,111,3,2,2001,3.5,2.5,no,yes,C,2,287100
+Riverside,detached house,173,6,2,1973,2.5,4.0,yes,yes,F,3,507100
+Hillcrest,apartment,67,1,1,1960,6.4,0.3,no,yes,F,2,168400
+Harbour,apartment,86,2,2,2024,2.7,6.0,no,yes,B,1,215300
+Riverside,detached house,101,3,2,1961,2.6,4.4,yes,no,D,4,283100
+Industrial Park,detached house,216,6,3,1986,9.9,0.4,no,yes,D,1,318600
+Greenfield,apartment,114,4,2,1973,8.4,1.2,no,yes,F,2,162300
+Greenfield,detached house,151,4,2,1976,11.2,1.7,yes,yes,F,4,303200
+Harbour,detached house,146,4,2,1966,3.8,3.2,yes,yes,F,5,353100
+Greenfield,apartment,83,3,2,1967,6.7,4.3,no,yes,E,3,140200
+Lakeside,apartment,51,1,1,1974,7.4,1.0,no,yes,G,5,114400
+Industrial Park,apartment,70,2,1,1984,9.8,0.6,no,yes,E,1,92400
+Lakeside,apartment,66,3,1,2005,7.0,0.7,no,no,C,2,131200
+Harbour,detached house,91,3,2,2007,3.2,1.8,yes,yes,A,4,257400
+Riverside,terraced house,148,4,2,1979,2.3,0.5,yes,yes,F,3,378900
+Industrial Park,detached house,145,5,2,2023,6.3,2.2,yes,no,B,5,312300
+Industrial Park,apartment,105,3,2,2001,13.7,3.2,no,no,C,5,135900
+University,detached house,140,4,2,2021,4.1,1.1,yes,no,A,2,381800
+Greenfield,terraced house,99,3,1,1976,8.7,0.6,yes,yes,F,4,183200
+Greenfield,terraced house,132,5,2,2023,7.3,1.4,yes,yes,A,2,316900
+Hillcrest,apartment,75,1,1,2017,9.0,0.9,no,no,B,4,186100
+Greenfield,terraced house,87,2,2,1983,9.2,2.1,yes,yes,E,3,176000
+Lakeside,detached house,189,5,4,2013,10.3,0.5,yes,no,C,4,425700
+University,detached house,251,7,4,1998,3.9,1.9,yes,no,A,2,588600
+Industrial Park,apartment,125,4,2,1975,7.4,0.8,no,no,F,3,167100
+Greenfield,apartment,43,1,1,1966,6.4,3.4,no,no,F,4,77800
+Lakeside,apartment,63,2,1,1994,7.3,1.1,no,no,D,4,102700
+University,apartment,98,4,2,1998,4.4,4.0,no,yes,B,5,267800
+University,detached house,169,5,3,1955,3.6,6.9,yes,yes,G,5,451400
+Lakeside,apartment,80,2,2,1973,6.6,1.5,no,yes,G,3,121500
+Greenfield,apartment,88,3,1,2002,7.6,0.9,no,no,D,3,149200
+Harbour,apartment,67,4,1,1966,2.5,1.6,no,no,G,3,179100
+Greenfield,apartment,61,1,1,1981,8.0,0.5,no,no,D,3,92400
+Industrial Park,terraced house,72,2,1,1958,9.5,2.9,yes,no,F,3,89200
+University,apartment,94,2,2,1983,2.6,0.8,no,yes,D,3,188900
+Lakeside,apartment,73,3,1,1978,10.8,0.4,no,yes,F,3,117200
+Lakeside,apartment,87,2,2,1998,8.6,0.6,no,yes,C,4,184800
+Old Town,apartment,78,3,1,1955,1.3,1.7,no,no,G,3,191900
+Hillcrest,apartment,61,2,1,1989,5.5,2.2,yes,yes,D,4,150400
+University,apartment,100,2,2,2010,4.5,0.6,no,no,C,5,246000
+Lakeside,detached house,205,6,3,2008,10.8,1.1,yes,yes,B,4,549800
+Old Town,apartment,113,3,2,1893,1.0,1.3,no,yes,G,4,353700
+University,terraced house,108,3,2,2022,4.4,1.7,yes,no,B,3,233000
+Greenfield,detached house,144,4,2,1997,7.5,0.9,yes,yes,C,4,372100
+Lakeside,apartment,54,1,2,2002,15.8,7.8,no,no,D,1,78400
+Riverside,detached house,219,6,4,2021,3.1,1.1,yes,yes,A,4,768000
+Greenfield,terraced house,129,5,2,2012,12.0,0.7,yes,no,C,4,228200
+Old Town,apartment,45,1,1,1991,1.0,1.1,no,no,D,4,169900
+Industrial Park,detached house,108,3,1,2008,5.4,1.0,yes,yes,C,3,190700
+Lakeside,terraced house,105,3,1,1973,12.5,2.0,yes,no,E,5,191500
+Lakeside,detached house,101,3,1,2010,7.8,0.6,yes,yes,C,4,211200
+Hillcrest,apartment,78,4,1,1984,5.6,1.1,no,no,D,3,201100
+Harbour,apartment,65,1,1,1970,2.8,1.2,no,no,E,2,159400
+Old Town,apartment,74,3,1,1954,0.9,1.8,no,no,F,3,174400
+Greenfield,terraced house,166,5,2,1994,4.5,1.0,no,yes,D,3,266400
+Greenfield,detached house,126,4,3,1997,8.7,1.0,yes,yes,C,4,350600
+Old Town,terraced house,127,3,2,1943,1.1,1.8,yes,no,E,4,372100
+Greenfield,apartment,73,2,1,2019,7.4,1.6,no,yes,B,1,157400
+Lakeside,terraced house,91,4,2,2006,11.4,0.9,no,no,C,3,191900
+Industrial Park,terraced house,109,4,2,1986,5.2,1.0,yes,no,G,3,168400
+Industrial Park,apartment,82,3,2,1980,5.4,2.1,no,yes,D,2,108000
+Greenfield,terraced house,132,4,2,2001,8.9,2.0,yes,yes,E,4,255200
+Greenfield,apartment,55,3,1,1956,12.0,1.7,no,yes,G,4,81700
+Hillcrest,apartment,59,2,1,2019,5.4,1.5,no,no,A,2,161400
+Riverside,terraced house,134,4,2,1961,3.1,1.9,yes,yes,F,4,376000
+Lakeside,apartment,59,1,1,1983,9.0,2.2,no,no,E,4,135300
+Greenfield,apartment,54,2,1,1973,7.5,2.4,no,yes,D,3,102500
+Greenfield,terraced house,113,3,2,1992,7.5,0.6,no,yes,D,4,214900
+University,apartment,87,4,1,1999,2.4,0.9,no,yes,C,1,202600
+Lakeside,apartment,73,2,1,2012,12.5,0.9,no,yes,B,2,161300
+Greenfield,apartment,63,1,1,2007,5.4,0.8,no,no,B,2,118200
+Industrial Park,apartment,74,3,1,1961,4.9,7.7,no,yes,E,1,105600
+Hillcrest,detached house,214,7,2,1990,5.6,1.7,no,yes,C,3,502800
+Harbour,detached house,256,7,4,1989,3.2,5.0,yes,yes,B,3,605500
+Lakeside,apartment,68,2,2,1999,8.1,0.5,no,yes,C,3,131200
+Hillcrest,apartment,91,3,1,1956,5.1,1.6,yes,no,E,4,242200
+University,apartment,88,3,2,1976,3.2,3.1,no,yes,F,3,160600
+University,detached house,169,5,3,1973,3.2,3.5,yes,no,E,4,372000
+Greenfield,detached house,138,5,1,2017,6.4,4.6,yes,no,C,4,294500
+Riverside,apartment,74,2,1,2005,2.2,1.0,no,no,D,3,211400
+Lakeside,apartment,79,2,2,1966,5.8,1.1,no,yes,F,2,141700
+Lakeside,apartment,105,3,1,1981,15.6,2.6,no,yes,D,3,179200
+Old Town,terraced house,111,4,1,1903,1.8,0.6,no,no,G,5,366600
+Hillcrest,apartment,88,2,2,1958,5.4,0.4,no,no,G,5,233100
+Industrial Park,apartment,52,1,1,1998,8.6,0.7,no,no,D,2,71300
+Industrial Park,apartment,94,3,2,1964,8.6,0.6,no,yes,F,2,99700
+Harbour,apartment,81,2,2,1985,4.9,2.7,no,no,E,4,170600
+Lakeside,apartment,46,2,1,1979,8.2,1.4,no,yes,C,2,110500
+Old Town,terraced house,96,3,2,1956,1.3,0.7,no,no,G,2,253600
+University,apartment,94,2,1,2003,3.1,1.5,no,yes,B,3,217200
+Lakeside,detached house,203,6,3,1987,11.6,0.7,yes,yes,D,3,450200
+Lakeside,terraced house,76,3,1,2023,9.5,1.0,no,yes,A,1,154700
+Hillcrest,apartment,65,1,1,2004,7.0,1.1,no,yes,D,2,149500
+Old Town,detached house,208,6,3,1895,1.5,0.5,yes,no,G,3,684600
+Lakeside,apartment,57,2,1,1987,7.5,1.5,yes,no,D,4,138500
+Riverside,detached house,170,6,2,2011,3.7,3.3,no,yes,C,4,476400
+Old Town,apartment,66,2,1,1915,1.4,4.2,no,no,G,2,168600
+Old Town,apartment,78,3,1,1961,0.9,0.9,yes,no,F,3,205100
+University,apartment,83,3,1,1986,4.1,1.9,no,yes,D,4,166500
+Industrial Park,terraced house,87,2,1,2012,4.8,0.9,no,yes,B,4,154100
+Industrial Park,apartment,81,2,1,2006,9.3,0.8,no,no,C,2,118800
+Lakeside,apartment,113,3,2,2011,9.7,2.2,no,yes,B,1,213400
+Harbour,detached house,184,6,3,2025,2.9,0.9,yes,yes,B,2,548200
+Hillcrest,apartment,90,4,2,2008,5.8,0.3,no,no,E,3,221200
+Greenfield,apartment,56,1,1,1963,4.3,1.8,no,no,F,3,106200
+Hillcrest,terraced house,89,3,2,1958,6.5,3.4,no,yes,F,3,227700
+Industrial Park,apartment,55,2,1,1966,8.2,5.3,no,no,F,3,72900
+Riverside,terraced house,111,1,2,1960,3.6,0.6,yes,no,F,4,318500
+Greenfield,apartment,58,2,1,1988,10.6,2.0,no,yes,D,4,107400
+Riverside,detached house,190,7,3,2022,4.1,3.0,yes,yes,C,4,593700
+Industrial Park,terraced house,77,3,1,2017,6.2,1.7,yes,no,E,5,130900
+University,apartment,67,3,1,1970,3.6,1.6,yes,no,G,4,128500
+Industrial Park,apartment,58,3,1,2005,6.9,0.5,no,yes,D,4,113900
+Industrial Park,apartment,45,2,1,1961,7.4,2.1,yes,no,E,3,65900
+Lakeside,apartment,64,3,2,1980,9.7,1.3,no,no,D,4,125000
+Lakeside,apartment,81,2,1,2017,11.1,1.6,no,yes,A,4,191700
+Riverside,terraced house,99,3,2,1974,2.8,5.0,yes,yes,E,2,251600
+Greenfield,terraced house,77,2,1,1972,5.7,2.1,yes,yes,G,2,126500
+Old Town,apartment,110,4,2,1932,1.6,1.8,no,no,G,5,361900
+University,terraced house,128,5,2,1995,4.4,1.4,yes,yes,D,5,317400
+Hillcrest,apartment,73,2,1,2011,6.2,0.9,no,no,B,4,152700
+Greenfield,apartment,64,3,1,2017,7.5,1.4,no,yes,C,5,121900
+Harbour,apartment,59,2,1,2015,3.6,2.9,yes,yes,B,3,162200
+Hillcrest,detached house,229,7,3,1957,6.5,3.9,yes,no,G,2,514500
+Old Town,apartment,51,1,1,1893,1.6,2.0,no,no,G,5,142900
+Lakeside,apartment,53,1,1,2009,10.7,0.8,no,no,D,3,87900
+Industrial Park,apartment,73,3,1,1972,5.6,1.5,no,no,F,3,106600
+Harbour,terraced house,98,3,1,1976,4.1,0.5,yes,yes,E,3,292000
+Greenfield,apartment,82,3,1,2019,9.7,1.3,no,yes,B,2,121500
+Greenfield,apartment,70,3,2,1975,10.1,2.8,no,yes,E,3,139100
+Lakeside,detached house,93,3,1,1984,13.0,1.3,yes,yes,E,4,190800
+Industrial Park,apartment,52,1,2,2017,6.1,2.3,no,no,B,3,113800
+Industrial Park,apartment,120,4,2,1961,9.3,1.0,yes,yes,F,4,174200
+Harbour,terraced house,113,3,2,2021,3.6,0.6,yes,no,A,3,348800
+Hillcrest,detached house,231,6,3,1985,6.7,0.2,yes,no,E,4,566200
+Riverside,apartment,68,2,1,2007,2.9,0.6,no,yes,B,3,186000
+Old Town,terraced house,138,5,3,2016,1.1,3.5,yes,no,B,3,474000
+University,detached house,168,6,2,2016,2.6,1.9,yes,no,B,4,459800
+Harbour,terraced house,58,2,2,2022,2.5,1.0,yes,no,A,3,185100
+Riverside,terraced house,119,4,2,1987,2.0,1.2,yes,yes,E,5,366100
+Lakeside,apartment,125,4,3,1956,7.3,3.2,no,yes,G,3,226900
+Greenfield,apartment,97,4,1,1978,6.7,3.0,no,yes,D,3,159400
+Lakeside,apartment,92,3,1,1977,7.6,0.5,no,yes,E,3,158800
+Harbour,apartment,51,1,1,2025,3.8,1.7,no,yes,B,3,160300
+Industrial Park,apartment,88,3,1,1993,6.6,0.8,no,yes,E,4,140400
+University,apartment,51,2,1,2013,3.4,0.8,no,yes,B,2,115300
+Harbour,detached house,133,4,1,1979,4.3,0.7,yes,no,D,2,309300
+Industrial Park,apartment,60,2,1,2017,5.8,1.0,no,yes,C,3,90800
+Industrial Park,apartment,62,2,1,1956,8.7,1.4,no,no,G,4,86400
+Industrial Park,terraced house,94,3,2,1987,11.9,1.6,yes,yes,D,4,122000
+Lakeside,apartment,59,3,1,1985,9.5,2.4,no,yes,E,1,81500
+Industrial Park,terraced house,112,3,1,1988,4.9,2.0,no,no,C,3,178600
+Old Town,apartment,55,2,1,2015,1.3,0.8,no,no,C,3,184200
+Old Town,apartment,38,1,1,1971,1.3,2.1,yes,no,E,3,110400
+Old Town,detached house,180,6,3,1962,1.5,1.9,yes,no,G,3,450300
+Lakeside,apartment,60,2,2,1984,10.1,0.7,no,yes,E,3,132900
+Old Town,apartment,50,2,1,2021,1.7,1.4,no,no,A,4,196200
+Riverside,apartment,71,2,2,2020,2.7,2.3,no,yes,C,4,210200
+Harbour,apartment,89,3,1,2010,3.7,1.1,no,yes,B,4,213600
+Old Town,terraced house,66,2,1,2019,1.3,2.2,yes,no,A,5,239700
+Lakeside,apartment,63,1,1,2011,9.9,0.8,no,yes,B,4,123600
+Old Town,apartment,61,2,1,1897,1.2,2.7,yes,yes,G,2,192400
+Greenfield,apartment,74,4,1,1981,11.3,0.3,no,no,D,4,122900
+Old Town,apartment,119,4,2,1930,1.6,0.6,no,no,G,3,276300
+Hillcrest,apartment,67,2,1,2016,6.8,0.6,no,yes,C,2,191000
+Lakeside,terraced house,138,6,2,1985,15.2,2.0,yes,no,D,4,257000
+Greenfield,apartment,69,3,2,2005,11.2,0.8,no,yes,B,2,124500
+Lakeside,apartment,75,2,1,2012,11.9,2.5,no,yes,B,5,145600
+Harbour,detached house,197,5,4,2013,3.9,1.1,yes,no,A,3,606800
+Industrial Park,apartment,76,2,1,1960,9.5,7.1,no,yes,F,5,89500
+Greenfield,apartment,86,2,1,1959,9.5,1.3,no,no,D,3,146500
+Old Town,detached house,179,5,3,1895,0.8,0.6,yes,no,G,4,586600
+Hillcrest,detached house,234,7,3,2016,7.6,1.0,yes,yes,C,4,702800
+Old Town,terraced house,109,2,2,1960,1.3,0.3,yes,yes,F,3,363400
+Harbour,apartment,47,2,1,1964,3.2,1.4,no,no,D,3,123800
+Industrial Park,apartment,74,3,1,2024,5.5,1.8,no,no,A,5,114100
+Harbour,detached house,147,5,3,1982,4.0,0.7,yes,yes,E,3,455900
+Industrial Park,terraced house,67,2,1,2009,6.6,1.1,yes,yes,A,3,111100
+Riverside,apartment,64,2,1,1977,2.4,2.8,no,no,E,4,149500
+Industrial Park,apartment,61,2,2,1997,10.1,2.2,yes,no,E,3,75400
+Riverside,apartment,79,2,2,2013,2.3,0.8,no,no,D,4,218200
+University,apartment,84,2,1,1964,4.0,1.3,no,no,G,4,148700
+Riverside,apartment,64,2,1,1959,2.3,4.1,no,yes,F,2,148700
+University,terraced house,129,5,2,1985,5.1,1.3,yes,no,E,4,246900
+Industrial Park,terraced house,79,4,1,1978,4.6,1.9,yes,no,E,4,124000
+Lakeside,terraced house,121,5,2,1992,9.8,3.1,yes,yes,D,5,251300
+Greenfield,detached house,211,6,3,2024,13.3,2.7,yes,yes,A,3,400400
+Hillcrest,apartment,70,4,1,2002,6.7,1.5,no,yes,B,3,193200
+Greenfield,apartment,82,3,1,2018,12.8,1.3,no,yes,C,4,163900
+University,apartment,105,4,2,1975,3.7,0.8,no,no,G,2,182700
+Industrial Park,terraced house,134,4,3,1992,6.5,2.4,yes,yes,D,3,208400
+Riverside,apartment,57,2,2,2016,3.7,2.1,no,no,C,3,142200
+Old Town,apartment,91,2,1,1913,2.0,2.9,no,yes,G,3,254500
+Hillcrest,apartment,68,2,1,2019,6.4,4.4,no,no,B,3,169100
+Greenfield,detached house,173,6,3,2002,7.7,3.4,yes,no,D,3,344900
+Harbour,apartment,93,4,2,1991,2.4,1.5,no,yes,C,4,273400
+Hillcrest,apartment,60,2,1,2011,7.0,3.0,no,yes,C,2,158500
+Hillcrest,detached house,122,4,2,2016,5.6,2.0,yes,no,B,4,355500
+Greenfield,detached house,161,5,2,1972,8.4,1.4,yes,yes,F,2,246600
+Hillcrest,apartment,73,4,1,2015,11.4,1.6,no,no,C,3,167400
+University,apartment,96,3,1,1985,4.6,0.9,no,no,B,3,222300
+Riverside,detached house,114,4,2,2020,3.7,2.2,no,no,B,3,306200
+University,apartment,73,2,2,1979,4.2,5.3,no,no,F,5,141400
+Industrial Park,terraced house,79,3,2,1970,7.2,0.3,no,yes,G,1,111600
+Industrial Park,terraced house,143,5,2,1999,9.9,0.7,yes,no,B,5,219100
+Greenfield,apartment,45,2,1,1999,9.5,1.4,no,yes,D,4,104700
+Hillcrest,detached house,188,5,3,2023,7.7,3.0,yes,no,B,4,549000
+University,terraced house,85,3,1,2005,5.5,1.9,no,yes,B,4,210400
+University,apartment,62,2,1,1970,5.1,1.1,no,no,E,3,106100
+Greenfield,apartment,100,3,2,1972,8.3,1.2,no,no,F,3,149700
+Riverside,apartment,56,2,1,2018,2.5,1.0,no,no,B,3,154300
+Hillcrest,detached house,145,5,2,1979,4.5,0.9,yes,yes,F,2,395300
+University,apartment,41,1,1,1968,3.9,1.8,no,yes,E,5,98800
+University,apartment,81,2,1,1970,2.7,2.3,no,no,E,2,164200
+Lakeside,apartment,66,2,1,2022,8.6,1.4,no,yes,C,5,162200
+Old Town,detached house,118,3,1,1880,0.9,1.2,yes,no,G,3,406700
+Industrial Park,detached house,240,7,4,1982,10.3,1.1,yes,no,E,3,301600
+Harbour,detached house,189,6,3,1962,3.9,2.7,yes,yes,E,2,461800
+University,terraced house,94,3,2,2007,3.9,0.5,yes,yes,D,3,185000
+Old Town,detached house,169,6,3,1915,1.3,2.3,yes,yes,G,1,581500
+Old Town,terraced house,91,2,1,1977,1.1,3.3,no,no,E,3,238500
+Lakeside,apartment,66,2,1,1995,8.3,0.7,no,yes,D,4,180400
+Hillcrest,apartment,47,1,1,1977,4.4,1.5,no,yes,E,2,111300
+Industrial Park,apartment,51,1,1,2001,10.5,2.2,no,yes,B,3,73000
+Lakeside,terraced house,119,3,2,2021,8.9,0.9,yes,no,B,4,293000
+Hillcrest,apartment,93,2,2,2001,7.1,1.7,no,yes,D,4,231400
+Riverside,apartment,39,2,1,1956,2.0,2.6,no,no,G,2,93600
+University,terraced house,163,4,2,1958,4.4,1.7,yes,no,F,3,329900
+Old Town,apartment,66,1,1,1899,1.0,1.6,no,no,G,3,206300
+Lakeside,detached house,151,4,2,1959,10.3,1.5,no,no,F,5,312500
+Old Town,apartment,71,2,1,1976,1.2,0.6,no,no,D,2,207900
+Industrial Park,terraced house,78,3,1,2002,7.0,3.7,yes,yes,C,4,132000
+Harbour,terraced house,121,3,2,1958,2.0,2.2,yes,yes,G,3,325200
+Hillcrest,terraced house,64,1,1,1969,6.4,2.2,no,yes,E,2,150100
+Greenfield,detached house,144,4,1,1959,5.1,1.3,yes,no,G,4,279000
+Hillcrest,terraced house,93,3,2,1976,11.9,2.0,no,no,E,2,200600
+University,detached house,147,6,2,2015,4.0,2.1,yes,yes,C,4,390400
+Riverside,apartment,53,2,1,1996,1.8,0.4,no,yes,D,3,151000
+Harbour,apartment,74,3,1,1966,2.8,4.8,no,no,E,4,144200
+Greenfield,apartment,74,2,1,1980,8.3,3.3,no,no,E,5,120700
+Riverside,apartment,68,1,1,1992,2.6,3.0,no,no,D,5,179800
+Lakeside,apartment,76,3,2,1979,14.8,1.0,no,yes,D,5,172700
+Hillcrest,detached house,107,3,1,2003,4.2,2.3,yes,no,C,5,263400
+Riverside,terraced house,94,4,2,1994,2.5,2.8,yes,yes,D,3,274400
+Industrial Park,detached house,78,2,1,2008,6.4,0.9,yes,yes,A,2,145800
+Riverside,detached house,227,6,3,1982,3.3,1.1,yes,no,C,1,637400
+University,apartment,77,2,2,2019,4.4,1.2,no,no,C,2,164600
+Industrial Park,terraced house,118,3,2,1995,6.9,1.0,yes,yes,E,4,183300
+University,terraced house,132,3,2,1971,3.1,1.7,no,yes,G,3,294000
+Hillcrest,apartment,92,3,2,1980,4.8,1.1,no,yes,D,5,218600
+Greenfield,detached house,174,4,2,1996,9.7,1.6,yes,no,C,4,376800
+Riverside,terraced house,78,1,1,1957,2.7,0.8,yes,yes,F,3,234400
+Riverside,apartment,78,2,1,1967,1.7,0.8,no,yes,E,3,236400
+Lakeside,apartment,61,1,1,2019,10.7,2.5,no,yes,B,4,132100
+Harbour,detached house,220,6,3,2004,3.0,0.7,yes,yes,C,3,726600
+Harbour,terraced house,83,3,2,2022,3.2,2.9,yes,yes,B,4,264800
+Lakeside,detached house,125,4,2,1998,11.0,1.6,yes,yes,C,2,239700
+Hillcrest,apartment,44,1,1,1989,5.4,1.6,yes,yes,E,3,114200
+University,apartment,67,2,2,2011,4.7,0.7,no,yes,B,5,191400
+Old Town,apartment,56,1,1,1989,1.1,3.0,no,no,F,2,158600
+Old Town,terraced house,90,3,1,2019,1.5,2.1,no,no,C,3,279700
+Hillcrest,apartment,118,4,3,1962,4.4,0.4,no,yes,G,2,296000
+University,apartment,68,3,1,2013,3.0,0.9,no,yes,B,4,183900
+Riverside,apartment,67,3,1,2000,4.8,1.7,no,yes,C,3,197000
+Lakeside,detached house,157,5,3,2002,6.4,4.4,yes,no,D,4,355400
+Hillcrest,apartment,83,2,2,1988,9.2,0.5,no,yes,D,4,222700
+Greenfield,apartment,64,1,1,1979,6.9,2.0,no,yes,F,3,116200
+Harbour,apartment,68,3,1,1983,3.7,3.2,no,no,E,3,163000
+Greenfield,apartment,78,3,2,2006,16.2,0.9,no,no,D,3,109000
+Riverside,apartment,70,2,2,2022,1.9,1.2,no,no,A,3,230700
+Greenfield,apartment,73,2,2,1988,8.6,1.0,no,no,D,3,134100
+Greenfield,detached house,127,5,3,1980,10.2,1.8,yes,yes,E,2,192000
+Old Town,terraced house,120,4,2,1988,1.1,1.5,yes,yes,E,3,364700
+Greenfield,apartment,77,3,3,1956,8.0,2.4,yes,no,G,2,107500
+Greenfield,detached house,199,6,3,1968,11.3,0.7,yes,no,F,2,308500
+Hillcrest,apartment,88,1,1,1994,4.1,0.8,no,yes,C,3,226600
+Hillcrest,apartment,52,2,1,2011,6.5,0.8,no,yes,C,3,123800
+Lakeside,apartment,51,1,1,1994,12.2,0.7,no,yes,B,5,116600
+Industrial Park,apartment,77,3,2,1957,5.5,0.7,no,yes,G,3,121400
+Industrial Park,detached house,187,7,2,1979,6.6,1.9,yes,yes,D,3,239500
+Riverside,terraced house,127,3,1,1985,2.5,1.4,no,yes,E,5,325200
+University,detached house,213,6,2,2002,3.3,1.2,yes,no,B,3,527700
+Industrial Park,terraced house,109,3,1,1981,6.7,1.7,yes,no,E,3,192200
+Lakeside,apartment,84,2,2,1957,8.6,0.9,yes,yes,G,2,147500
+Riverside,detached house,241,7,4,1988,2.6,6.3,yes,no,D,2,591300
+Industrial Park,terraced house,96,3,2,1978,8.9,1.3,yes,no,F,4,125600
+Old Town,terraced house,79,2,1,1892,1.1,1.3,yes,no,G,5,254300
+University,terraced house,116,3,2,2001,3.1,1.3,yes,no,C,2,250600
+Harbour,detached house,169,7,2,2005,4.2,1.2,yes,yes,C,1,395700
+Old Town,apartment,78,4,2,1931,0.7,0.8,no,no,G,5,232100
+Harbour,terraced house,125,4,3,1972,3.2,1.1,no,yes,D,3,306900
+University,detached house,190,5,3,1989,3.4,1.5,yes,no,E,3,391400
+Riverside,apartment,66,2,1,1964,2.2,0.5,no,no,F,2,157900
+Riverside,detached house,105,3,2,2019,3.4,0.4,yes,no,A,4,380000
+Greenfield,terraced house,105,2,2,1971,12.5,2.3,no,yes,G,5,163000
+Greenfield,terraced house,120,3,2,1959,6.7,1.5,yes,yes,G,3,181200
+Greenfield,detached house,216,6,4,1977,5.4,0.6,yes,yes,D,5,520500
+Hillcrest,apartment,63,1,1,2016,3.7,0.7,no,no,B,5,174600
+Old Town,terraced house,113,4,3,1951,1.8,2.5,yes,no,G,3,331800
+Harbour,apartment,47,2,1,1972,3.8,2.6,no,no,F,3,117000
+Lakeside,detached house,168,5,3,2003,8.4,1.0,no,yes,C,4,375000
+Industrial Park,terraced house,109,4,3,2012,4.7,1.2,yes,yes,A,3,188400
+Industrial Park,apartment,70,1,1,2015,7.0,0.7,no,yes,C,3,130200
+Greenfield,detached house,165,5,2,1975,7.7,0.7,no,yes,C,1,276600
+Lakeside,detached house,224,7,4,1986,10.6,2.8,yes,yes,D,4,433000
+Greenfield,detached house,238,7,4,1985,7.5,4.0,yes,yes,D,4,472300
+Greenfield,apartment,100,3,1,1983,5.6,1.6,no,yes,F,3,157800
+University,apartment,71,2,1,2016,3.6,2.1,no,yes,A,2,151400
+Riverside,apartment,82,2,2,2001,1.7,1.3,no,yes,C,2,245800
+Lakeside,apartment,68,2,1,1968,18.9,1.5,no,yes,G,2,92600
+Industrial Park,apartment,107,5,2,1959,4.8,2.5,no,no,G,4,129300
+Riverside,terraced house,102,3,1,1972,3.0,0.9,yes,yes,F,4,263800
+University,apartment,76,2,2,2014,4.6,1.6,yes,yes,D,3,159500
+Lakeside,apartment,66,2,1,1965,6.8,0.4,no,no,F,4,150800
+Industrial Park,terraced house,85,2,2,1960,7.0,3.5,yes,yes,F,3,133700
+Lakeside,apartment,80,2,1,2021,11.3,1.3,no,no,B,4,188100
+Hillcrest,apartment,82,4,2,1974,9.4,1.7,no,yes,E,1,172800
+Greenfield,apartment,47,2,1,1959,7.4,0.6,no,yes,G,3,90800
+Hillcrest,detached house,207,6,3,1963,6.0,1.9,yes,yes,E,2,569100
+Industrial Park,apartment,46,2,1,1978,6.2,1.6,no,yes,C,2,71000
+Harbour,apartment,56,2,1,2000,3.1,1.4,no,no,D,3,131200
+Harbour,terraced house,68,2,2,2020,2.5,0.9,yes,yes,C,5,213100
+Greenfield,detached house,111,3,1,2013,9.7,2.2,yes,no,B,4,180200
+Greenfield,terraced house,92,3,2,1990,8.3,1.4,yes,yes,E,5,188300
+Harbour,apartment,59,3,1,1965,4.2,1.4,no,yes,F,1,110700
+Lakeside,apartment,50,1,1,1958,5.9,0.5,no,yes,F,5,107400
+University,apartment,63,2,1,2004,3.7,1.5,no,yes,C,3,123900
+University,terraced house,102,5,1,2018,3.9,0.5,no,no,B,3,236200
+Greenfield,apartment,77,2,2,1983,8.5,1.0,yes,no,F,3,117100
+Harbour,terraced house,84,4,2,1960,4.3,0.8,yes,yes,G,5,222900
+Riverside,terraced house,68,2,1,1973,2.0,8.0,no,yes,E,3,189600
+Hillcrest,apartment,58,2,2,1987,5.4,2.1,no,yes,F,4,151700
+Riverside,terraced house,153,5,2,2023,1.4,1.1,yes,yes,C,4,471900
+Industrial Park,detached house,112,3,2,1977,8.5,1.7,yes,yes,F,3,157700
+Industrial Park,apartment,82,2,1,1998,9.1,1.0,no,yes,E,4,106600
+Industrial Park,apartment,81,2,3,2004,4.9,0.5,no,yes,E,3,123700
+Riverside,apartment,83,2,2,1985,2.0,0.6,no,yes,E,4,199100
+Greenfield,terraced house,102,3,2,2020,7.1,0.9,yes,yes,B,3,255500
+University,detached house,156,6,1,2014,5.4,1.9,yes,no,B,2,296600
+Lakeside,apartment,52,1,1,1972,7.8,2.1,no,yes,F,4,89300
+Industrial Park,apartment,101,3,2,1986,5.7,1.0,no,yes,E,4,158400
+Greenfield,apartment,91,3,2,1967,7.8,3.1,no,yes,F,2,143900
+Greenfield,detached house,102,3,2,1991,6.6,3.4,yes,yes,D,3,227700
+Hillcrest,apartment,66,1,1,1985,5.2,0.8,no,no,F,2,153700
+Harbour,terraced house,97,3,1,1994,2.4,1.9,yes,no,E,4,238300
+Lakeside,detached house,138,3,2,1981,8.8,0.8,no,yes,D,2,275800
+Industrial Park,apartment,55,2,1,1958,6.9,2.1,yes,yes,G,3,62200
+Industrial Park,terraced house,118,3,1,2007,5.1,2.5,yes,yes,C,3,195600
+Lakeside,apartment,59,2,2,2002,12.9,1.4,no,yes,E,2,104400
+Hillcrest,terraced house,93,3,2,1972,5.9,1.1,no,yes,E,4,262700
+University,terraced house,155,6,2,2020,4.8,0.6,no,no,B,3,406000
+Industrial Park,detached house,170,5,3,1986,7.2,1.9,yes,no,D,5,256000
+Riverside,detached house,164,6,3,1989,2.4,1.3,yes,yes,D,3,409800
+Riverside,apartment,51,2,1,1990,4.2,1.9,no,no,D,3,115800
+Lakeside,apartment,41,2,1,1966,7.1,1.2,no,no,F,4,76100
+Riverside,terraced house,89,3,1,2004,2.1,1.2,yes,yes,C,2,260300
+Lakeside,detached house,140,3,1,2024,7.3,0.6,yes,no,A,3,360800
+Industrial Park,apartment,64,1,1,2013,7.6,1.0,no,no,B,1,96700
+Hillcrest,apartment,73,1,1,1980,3.7,0.8,no,no,B,4,174900
+Lakeside,apartment,66,2,1,1971,6.3,1.6,yes,yes,C,2,130700
+Riverside,apartment,87,3,2,1995,1.9,0.7,no,yes,E,3,236600
+Old Town,detached house,112,3,2,1971,2.0,1.3,yes,no,F,4,430300
+Old Town,detached house,103,3,1,1919,1.7,0.9,yes,no,G,5,317300
+Riverside,terraced house,87,3,2,2003,2.5,1.7,yes,yes,B,3,341800
+University,terraced house,115,3,1,1961,5.1,2.8,yes,yes,F,4,236900
+Lakeside,terraced house,220,7,3,2024,8.6,2.3,yes,yes,A,4,500800
+Industrial Park,apartment,52,2,1,1969,5.1,1.2,no,no,F,3,69600
+Greenfield,apartment,69,2,1,1998,8.6,0.7,no,yes,D,4,117700
+University,apartment,73,2,2,1995,4.1,3.1,no,no,C,2,163600
+Greenfield,apartment,67,2,1,1960,8.4,4.3,no,yes,G,2,87100
+Riverside,detached house,173,7,3,2002,2.9,0.6,yes,yes,C,3,540200
+Harbour,terraced house,99,3,1,2018,2.9,3.2,no,no,A,2,292800
+University,terraced house,87,3,2,1995,2.4,1.3,yes,no,D,2,210300
+Lakeside,detached house,292,7,4,1969,8.7,1.5,yes,yes,F,2,466300
+Harbour,terraced house,83,2,1,2006,3.2,1.2,yes,yes,D,3,249700
+Lakeside,terraced house,115,3,2,1978,9.9,1.0,yes,yes,F,2,178400
+Old Town,apartment,73,2,2,1903,1.6,2.7,no,yes,G,2,212900
+Hillcrest,apartment,77,3,2,2005,10.8,1.6,no,no,B,4,170500
+Industrial Park,apartment,81,3,2,1991,5.3,1.1,no,yes,C,3,133300
+Harbour,apartment,66,2,2,1977,5.5,3.0,yes,yes,E,4,198600
+Lakeside,apartment,114,3,2,1983,10.5,1.8,no,yes,E,4,216700
+Industrial Park,detached house,151,5,2,1988,4.0,1.7,yes,no,C,2,236400
+Industrial Park,apartment,85,2,2,2008,5.9,0.7,no,yes,B,3,148200
+University,apartment,106,3,2,2000,3.2,0.5,no,yes,B,4,267100
+Harbour,apartment,82,2,2,1991,4.5,5.9,no,yes,D,4,220200
+Greenfield,apartment,78,2,1,1997,10.9,2.7,no,no,C,3,124800
+Greenfield,apartment,104,4,2,1994,6.4,2.9,no,yes,D,2,184000
+Hillcrest,detached house,162,4,3,2012,8.2,1.1,yes,yes,C,3,473400
+Riverside,apartment,72,3,2,2010,2.4,2.1,no,no,A,3,216400
+Harbour,detached house,122,4,2,2016,3.9,4.2,yes,yes,C,4,429200
+Industrial Park,detached house,224,6,4,2013,5.9,0.9,yes,yes,C,2,384200
+Industrial Park,terraced house,103,3,2,2007,6.8,1.1,yes,no,D,5,145800
+Riverside,apartment,55,3,2,2022,2.2,2.1,no,yes,A,3,162300
+Riverside,apartment,112,3,1,1969,2.6,0.7,no,yes,F,3,308200
+University,apartment,82,3,1,1979,4.5,4.5,no,no,E,5,165100
+Hillcrest,apartment,82,2,1,1957,5.3,0.6,no,no,G,2,175000
+Greenfield,detached house,179,6,2,1984,9.0,0.4,yes,yes,E,3,348700
+University,terraced house,125,4,2,1977,6.1,0.8,yes,yes,G,2,234000
+Hillcrest,apartment,61,2,1,1970,6.9,1.4,no,no,E,4,151300
+Hillcrest,detached house,201,7,2,2013,7.3,1.3,yes,yes,B,3,474000
+Industrial Park,terraced house,99,3,1,1960,11.3,3.6,yes,yes,F,4,114900
+Riverside,apartment,55,1,1,1965,2.7,1.2,no,yes,G,3,114100
+Greenfield,apartment,87,3,1,1983,13.0,0.8,no,yes,E,3,101800
+Old Town,apartment,100,3,1,1934,1.1,1.1,yes,no,G,3,293900
+Greenfield,apartment,77,3,1,1964,9.8,1.5,no,yes,E,3,107000
+Lakeside,terraced house,115,5,2,1957,7.3,4.3,yes,yes,F,2,177100
+Industrial Park,apartment,57,2,1,1994,6.8,1.5,no,yes,D,4,94000
+Harbour,apartment,70,1,1,1999,3.1,0.5,yes,yes,B,2,203000
+Lakeside,apartment,75,3,1,2007,10.3,1.9,no,no,B,2,127500
+Greenfield,detached house,170,6,2,1958,6.9,1.3,yes,no,F,4,253000
+Hillcrest,apartment,67,2,1,1972,5.7,0.8,no,no,D,4,188600
+Hillcrest,detached house,215,7,3,1959,7.7,2.2,yes,yes,G,3,617500
+Industrial Park,terraced house,113,3,2,1970,7.2,0.6,no,yes,D,1,142000
+Greenfield,terraced house,71,2,1,2016,10.4,0.8,yes,no,C,4,140600
+Lakeside,apartment,59,2,1,1960,11.8,1.1,no,yes,G,2,83300
+Hillcrest,detached house,134,4,3,1955,5.1,4.8,yes,yes,G,5,399300
+Greenfield,apartment,64,2,2,1995,11.2,2.3,no,no,D,4,107100
+Harbour,detached house,170,6,3,1978,2.7,2.9,no,yes,E,2,336300
+Harbour,terraced house,126,4,2,2021,2.4,1.2,yes,yes,A,4,368500
+Harbour,apartment,95,3,1,2018,5.5,0.4,no,no,C,4,255300
+Industrial Park,apartment,64,3,2,1964,8.5,1.4,no,yes,E,3,96200
+Greenfield,terraced house,88,4,2,2006,7.2,0.9,yes,yes,B,3,196700
+Hillcrest,terraced house,81,2,1,2007,4.6,5.4,yes,no,B,3,181400
+Lakeside,terraced house,158,5,2,1984,10.6,0.7,no,yes,D,3,339600
+Greenfield,detached house,165,5,2,1967,9.6,1.6,yes,yes,F,5,320700
+Greenfield,detached house,272,7,4,2024,9.2,1.2,yes,no,A,2,539400
+Industrial Park,apartment,50,2,1,1964,5.9,0.8,no,no,F,3,72400
+Industrial Park,apartment,83,1,2,2024,5.5,7.9,no,yes,C,5,187500
+Lakeside,terraced house,111,4,2,2008,9.3,1.9,yes,yes,B,4,255700
+Riverside,terraced house,132,4,3,1996,2.6,8.0,yes,no,E,3,411400
+Industrial Park,apartment,86,4,1,2008,8.3,3.1,no,yes,E,3,124300
+University,detached house,123,3,2,2010,3.2,1.0,yes,no,D,2,264500
+Greenfield,terraced house,123,4,1,2008,8.3,1.2,no,yes,B,3,232700
+Harbour,apartment,67,3,1,1984,2.6,2.1,no,yes,E,4,170500
+Hillcrest,apartment,42,2,1,2006,7.0,0.8,no,yes,B,4,129800
+Greenfield,terraced house,136,3,2,1960,6.3,1.7,yes,no,E,2,258400
+Hillcrest,terraced house,84,2,2,2020,8.2,1.0,yes,yes,B,3,230400
+Riverside,detached house,175,5,3,1978,2.5,1.8,yes,yes,G,3,415400
+Riverside,terraced house,84,3,1,1975,2.3,2.7,yes,yes,F,3,212600
+Harbour,apartment,72,2,1,1982,3.3,0.4,no,no,E,2,158000
+Hillcrest,detached house,160,4,3,1976,4.5,0.8,yes,yes,E,3,396600
+University,apartment,45,1,1,1959,2.3,1.8,no,yes,E,5,112900
+Harbour,apartment,58,1,1,2013,2.7,1.6,no,yes,B,3,163400
+Industrial Park,detached house,199,6,3,2022,6.1,0.6,yes,no,C,3,343800
+University,terraced house,104,4,1,1993,3.8,2.5,yes,yes,E,3,282900
+Riverside,apartment,105,3,2,1998,3.6,2.7,no,no,D,3,257000
+Industrial Park,apartment,77,2,1,2008,5.6,2.6,no,yes,C,3,113700
+Old Town,detached house,92,2,2,1989,0.7,1.1,yes,no,C,3,319100
+Greenfield,apartment,106,5,2,1963,11.5,0.3,no,no,G,3,151200
+Greenfield,apartment,59,2,2,1993,11.0,0.6,no,yes,D,3,92000
+Lakeside,apartment,63,2,2,1986,4.1,1.4,no,no,F,5,141000
+Industrial Park,terraced house,151,5,2,1987,6.6,0.7,no,yes,E,3,168300
+Lakeside,apartment,50,2,1,1967,9.8,2.2,no,no,E,5,96300
+Lakeside,apartment,134,5,2,1974,6.0,1.5,no,no,D,1,211000
+Lakeside,apartment,63,1,1,1969,7.3,0.2,no,yes,G,1,102200
+Riverside,apartment,57,2,1,1982,3.0,1.2,no,yes,D,3,162700
+Lakeside,apartment,113,2,3,1979,10.1,0.4,yes,no,F,3,241600
+Industrial Park,apartment,56,2,1,1976,11.3,1.1,no,no,G,4,66900
+Lakeside,detached house,145,4,2,1991,11.2,0.8,yes,no,D,2,247100
+Lakeside,terraced house,126,5,2,2025,11.8,1.5,yes,no,B,3,283600
+Riverside,apartment,58,2,1,1980,1.8,3.9,no,no,D,4,165300
+Riverside,terraced house,110,4,3,2004,2.2,1.0,yes,yes,D,3,313200
+University,apartment,55,2,2,2019,3.3,2.8,no,no,A,5,141900
+Riverside,terraced house,71,2,1,1994,2.5,0.7,yes,yes,C,2,229600
+University,apartment,57,2,1,2007,2.8,1.0,no,no,C,2,115300
+Harbour,detached house,83,3,1,1964,3.3,0.9,no,no,G,3,200800
+Hillcrest,apartment,62,1,1,2006,5.0,0.5,yes,yes,C,5,170500
+Industrial Park,terraced house,139,5,2,1979,11.2,2.5,yes,no,E,4,158000
+Lakeside,apartment,64,2,1,2017,10.2,1.3,no,no,B,5,138400
+Hillcrest,apartment,48,2,1,1973,5.1,0.3,no,yes,D,5,152400
+Industrial Park,terraced house,76,2,1,1957,6.1,1.6,yes,yes,F,4,117900
+Riverside,apartment,53,2,1,1967,2.6,1.3,no,no,G,4,130700
+Old Town,terraced house,100,3,2,1992,1.0,3.0,yes,no,E,3,332200
+Old Town,detached house,242,7,4,1914,1.8,0.6,yes,yes,G,3,804700
+Lakeside,terraced house,80,2,1,1978,12.0,0.8,yes,no,E,2,116200
+Lakeside,apartment,70,2,2,2008,8.0,1.4,no,no,C,4,162600
+Riverside,apartment,109,4,2,1971,2.5,0.5,no,no,E,4,299300
+Riverside,apartment,79,3,2,2000,3.5,3.8,yes,yes,B,5,237000
+Greenfield,apartment,88,2,2,1964,8.1,8.0,no,yes,F,2,126700
+Harbour,apartment,87,2,2,2010,2.6,2.3,no,no,C,5,224000
+Industrial Park,terraced house,71,3,2,1998,7.0,1.8,yes,no,D,3,113500
+Old Town,apartment,69,3,1,1905,1.2,1.8,no,no,G,3,179200
+Riverside,apartment,91,3,1,1963,2.3,1.1,no,yes,D,4,273900
+Harbour,apartment,70,1,1,1971,2.4,4.8,no,yes,F,3,143600
+University,detached house,177,5,2,2016,4.1,1.0,yes,yes,D,4,469000
+Old Town,detached house,135,5,2,1888,1.5,5.7,yes,no,G,2,442500
+Greenfield,apartment,71,3,1,1990,10.2,3.6,no,yes,C,4,138400
+Lakeside,terraced house,126,4,2,2001,13.1,2.5,yes,no,B,4,331400
+Industrial Park,apartment,86,3,1,2020,10.2,0.6,no,no,B,5,133500
+Industrial Park,detached house,254,7,4,2013,4.8,3.0,yes,yes,B,4,427100
+Greenfield,terraced house,101,2,1,2021,10.6,2.0,yes,no,A,3,186000
+Greenfield,terraced house,95,4,2,2007,6.2,2.4,no,yes,C,4,199700
+Harbour,detached house,176,6,3,2019,3.3,3.5,yes,no,B,5,523600
+Industrial Park,apartment,72,3,2,1970,13.9,3.1,no,no,E,4,89100
+University,apartment,54,2,1,2022,3.1,1.9,no,yes,B,4,157400
+Lakeside,terraced house,115,4,2,1980,8.8,1.3,yes,no,E,2,215600
+University,apartment,49,2,1,1987,6.2,0.4,no,yes,D,3,106400
+Old Town,terraced house,201,6,3,1987,1.0,6.4,yes,no,E,3,571600
+University,apartment,81,3,1,1987,3.5,2.0,no,no,E,4,183800
+University,detached house,144,5,3,1958,3.8,0.9,yes,no,G,4,320700
+Lakeside,apartment,65,1,1,1999,6.7,0.8,no,yes,B,2,143600
+Riverside,apartment,82,3,1,1997,2.0,0.4,no,no,B,4,250300
+Industrial Park,apartment,64,3,1,1964,7.3,0.6,no,yes,F,4,81500
+Greenfield,detached house,137,4,3,2015,9.7,2.7,no,no,C,5,289500
+Industrial Park,detached house,129,4,2,1999,4.8,3.3,yes,no,B,2,213000
+Industrial Park,apartment,71,1,1,1955,6.9,3.2,no,no,G,4,84900
+Riverside,terraced house,94,3,2,1964,2.0,0.7,no,yes,F,1,253000
+Industrial Park,apartment,86,2,1,1955,10.1,1.1,no,no,G,4,127200
+Greenfield,apartment,67,2,2,1991,8.7,0.5,yes,no,E,3,121000
+Lakeside,detached house,191,6,4,1961,9.0,1.7,yes,yes,F,3,398500
+Greenfield,apartment,56,1,1,1958,13.6,1.8,no,yes,G,4,76500
+University,detached house,106,3,2,1988,3.0,2.0,yes,no,C,4,315200
+Riverside,detached house,198,7,3,2007,2.9,0.7,yes,no,A,5,711200
+Lakeside,apartment,58,1,2,1969,7.8,1.7,no,no,F,3,107400
+Greenfield,apartment,59,1,1,1960,14.6,1.4,no,yes,G,4,88200
+Old Town,detached house,172,5,3,1958,1.1,0.8,yes,yes,G,2,600000
+Industrial Park,apartment,96,2,2,2011,7.5,1.9,no,yes,C,3,147200
+Industrial Park,terraced house,88,3,1,1966,7.3,1.1,yes,no,E,3,145600
+Harbour,apartment,72,2,2,2013,3.0,1.9,no,no,D,4,178300
+Industrial Park,apartment,97,2,2,1955,7.0,2.8,no,no,G,3,131300
+Old Town,apartment,73,2,1,2019,1.4,1.0,no,no,C,5,246600
+University,terraced house,105,3,1,1988,4.2,2.4,yes,yes,C,4,216300
+Industrial Park,apartment,59,2,1,1957,8.8,2.7,no,yes,G,3,76100
+Lakeside,terraced house,135,3,2,1993,8.3,1.1,no,no,D,4,326000
+Harbour,terraced house,112,5,3,1979,3.3,2.6,yes,no,E,4,281600
+Industrial Park,apartment,66,2,1,2018,6.8,1.3,no,yes,C,4,100800
+Industrial Park,terraced house,191,7,3,1992,5.4,1.7,yes,yes,D,3,341100
+Harbour,detached house,125,5,2,1970,5.5,0.6,yes,yes,D,1,285800
+Old Town,apartment,103,3,2,1915,1.1,2.5,yes,no,G,3,363400
+Greenfield,apartment,101,3,2,2019,7.0,0.7,yes,yes,C,4,258700
+Riverside,apartment,98,3,1,2015,2.1,1.5,no,yes,B,1,264700
+Riverside,apartment,65,2,1,2022,2.2,1.4,no,yes,B,3,211600
+Hillcrest,apartment,50,1,1,1970,6.3,1.7,no,yes,G,5,100300
+Old Town,terraced house,130,4,3,1989,1.2,1.7,yes,no,D,2,332100
+University,apartment,62,2,1,1980,4.4,1.5,no,no,F,4,113800
+University,terraced house,112,3,3,2000,6.4,1.8,yes,yes,D,3,279300
+Industrial Park,apartment,51,1,1,1975,7.7,1.0,no,yes,E,2,72300
+University,terraced house,112,3,1,1980,4.5,1.5,yes,no,E,4,197300
+Hillcrest,detached house,94,3,2,1990,5.1,3.7,yes,no,D,3,269600
+Riverside,detached house,188,5,3,2004,2.4,0.6,yes,no,C,4,507900
+Riverside,terraced house,137,4,1,1956,2.1,0.7,yes,yes,F,2,311900
+Old Town,apartment,46,1,1,1986,1.2,2.7,no,no,E,3,127800
+Hillcrest,apartment,105,4,2,2023,8.4,1.9,no,yes,C,3,267300
+Greenfield,apartment,49,1,1,1964,9.5,0.9,no,no,G,3,76000
+Hillcrest,detached house,146,5,3,1987,5.5,1.6,no,yes,D,3,354100
+Lakeside,apartment,82,2,2,1968,4.8,0.9,no,yes,F,3,171500
+Greenfield,terraced house,114,4,2,1978,8.9,1.9,no,yes,F,3,203900
+Greenfield,apartment,45,2,1,2024,7.8,1.0,no,no,A,3,91700
+Industrial Park,terraced house,109,3,2,1992,6.8,1.8,no,yes,D,4,167600
+University,detached house,211,7,3,2025,4.6,4.9,yes,no,C,1,524000
+Harbour,apartment,55,1,1,2009,3.0,1.4,no,no,B,4,163000
+Industrial Park,apartment,81,3,2,2018,4.5,0.5,yes,yes,B,3,163700
+Harbour,apartment,41,2,2,1955,4.1,0.3,no,yes,G,3,110700
+Riverside,apartment,98,5,1,1975,1.8,1.4,no,no,E,3,229900
+Hillcrest,detached house,126,4,1,2008,7.1,1.4,yes,yes,C,2,406300
+Lakeside,apartment,82,3,1,1997,9.7,0.6,no,yes,D,3,181300
+Hillcrest,apartment,48,2,1,2015,7.3,1.5,no,no,B,4,142300
+University,detached house,236,7,4,1980,5.5,0.8,yes,yes,G,2,521400
+Lakeside,apartment,101,3,2,1969,9.4,1.4,no,yes,D,3,193200
+Greenfield,terraced house,103,3,1,2025,9.7,1.3,no,yes,A,3,210800
+Harbour,terraced house,83,2,2,2005,4.1,0.9,yes,no,B,3,275200
+Lakeside,detached house,157,5,2,2011,11.1,1.1,no,no,B,3,337100
+Industrial Park,apartment,44,1,1,1978,6.9,1.5,no,no,E,4,63300
+Greenfield,apartment,76,2,2,2001,10.5,4.0,no,yes,C,3,123400
+Riverside,apartment,73,1,1,1955,3.4,3.1,no,yes,F,3,167300
+Industrial Park,detached house,161,5,3,2003,7.2,0.9,yes,yes,D,5,250600
+Harbour,detached house,120,5,1,2001,2.5,0.4,yes,no,C,3,358300
+University,apartment,63,2,1,1973,3.3,1.1,no,no,G,3,111000
+Lakeside,apartment,75,2,1,2010,7.5,1.1,no,yes,B,3,173400
+Greenfield,detached house,177,6,3,1994,12.4,2.0,yes,no,D,3,265200
+Hillcrest,detached house,156,5,3,1969,6.9,3.4,yes,yes,G,4,454400
+University,apartment,66,2,1,1991,3.1,1.7,no,no,D,4,150900
+Greenfield,terraced house,93,3,2,1998,12.1,2.5,no,yes,C,2,157200
+Riverside,apartment,81,4,1,1986,1.7,1.3,no,yes,D,3,208400
+Hillcrest,detached house,218,7,3,2006,4.1,1.0,yes,no,C,3,599400
+Riverside,apartment,49,2,2,2023,2.5,0.5,no,yes,C,4,160100
+Lakeside,detached house,153,5,2,2024,12.9,2.3,yes,yes,C,2,305600
+Riverside,apartment,108,3,2,1959,3.0,0.5,yes,yes,G,5,282800
+University,terraced house,101,4,2,2020,3.3,1.7,no,no,B,1,224600
+Old Town,terraced house,102,4,2,2019,1.3,1.6,yes,no,C,4,354000
+Old Town,apartment,67,2,1,1925,1.1,1.7,no,no,G,5,234000
+Hillcrest,terraced house,92,3,2,1990,5.8,1.5,no,yes,E,4,275600
+Riverside,apartment,100,3,2,2007,2.2,1.7,no,no,E,3,232800
+Lakeside,apartment,76,2,1,1995,9.8,2.6,no,yes,E,4,130900
+University,apartment,76,2,1,1968,3.3,1.5,no,yes,G,3,160700
+Greenfield,apartment,51,1,1,2020,6.5,2.4,no,no,B,3,104800
+Harbour,apartment,50,2,1,1978,2.6,2.2,no,no,F,3,118200
+Harbour,apartment,66,4,1,1958,4.2,0.6,yes,no,G,4,176700
+Riverside,detached house,149,3,3,1959,3.2,0.8,yes,yes,F,2,431700
+University,apartment,75,3,2,2007,6.4,0.7,no,no,B,5,182900
+Industrial Park,terraced house,116,4,3,2021,6.5,1.5,yes,no,B,3,219500
+Harbour,detached house,133,4,2,1967,3.4,0.6,no,no,G,4,357000
+University,apartment,59,1,1,1979,3.0,3.6,no,no,F,3,108800
+Greenfield,terraced house,85,3,2,1993,8.8,3.0,no,yes,F,3,121900
+Harbour,apartment,80,3,1,1993,3.0,0.9,no,no,E,2,156200
+Lakeside,detached house,144,3,2,1985,7.1,0.8,yes,yes,F,3,307200
+Harbour,apartment,103,2,1,2006,4.0,0.9,no,yes,C,3,276300
+Hillcrest,detached house,146,4,2,2004,5.2,0.9,yes,yes,D,3,447100
+Greenfield,apartment,66,2,2,1984,6.4,2.8,no,yes,E,2,103700
+Greenfield,terraced house,95,2,2,2007,6.6,1.0,yes,no,C,3,201500
+Harbour,apartment,72,3,1,2004,2.0,1.3,yes,yes,B,4,244400
+Industrial Park,apartment,35,1,1,2022,5.5,1.2,no,no,A,1,58100
+Hillcrest,terraced house,141,5,2,1987,4.9,1.0,yes,yes,D,3,397100
+Harbour,terraced house,138,4,3,2010,3.1,1.2,yes,yes,B,5,466100
+University,apartment,87,2,1,1986,3.4,0.7,no,yes,E,1,149500
+Greenfield,detached house,178,6,3,1996,6.4,0.6,yes,yes,C,2,428300
+Greenfield,apartment,82,3,2,2022,8.7,1.8,no,yes,C,4,172700
+Riverside,apartment,58,3,1,2015,2.4,0.6,no,yes,B,2,181000
+Riverside,apartment,81,2,1,2003,3.1,0.8,no,yes,D,3,194700
+University,detached house,121,4,2,1975,4.1,2.0,yes,yes,D,4,283700
+Industrial Park,detached house,240,6,3,1958,7.5,2.8,yes,yes,F,4,357600
+Greenfield,apartment,107,3,2,1985,6.6,0.8,yes,yes,C,5,223100
+Lakeside,apartment,84,3,1,1970,12.2,1.8,no,no,G,3,115900
+Lakeside,detached house,98,2,1,2017,11.0,1.3,yes,yes,C,3,193600
+University,terraced house,60,1,1,2016,3.7,0.9,yes,yes,B,4,152400
+University,apartment,52,2,1,1972,3.9,1.5,no,yes,D,3,119100
+Hillcrest,terraced house,85,3,1,1977,7.3,0.5,yes,yes,F,4,209400
+Old Town,detached house,130,4,3,2015,1.4,1.2,yes,no,C,3,373700
+Lakeside,detached house,166,4,2,1964,8.4,3.7,yes,yes,F,2,378300
+Greenfield,apartment,56,2,1,1961,7.4,1.3,no,yes,F,4,114300
+Greenfield,apartment,58,3,1,1994,13.9,1.1,yes,yes,D,5,109500
+Riverside,terraced house,135,4,2,2010,2.9,2.5,no,no,B,4,307900
+Lakeside,apartment,79,2,1,2019,8.1,2.0,no,yes,C,4,163600
+Industrial Park,apartment,75,2,2,1969,7.5,1.7,no,yes,F,1,82100
+Greenfield,apartment,51,2,1,1982,5.5,1.7,no,yes,E,3,99700
+University,detached house,181,6,3,2008,4.5,0.5,yes,no,C,4,410600
+University,terraced house,92,2,1,1977,3.5,2.6,no,yes,F,5,168800
+Lakeside,apartment,77,1,1,1993,9.9,8.0,yes,yes,D,4,142400
+Riverside,detached house,129,3,1,2019,2.8,2.3,yes,no,A,3,410200
+Hillcrest,apartment,79,3,2,2018,8.1,2.9,no,no,C,4,210300
+Old Town,apartment,102,4,1,1897,1.2,2.3,no,no,G,2,267000
+Hillcrest,apartment,61,1,1,2006,9.4,3.3,no,no,D,2,117900
+Greenfield,detached house,227,7,3,2003,10.9,2.3,yes,yes,B,4,347400
+Industrial Park,apartment,87,4,1,2017,5.4,1.3,no,yes,C,3,137700
+Greenfield,apartment,101,4,2,1980,8.0,2.0,no,yes,E,3,146300
+Harbour,terraced house,118,3,1,2006,3.0,4.0,yes,yes,D,3,269800
+University,detached house,151,4,2,1981,2.9,2.4,yes,yes,F,2,353800
+Greenfield,detached house,154,4,2,1971,6.4,1.1,yes,no,F,3,328500
+Lakeside,apartment,98,3,1,2007,9.9,0.6,yes,yes,C,4,224800
+Industrial Park,apartment,50,1,1,2010,4.5,1.0,no,yes,D,3,90400
+Lakeside,detached house,282,7,4,1991,8.2,1.5,no,yes,D,4,600500
+Lakeside,apartment,67,2,1,2017,7.6,5.0,no,yes,C,4,148000
+Hillcrest,detached house,203,6,3,2025,8.1,0.5,yes,yes,A,3,633000
+Hillcrest,terraced house,110,4,2,2021,7.6,1.0,yes,yes,C,3,268300
+Harbour,detached house,208,6,4,1991,4.3,1.2,yes,no,C,4,659100
+Old Town,apartment,97,4,1,2012,0.9,0.6,no,yes,B,3,288400
+Hillcrest,apartment,90,3,1,1990,6.3,0.7,yes,no,D,3,213300
+Industrial Park,apartment,83,2,1,1975,6.6,2.2,no,no,E,3,127600
+Greenfield,terraced house,134,3,3,2006,11.4,1.1,yes,yes,C,4,247400
+Old Town,detached house,173,5,2,2016,1.4,2.5,yes,no,C,4,634900
+Riverside,apartment,65,3,1,1996,1.7,0.3,no,no,D,1,169500
+Harbour,terraced house,116,3,2,1985,3.5,1.3,no,yes,D,2,259600
+Old Town,detached house,186,7,3,1931,1.2,3.0,yes,no,G,3,547900
+Hillcrest,apartment,83,3,1,2009,6.6,1.0,no,no,B,1,188400
+Greenfield,detached house,181,6,3,1962,8.4,3.5,yes,yes,G,3,292100
+Old Town,apartment,57,1,1,1894,1.1,3.4,no,yes,G,3,153200
+Old Town,detached house,127,4,2,2008,0.9,5.1,yes,no,B,3,427300
+Hillcrest,apartment,62,2,1,1958,6.5,1.7,no,yes,F,3,144800
+University,detached house,195,7,3,2009,4.0,5.3,yes,yes,C,3,413900
+Greenfield,terraced house,111,4,2,1979,7.3,2.9,yes,no,D,1,191100
+University,apartment,94,4,1,2023,5.0,0.5,no,yes,A,4,201800
+Industrial Park,terraced house,132,4,3,1989,8.4,0.8,no,yes,C,2,205100
+University,detached house,152,5,2,2023,3.3,2.6,yes,yes,C,4,450700
+Greenfield,terraced house,105,4,3,1995,6.0,2.8,yes,yes,E,5,227200
+Harbour,apartment,72,3,1,2006,2.5,1.5,no,no,A,5,180700
+Greenfield,apartment,71,2,1,1980,8.2,1.6,no,yes,E,3,113600
+Greenfield,apartment,97,3,2,1991,10.3,3.3,no,no,E,3,151500
+University,apartment,70,2,1,1988,3.6,3.0,no,yes,E,2,123600
+Greenfield,terraced house,62,1,1,2000,8.4,2.5,yes,yes,E,3,94500
+Lakeside,terraced house,160,5,3,2024,8.0,2.3,yes,yes,A,3,386800
+Riverside,detached house,131,2,2,1956,2.5,1.4,yes,no,G,4,325800
+University,detached house,120,4,2,1990,4.9,0.8,yes,no,D,3,354900
+Hillcrest,apartment,62,2,1,2001,6.9,1.0,no,yes,D,3,143900
+Industrial Park,apartment,57,2,1,1996,7.6,1.0,no,yes,B,2,100100
+University,apartment,50,2,1,1995,5.0,1.2,no,yes,D,2,103000
+Lakeside,detached house,188,6,2,1967,17.2,3.2,no,no,E,4,275600
+Greenfield,terraced house,72,2,1,1955,8.8,0.6,no,no,G,3,108800
+Hillcrest,apartment,100,3,2,1977,5.7,0.8,no,yes,E,5,276100
+Industrial Park,detached house,176,5,3,1957,6.4,1.4,yes,yes,F,5,321100
+Hillcrest,apartment,63,2,1,1961,6.6,3.5,no,no,G,3,135000
+Hillcrest,apartment,86,3,1,1990,5.3,1.8,no,no,E,4,215300
+Harbour,apartment,70,3,2,1994,2.8,1.9,no,yes,E,3,216800
+Riverside,detached house,137,5,2,1988,2.2,1.0,no,yes,D,2,390400
+Lakeside,detached house,194,6,3,1979,7.8,2.4,yes,yes,F,4,429200
+Hillcrest,apartment,103,3,2,1985,9.3,5.5,no,no,F,3,188400
+University,terraced house,161,6,3,1995,3.1,1.5,no,yes,E,1,284500
+University,apartment,132,4,2,1995,6.2,2.0,no,yes,D,3,305300
+University,apartment,77,2,1,2021,5.3,2.0,no,no,B,3,156900
+Hillcrest,apartment,46,2,1,2001,6.4,1.3,no,no,D,4,106000
+Greenfield,apartment,69,1,1,1969,9.5,0.9,no,no,E,2,98600
+Lakeside,terraced house,130,4,2,1968,10.8,2.3,no,yes,F,3,238900
+Greenfield,apartment,57,1,1,1956,9.7,2.9,no,yes,G,3,95400
+Old Town,apartment,89,2,1,1902,1.6,2.5,no,no,G,1,249100
+Lakeside,apartment,102,4,1,1958,9.7,3.5,no,yes,G,3,176500
+Greenfield,apartment,73,2,1,2024,10.1,0.9,no,yes,A,2,124900
+Old Town,apartment,64,3,1,1892,1.7,2.4,no,no,G,5,199300
+Harbour,apartment,69,2,2,1956,2.3,1.3,no,yes,G,2,158500
+Industrial Park,apartment,66,2,1,1997,8.4,0.8,no,no,D,2,88200
+Greenfield,apartment,67,3,1,2018,8.1,2.3,no,no,C,3,135300
+Hillcrest,apartment,75,2,1,2002,5.6,0.6,no,yes,E,4,170600
+Greenfield,detached house,247,7,4,1976,8.5,1.6,yes,yes,E,3,501200
+Greenfield,apartment,49,1,1,2002,8.0,1.2,no,no,B,3,102000
+Lakeside,terraced house,83,2,1,2017,13.9,1.0,no,yes,D,3,186200
+Greenfield,detached house,131,5,2,1971,13.2,0.2,yes,yes,E,4,169400
+Industrial Park,apartment,67,2,2,2021,6.1,2.1,no,yes,A,3,126500
+Riverside,apartment,66,2,1,2017,3.4,3.1,no,no,C,4,170400
+University,detached house,119,4,2,1988,4.9,0.7,yes,yes,C,2,256000
+Lakeside,apartment,68,2,1,2020,6.3,1.1,no,yes,B,3,168400
+Industrial Park,apartment,71,3,1,2014,7.8,1.0,no,no,C,2,86900
+Old Town,apartment,50,1,1,1967,1.3,3.3,no,no,E,3,137100
+University,detached house,119,4,1,1965,3.3,0.6,yes,yes,F,3,253600
+Greenfield,terraced house,134,4,2,1988,9.3,0.9,yes,yes,C,3,266200
+Lakeside,apartment,79,3,2,2008,7.4,1.1,no,yes,C,4,172600
+Riverside,apartment,57,2,1,1974,2.4,0.5,no,yes,D,4,140900
+Industrial Park,terraced house,81,2,2,1963,6.2,5.7,yes,yes,E,3,111700
+Harbour,apartment,77,2,2,1988,2.2,0.6,no,yes,E,4,174300
+Industrial Park,terraced house,91,4,2,1988,7.0,0.7,no,no,E,2,108900
+Greenfield,detached house,169,5,2,1993,5.9,1.7,yes,yes,E,3,270500
+Hillcrest,apartment,76,3,1,2006,10.4,2.7,no,yes,C,4,178300
+Hillcrest,apartment,104,2,3,1956,7.4,1.3,no,yes,G,3,246200
+Riverside,apartment,64,2,1,1963,2.9,1.6,no,yes,E,3,156900
+University,apartment,73,3,2,1985,4.9,0.5,no,yes,E,2,142900
+Greenfield,detached house,128,4,2,1957,8.5,1.1,yes,yes,G,3,237100
+Industrial Park,detached house,197,6,3,2020,6.2,1.4,yes,yes,B,4,333400
+Greenfield,terraced house,143,6,3,2013,12.1,0.7,yes,yes,A,4,320300
+Greenfield,terraced house,132,4,2,1976,8.2,1.0,no,no,G,5,195200
+Greenfield,apartment,67,2,1,2019,7.4,3.0,yes,no,C,3,124200
+Riverside,detached house,142,5,2,2007,2.2,1.7,yes,no,E,3,375200
+University,apartment,54,3,2,1971,3.7,2.8,yes,no,G,5,100400
+Greenfield,detached house,147,4,2,1965,4.6,0.8,yes,yes,F,2,270700
+Old Town,terraced house,134,3,2,1960,1.5,1.1,no,no,F,2,365600
+Riverside,apartment,86,2,2,1981,3.0,1.0,no,yes,E,3,236700
+University,detached house,211,6,3,2012,2.5,0.3,yes,yes,C,4,666400
+Hillcrest,apartment,59,1,1,1956,7.3,1.8,no,yes,G,3,121100
+University,apartment,73,2,1,1959,4.0,1.2,no,yes,G,5,140900
+Industrial Park,terraced house,99,3,1,2017,7.4,2.4,no,no,D,4,158900
+Industrial Park,terraced house,82,2,2,1977,6.9,1.2,yes,no,F,3,95600
+Old Town,apartment,60,2,1,1911,1.1,0.8,no,no,G,5,181400
+Hillcrest,detached house,158,5,3,1958,3.9,1.7,yes,yes,G,2,497500
+Industrial Park,terraced house,83,1,2,1982,9.2,2.6,yes,no,D,3,107400
+Lakeside,terraced house,115,4,2,1986,8.8,5.0,no,yes,E,2,222000
+Hillcrest,detached house,219,7,3,1988,4.4,0.7,yes,yes,F,3,560400
+Riverside,detached house,163,5,2,2015,2.6,2.8,yes,no,B,4,577200
+Lakeside,detached house,139,4,2,1955,9.6,1.6,yes,no,G,3,245200
+Lakeside,apartment,55,1,1,1981,5.6,0.6,no,no,E,3,116300
+Lakeside,terraced house,88,3,1,1972,9.3,1.5,no,yes,G,4,132200
+Industrial Park,detached house,140,4,3,1997,5.6,0.9,yes,yes,D,2,231800
+Harbour,detached house,135,5,2,1955,3.6,2.2,yes,no,G,4,358600
+Hillcrest,terraced house,68,3,1,1959,8.5,0.6,yes,yes,G,5,182700
+Lakeside,terraced house,114,3,2,1984,8.6,0.4,yes,yes,E,4,219300
+Greenfield,apartment,69,2,1,2012,8.8,0.9,no,yes,C,1,127700
+Hillcrest,apartment,69,2,1,2011,6.0,2.8,no,yes,C,4,175500
+Lakeside,detached house,195,7,4,1981,8.2,0.9,yes,yes,E,3,458800
+Lakeside,terraced house,106,3,2,1989,10.0,1.2,yes,no,F,4,186200
+Greenfield,terraced house,139,4,2,2022,9.0,1.9,no,no,A,3,339300
+Riverside,apartment,30,1,1,1961,2.6,0.8,no,yes,G,2,75300
+Old Town,apartment,56,3,1,1945,1.1,1.2,no,yes,G,4,165600
+University,detached house,242,7,4,2011,4.0,1.1,yes,yes,C,4,578000
+Greenfield,apartment,109,4,2,2017,7.6,3.0,no,no,B,2,203700
+Riverside,apartment,67,2,1,1972,2.5,0.5,no,yes,F,4,173500
+University,apartment,41,2,1,1977,3.2,1.2,no,no,F,3,83400
+University,detached house,146,5,3,1960,5.5,0.5,yes,no,F,3,299100
+Lakeside,apartment,59,1,1,1957,9.1,1.1,no,yes,G,5,108800
+Greenfield,terraced house,69,2,2,2019,10.3,1.4,no,no,C,3,123500
+Greenfield,detached house,160,4,2,1991,5.9,1.8,yes,yes,D,4,349900
+Hillcrest,terraced house,140,4,3,1981,8.6,3.0,no,no,E,3,349600
+Hillcrest,apartment,58,2,2,2005,9.1,0.8,no,yes,B,4,138700
+Riverside,apartment,74,3,1,2005,3.8,0.5,no,no,E,5,181300
+Industrial Park,terraced house,75,2,1,1962,7.1,0.6,yes,yes,F,3,106100
+Greenfield,apartment,52,1,1,2019,10.8,1.8,no,no,C,4,101800
+Industrial Park,apartment,68,2,1,2018,5.5,2.1,no,yes,A,3,108900
+Greenfield,apartment,57,1,1,1994,8.1,1.3,no,no,C,4,105800
+Riverside,terraced house,83,4,1,2013,3.4,2.8,yes,yes,B,3,227200
+Lakeside,detached house,126,3,2,1988,11.6,2.4,yes,no,B,3,245800
+Industrial Park,apartment,59,1,1,1963,6.1,0.7,no,yes,E,3,84800
+Industrial Park,terraced house,107,3,3,1957,5.0,1.5,yes,no,G,3,184700
+Hillcrest,detached house,73,2,1,2005,7.6,0.5,yes,yes,C,5,224200
+Harbour,apartment,92,3,1,1969,3.0,1.5,no,yes,E,3,234900
+Harbour,apartment,77,2,1,1965,3.2,2.3,no,yes,G,3,174200
+Lakeside,terraced house,116,3,2,2012,11.4,1.3,no,no,B,3,187400
+Riverside,apartment,74,2,1,2001,2.3,2.7,no,yes,D,3,211200
+Hillcrest,apartment,81,3,1,1961,3.4,1.0,no,yes,E,3,191900
+Harbour,detached house,139,4,3,1959,3.0,3.0,yes,no,G,3,356100
+Industrial Park,apartment,80,2,2,1998,7.4,1.6,yes,no,D,3,121500
+Riverside,detached house,195,6,3,1987,2.2,2.9,no,no,E,1,410100
+Riverside,terraced house,87,3,1,2012,1.9,0.6,yes,yes,B,5,263000
+Old Town,terraced house,116,3,2,1985,1.1,0.8,yes,yes,E,3,311900
+Riverside,apartment,75,1,2,1970,2.1,0.9,no,yes,F,2,243400
+Old Town,apartment,42,1,1,1924,1.4,0.3,no,no,G,2,116900
+Industrial Park,terraced house,113,3,2,1959,6.8,0.8,yes,yes,G,1,148700
+Industrial Park,apartment,68,3,1,1993,12.6,0.7,no,no,D,4,83700
+Industrial Park,apartment,84,2,1,1994,6.8,0.7,no,yes,E,3,122900
+Riverside,apartment,60,3,1,2000,2.1,3.0,no,yes,E,3,142800
+Industrial Park,detached house,146,4,3,2019,6.4,1.5,yes,yes,B,3,351600
+Old Town,terraced house,95,3,1,1961,1.2,0.7,no,no,F,3,271700
+Hillcrest,apartment,72,3,1,1986,6.5,5.3,no,no,C,2,169300
+Greenfield,apartment,75,2,1,1977,14.7,0.3,no,yes,D,2,96200
+Hillcrest,apartment,81,3,1,1990,5.1,0.8,no,yes,D,5,256700
+Greenfield,terraced house,84,3,1,2011,7.9,0.6,yes,no,A,2,178600
+Harbour,detached house,201,7,4,2018,2.6,2.1,no,yes,D,3,600900
+Hillcrest,terraced house,123,4,1,2016,7.1,1.5,yes,yes,C,3,331200
+Industrial Park,apartment,76,1,2,2001,7.5,3.6,no,yes,D,4,120600
+Lakeside,terraced house,124,5,2,1968,19.6,0.7,yes,no,G,1,158400
+Greenfield,apartment,58,1,1,1969,11.1,0.9,yes,no,E,5,79000
+Harbour,apartment,52,3,1,1993,2.8,3.1,no,yes,C,4,128200
+University,apartment,66,2,1,2007,6.9,0.5,no,yes,C,4,147300
+Harbour,detached house,185,5,2,1982,3.1,1.3,no,no,F,4,488800
+Greenfield,detached house,276,7,4,2022,6.9,2.6,yes,no,A,5,655100
+Greenfield,apartment,100,3,2,1989,8.4,1.5,no,yes,D,3,169900
+Greenfield,terraced house,96,3,2,1964,9.5,1.4,yes,no,G,5,200600
+Riverside,terraced house,90,3,1,1962,2.3,2.4,no,yes,G,3,184600
+Hillcrest,terraced house,80,3,2,1991,3.7,2.6,yes,no,D,3,238100
+Old Town,terraced house,139,4,2,2024,1.0,0.5,yes,no,D,3,418800
+Industrial Park,detached house,173,5,2,1963,7.5,1.1,yes,no,G,4,249600
+Lakeside,detached house,155,5,2,2021,8.3,3.6,yes,no,B,3,315700
+University,apartment,86,4,1,1959,3.5,2.4,yes,yes,F,4,180000
+Greenfield,terraced house,112,4,2,1980,6.2,1.3,yes,no,E,4,202900
+Hillcrest,detached house,325,7,4,1982,9.4,5.1,yes,no,F,3,747200
+Greenfield,terraced house,100,4,2,2007,8.5,1.7,no,yes,D,1,157100
+Lakeside,detached house,136,4,2,2018,6.2,8.0,yes,yes,C,3,291400
+Riverside,apartment,44,2,1,1995,3.1,2.8,no,yes,D,4,118700
+Greenfield,apartment,93,3,2,1957,10.0,0.4,no,yes,G,1,125900
+Old Town,apartment,83,3,2,1983,1.3,3.2,yes,no,E,3,213600
+Greenfield,apartment,69,2,1,2011,6.3,1.8,no,no,B,3,120900
+Greenfield,apartment,67,2,1,2007,10.0,3.3,no,no,B,2,109100
+Greenfield,terraced house,70,2,1,2008,9.4,1.3,yes,yes,C,3,114500
+University,terraced house,99,3,2,1986,2.5,1.3,yes,yes,D,4,219400
+Lakeside,apartment,114,3,1,1963,9.9,1.4,no,no,G,4,198400
+Lakeside,apartment,56,2,1,2022,4.9,1.7,no,yes,C,4,120900
+Riverside,detached house,170,5,2,2018,3.1,0.8,yes,yes,A,3,494800
+Harbour,apartment,82,1,1,2006,3.8,1.0,no,yes,B,3,166100
+Lakeside,apartment,73,3,1,1969,6.9,3.3,no,no,E,3,135900
+Old Town,apartment,88,3,1,1926,1.7,0.8,no,no,G,3,224600
+University,detached house,160,5,2,1990,3.6,1.8,yes,yes,D,3,338300
+Industrial Park,detached house,174,5,3,1962,9.5,0.8,no,yes,F,3,227800
+Riverside,apartment,89,3,3,1965,2.6,0.6,no,no,F,2,237100
+Harbour,apartment,91,3,2,1957,3.9,0.7,no,yes,G,3,188900
+Hillcrest,terraced house,113,4,2,2016,5.8,1.2,yes,yes,A,3,384300
+Greenfield,apartment,63,3,2,1964,10.2,1.0,no,no,G,3,85000
+Harbour,detached house,88,2,1,1977,4.3,3.8,yes,no,E,4,235700
+Greenfield,detached house,150,5,3,1985,11.6,3.0,yes,yes,E,4,279100
+Riverside,terraced house,100,3,2,1957,2.2,1.8,yes,no,G,2,248700
+Riverside,apartment,59,2,1,2024,2.2,2.7,no,yes,B,3,185200
+Hillcrest,detached house,168,6,2,1960,5.8,2.1,yes,yes,E,3,403500
+University,apartment,49,3,1,2020,6.8,1.4,no,no,C,2,100000
+University,detached house,140,4,2,1984,3.6,0.4,yes,yes,F,5,318800
+Industrial Park,terraced house,79,3,1,1969,9.0,0.9,no,yes,E,2,108200
+Industrial Park,detached house,110,4,3,1955,6.2,0.5,yes,no,G,2,171800
+Greenfield,apartment,54,2,1,1995,7.7,2.2,no,yes,E,5,105600
+Industrial Park,terraced house,76,2,1,1989,14.3,3.7,no,no,F,5,77000
+University,apartment,86,3,1,1995,3.0,1.0,no,no,E,3,160300
+Greenfield,apartment,58,2,1,2014,11.5,1.0,no,no,B,3,85900
+Old Town,apartment,80,3,2,1888,0.9,1.6,no,yes,G,4,259700
+Lakeside,apartment,69,2,1,1992,11.7,0.7,yes,no,B,3,148800
+Greenfield,detached house,169,5,3,1986,8.9,0.6,yes,yes,E,3,304400
+Hillcrest,detached house,112,4,2,2012,7.7,1.8,yes,no,C,4,269000
+University,terraced house,154,4,2,1984,3.1,1.5,yes,no,D,4,305300
+University,terraced house,136,4,2,1983,5.4,1.5,no,yes,D,5,312800
+Greenfield,apartment,81,2,1,2015,4.7,1.1,no,yes,C,2,173700
+University,detached house,236,6,2,1960,6.5,0.7,yes,yes,F,4,490800
+Harbour,apartment,69,2,1,1961,3.1,3.4,no,yes,G,5,186300
+Lakeside,terraced house,107,3,2,1978,6.6,0.4,yes,yes,E,4,277600
+Lakeside,terraced house,125,3,1,1977,8.3,0.9,no,no,F,3,213100
+Industrial Park,detached house,157,4,2,1994,9.7,1.0,yes,yes,D,3,231300
+University,terraced house,104,3,2,1965,3.0,0.8,yes,yes,G,4,225900
+Greenfield,apartment,69,2,1,1967,10.2,1.8,no,yes,F,3,115300
+Greenfield,apartment,89,3,2,1963,10.8,3.8,no,no,F,3,115800
+University,apartment,85,3,1,1962,4.1,1.4,no,yes,G,4,176900
+Harbour,terraced house,99,3,1,1979,5.4,0.7,yes,no,E,2,227700
+Old Town,apartment,106,4,2,1892,1.3,3.2,no,no,G,3,406700
+Riverside,apartment,138,4,2,1999,2.3,2.4,no,yes,C,3,386600
+Lakeside,terraced house,93,3,2,1982,11.4,0.8,yes,no,E,3,169500
+Greenfield,detached house,179,5,3,1994,10.5,3.2,yes,no,E,5,332600
+Riverside,terraced house,101,3,1,1991,4.2,1.5,yes,yes,C,5,292600
+Old Town,terraced house,86,2,1,1969,1.3,4.2,yes,no,F,4,259700
+Harbour,apartment,80,3,2,2025,3.4,2.1,no,no,A,4,252800
+Harbour,apartment,49,2,2,1968,4.7,0.7,no,yes,E,3,150000
+Harbour,apartment,67,4,1,2007,3.4,1.0,no,no,B,4,177400
+Harbour,apartment,68,3,1,1976,3.7,2.7,no,yes,E,5,144800
+Greenfield,apartment,70,2,1,1963,7.4,2.9,no,no,G,3,104000
+Harbour,apartment,60,2,2,2008,3.7,1.4,no,yes,D,3,145300
+Greenfield,apartment,65,2,1,1960,8.0,2.1,no,yes,E,3,93300
+Greenfield,detached house,131,5,3,1978,11.3,7.3,yes,yes,D,2,268500
+Riverside,apartment,57,1,1,2013,3.7,0.6,no,no,B,4,151500
+Harbour,apartment,49,1,1,1981,4.4,2.5,yes,no,E,5,134900
+Lakeside,apartment,105,3,2,1984,5.7,1.3,no,yes,D,5,208500
+Greenfield,apartment,38,1,1,1965,12.2,1.3,no,yes,G,4,56200
+Hillcrest,terraced house,119,3,2,1960,8.0,4.5,yes,yes,F,3,291400
+Hillcrest,apartment,86,2,1,2015,3.2,1.2,no,yes,C,4,341700
+Old Town,apartment,121,4,3,1938,1.2,0.6,no,no,G,4,323100
+Riverside,terraced house,85,2,1,1981,2.4,0.6,no,no,E,5,239600
+Old Town,detached house,103,3,1,1895,1.0,1.0,yes,no,G,5,279900
+Industrial Park,terraced house,93,3,1,1991,7.8,0.5,no,yes,E,3,133500
+University,terraced house,157,4,2,2016,3.0,0.8,yes,no,B,2,410800
+Old Town,apartment,84,2,1,1928,1.1,1.4,no,no,G,2,197500
+Lakeside,apartment,63,2,1,1995,7.3,0.5,no,yes,F,2,106800
+Hillcrest,detached house,123,4,2,1997,6.2,2.8,no,yes,D,3,315000
+Harbour,apartment,66,3,1,1985,2.4,2.6,no,yes,E,3,157800
+Old Town,apartment,97,4,2,1939,0.9,6.4,no,yes,G,4,244800
+Lakeside,apartment,113,4,2,1964,7.4,6.7,no,yes,G,3,211200
+Hillcrest,apartment,117,4,1,1996,8.1,0.8,no,no,D,3,258900
+Lakeside,apartment,73,2,2,1985,12.5,4.3,no,no,C,5,134700
+Riverside,terraced house,96,2,2,1976,2.3,1.6,no,yes,C,5,246600
+Lakeside,apartment,52,2,1,2000,6.7,0.9,no,yes,E,3,124600
+Lakeside,apartment,79,3,1,1956,11.4,1.3,no,yes,G,4,126200
+Lakeside,apartment,95,3,2,1968,8.1,1.8,no,no,E,3,203900
+Hillcrest,apartment,71,3,1,1980,5.6,1.6,yes,yes,C,2,176900
+Riverside,terraced house,84,3,1,1958,3.0,2.7,yes,yes,G,2,210400
+Greenfield,detached house,146,5,3,1966,10.3,3.2,no,no,E,3,239200
