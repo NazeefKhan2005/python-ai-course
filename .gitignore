@@ -1,0 +1,20 @@
+# Python: the course's virtual environment and tool caches
+.venv/
+__pycache__/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Node: puppeteer-core and axe-core for the browser checks (npm install --no-save)
+node_modules/
+
+# Secrets: API keys stay in environment variables, never in the repository
+.env
+
+# Claude Code: personal settings
+.claude/settings.local.json
+
+# macOS Finder
+.DS_Store

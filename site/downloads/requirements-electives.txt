@@ -1,0 +1,10 @@
+# Elective modules E1-E7 (Python 3.15). Install after requirements-core.txt:
+#   python -m pip install -r requirements-electives.txt
+prophet==1.5.0
+opencv-python==5.1.0.95
+gymnasium==1.4.0
+networkx==3.7
+geopandas==1.2.0
+shapely==2.2.0
+# E4: PySpark installs from source (pure Python, no compiler needed) and needs Java 17 or later.
+pyspark==4.3.0

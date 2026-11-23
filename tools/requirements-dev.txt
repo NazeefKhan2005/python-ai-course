@@ -1,0 +1,9 @@
+# Everything a course builder needs: every library the pages use, so CI can run every
+# example, session, exercise and notebook check (Python 3.15). From the repository root:
+#   python -m pip install -r tools/requirements-dev.txt
+-r ../site/downloads/requirements-tools.txt
+-r ../site/downloads/requirements-core.txt
+-r ../site/downloads/requirements-ml.txt
+-r ../site/downloads/requirements-deep-learning.txt
+-r ../site/downloads/requirements-production.txt
+-r ../site/downloads/requirements-electives.txt

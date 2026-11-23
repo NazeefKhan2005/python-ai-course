@@ -1,0 +1,9 @@
+# Testing and code-quality tools, used from the first lesson (Phases 0-2). Python 3.15.
+# Install into your course virtual environment:
+#   python -m pip install -r requirements-tools.txt
+pytest==9.2.0
+pytest-cov==7.1.0
+hypothesis==6.170.17
+ruff==0.17.6
+mypy==2.4.1
+pre-commit==4.7.0

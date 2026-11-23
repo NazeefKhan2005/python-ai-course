@@ -1,0 +1,17 @@
+# Deep learning, NLP and LLM apps for Phase 5 (Python 3.15). Install after requirements-ml.txt:
+#   python -m pip install -r requirements-deep-learning.txt
+# Every graded exercise runs on the CPU. On Linux the default torch build also downloads the
+# NVIDIA CUDA libraries (about 4 GB); without an NVIDIA GPU, install torch first with the
+# CPU-only command from https://pytorch.org/get-started/locally/ and then run this file.
+torch==2.15.0
+torchvision==0.29.2
+transformers==5.24.0
+datasets==5.2.0
+tokenizers==0.23.3
+tiktoken==0.14.0
+sentence-transformers==6.3.0
+faiss-cpu==1.16.0; sys_platform != "win32"  # no Windows wheels: Windows learners use WSL 2 for M23-L05 (spec/02 section 5)
+bm25s==0.3.16
+anthropic==2.12.0
+openai==3.57.0
+mcp==2.3.0
