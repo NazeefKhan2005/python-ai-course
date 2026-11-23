@@ -4,7 +4,7 @@ What each build session did, newest first. Read the block below at the start of 
 
 ## Current state / Next step
 
-**Current state (2026-11-23):** Stages 0 and 1 are done. The platform is in place, byte for byte from the spec: `course.json`, the templates, `course.js`, `course.css`, the home and setup pages, every tool, the learner helpers, the unit tests, the workflows, the sample lesson M03-L04 and `examples/spec05-examples.html`. The Prism bundle and fonts are built. `python tools/ci.py --partial` passes every step. `course.json` holds the kit's sample: M03-L04 is the only written lesson.
+**Current state (2026-11-23):** Stages 0 and 1 are done. The platform is in place, byte for byte from the spec: `course.json`, the templates, `course.js`, `course.css`, the home and setup pages, every tool, the learner helpers, the unit tests, the workflows, the sample lesson M03-L04 and `examples/spec05-examples.html`. The Prism bundle and fonts are built. `python tools/ci.py --partial` passes every step. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Pages uses GitHub Actions as its source, and every push to `main` runs `ci.py --partial` and then deploys.
 
 **Next step:** Stage 2, the datasets (`spec/11`). Start `claude` with `.venv` active and type `/stage 2`. Separately, fix the open `libomp` issue below in a small task of its own (it changes `site/setup.html` and `BUILD-AND-DEPLOY.md`).
 
@@ -29,6 +29,12 @@ What each build session did, newest first. Read the block below at the start of 
 * `check_content.py`: "check_content: 4 page(s), 41 blocks compiled, 29 examples, 9 sessions, 4 exercises, 2 quizzes, 0 skipped, 0 problem(s)"
 * spec/05 patterns: "check_content: 1 page(s), 18 blocks compiled, 0 examples, 0 sessions, 6 exercises, 1 quizzes, 0 skipped, 0 problem(s)"
 * browser: "smoke_pages: 51 of 51 checks passed". That includes axe-core with 0 WCAG 2.2 A/AA problems on the lesson, home, setup and API index pages in both themes, and on the lesson at phone width.
+
+**Deploy** (`/deploy`, 2026-11-23)
+
+* `gh repo create python-ai-course --public --source . --remote origin` made the repository. `gh api --method POST …/pages -f build_type=workflow` turned on Pages, and `main` was pushed.
+* Run 45133356474 ("Check and publish the course") succeeded. The `check` job took 5m44s and `deploy` took 11s. The CPU-only PyTorch install step worked; `spec/04` §24 had not been able to verify it. On GitHub, `ci.py --partial` printed the same summary lines as locally: "40 passed", "Python 3.15.2: 22 checks … all checks passed", "check_site: 4 page(s), 0 problem(s)", "check_coverage: 4 page(s), 0 error(s), 5 pending", "check_content: … 29 examples, 9 sessions, 4 exercises, 2 quizzes, 0 skipped, 0 problem(s)", the 6 pattern exercises, "smoke_pages: 51 of 51 checks passed" and "CI passed".
+* On the live site, the home page, `setup.html`, the M03-L04 lesson, `api-index.html`, the CSS, JS, Prism bundle, a font and `m03-l04.zip` all return HTTP 200, each the same size as the local file.
 
 **Open issues**
 
