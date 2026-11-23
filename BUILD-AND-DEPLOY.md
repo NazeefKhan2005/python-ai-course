@@ -19,6 +19,7 @@ Install [Homebrew](https://brew.sh) if you don't have it, then:
 
 ```bash
 brew install git gh node                        # Git, the GitHub CLI, Node.js (22.12 or later)
+brew install libomp                             # OpenMP, which XGBoost and LightGBM need on macOS
 brew install --cask google-chrome temurin@21    # Chrome for the browser checks, Java 21 for PySpark
 ```
 
@@ -125,6 +126,7 @@ Worth knowing:
 | `claude: command not found` | Open a new terminal window. If that doesn't help, see [Troubleshoot installation](https://code.claude.com/docs/en/troubleshoot-install) |
 | `python --version` in a session isn't 3.15 | The session started without `source .venv/bin/activate`. Claude falls back to `.venv/bin/python`, but quit and restart to be safe |
 | pip can't install faiss-cpu or opencv-python | macOS is older than 15: update macOS |
+| The XGBoost and LightGBM library check fails with `Library not loaded: @rpath/libomp.dylib` | OpenMP is missing: `brew install libomp` |
 | The PySpark library check fails | Java is missing: `brew install --cask temurin@21`, then open a new terminal window |
 | "Chrome not found" in the browser checks | Install Google Chrome, or set `CHROME_PATH` to its executable. `python tools/ci.py --partial --no-browser` skips the browser checks for a quick run |
 | Green on your Mac, red on GitHub | `/fix-ci` |

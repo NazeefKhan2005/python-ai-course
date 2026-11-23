@@ -156,6 +156,12 @@
         {pip} install -r requirements-core.txt
         </script>
         <aside class="callout" data-kind="pitfall">
+          <p>On macOS, XGBoost and LightGBM (<code>requirements-ml.txt</code>, Phase 4) also need the OpenMP library, and pip does not install it. Without it, importing them stops with <code>Library not loaded: @rpath/libomp.dylib</code>. Install it once with <a href="https://brew.sh">Homebrew</a> before Phase 4:</p>
+          <script type="text/x-shell" data-label="Terminal (macOS)">
+          brew install libomp
+          </script>
+        </aside>
+        <aside class="callout" data-kind="pitfall">
           <p>On Linux, the standard PyTorch package also downloads NVIDIA's CUDA libraries, about 4 GB. Every graded exercise runs on the CPU, so without an NVIDIA graphics card, first install PyTorch with the CPU-only command from <a href="https://pytorch.org/get-started/locally/">pytorch.org</a>, then install <code>requirements-deep-learning.txt</code>.</p>
         </aside>
         <aside class="callout" data-kind="note">
@@ -192,6 +198,7 @@
               <tr><td><code>pytest: command not found</code></td><td>Run it through Python: <code>python -m pytest</code>. Check the virtual environment is active.</td></tr>
               <tr><td><code>ModuleNotFoundError: No module named 'e1_word_freq'</code></td><td>Run pytest from inside the pack folder, and keep the starter file's name unchanged.</td></tr>
               <tr><td><code>ModuleNotFoundError: No module named 'pandas'</code> (or another library)</td><td>Activate the virtual environment, then install the requirements file of that phase (<a href="#libraries">step 6</a>), for example <code>python -m pip install -r requirements-core.txt</code>.</td></tr>
+              <tr><td><code>Library not loaded: @rpath/libomp.dylib</code> when you import XGBoost or LightGBM (macOS)</td><td>Install the OpenMP library with Homebrew: <code>brew install libomp</code> (<a href="#libraries">step 6</a>).</td></tr>
               <tr><td><code>No matching distribution found</code>, or pip starts compiling a library</td><td>Check that <code>python --version</code> shows 3.15 inside the active virtual environment. The course's files only list libraries that install on 3.15; for other libraries, see the tip in <a href="#libraries">step 6</a>.</td></tr>
               <tr><td>VS Code runs a different Python</td><td>Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, choose "Python: Select Interpreter" and pick the one in <code>.venv</code>.</td></tr>
               <tr><td>Your output differs slightly from the page</td><td>Check your Python and library versions; outputs on the pages come from the versions in the requirements files (<a href="#libraries">step 6</a>). Random numbers and timings differ on purpose and are labelled "Sample output".</td></tr>

@@ -4,9 +4,19 @@ What each build session did, newest first. Read the block below at the start of 
 
 ## Current state / Next step
 
-**Current state (2026-11-23):** Stages 0 and 1 are done. The platform is in place, byte for byte from the spec: `course.json`, the templates, `course.js`, `course.css`, the home and setup pages, every tool, the learner helpers, the unit tests, the workflows, the sample lesson M03-L04 and `examples/spec05-examples.html`. The Prism bundle and fonts are built. `python tools/ci.py --partial` passes every step. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Pages uses GitHub Actions as its source, and every push to `main` runs `ci.py --partial` and then deploys.
+**Current state (2026-11-23):** Stages 0 and 1 are done. The platform is in place, byte for byte from the spec, except for one fix to the setup page (the macOS `libomp` step; see the entry below and `DECISIONS.md`): `course.json`, the templates, `course.js`, `course.css`, the home and setup pages, every tool, the learner helpers, the unit tests, the workflows, the sample lesson M03-L04 and `examples/spec05-examples.html`. The Prism bundle and fonts are built. `python tools/ci.py --partial` passes every step. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Pages uses GitHub Actions as its source, and every push to `main` runs `ci.py --partial` and then deploys.
 
-**Next step:** Stage 2, the datasets (`spec/11`). Start `claude` with `.venv` active and type `/stage 2`. Separately, fix the open `libomp` issue below in a small task of its own (it changes `site/setup.html` and `BUILD-AND-DEPLOY.md`).
+**Next step:** Stage 2, the datasets (`spec/11`). Start `claude` with `.venv` active and type `/stage 2`.
+
+## Fix · The macOS OpenMP step (2026-11-23)
+
+**Done**
+
+* `site/setup.html` step 6 has a new pitfall callout. It says that on macOS, XGBoost and LightGBM (`requirements-ml.txt`, Phase 4) need the OpenMP library, which pip does not install. It quotes the error learners will see without it, `Library not loaded: @rpath/libomp.dylib`, and gives `brew install libomp` as a copyable command block. The troubleshooting table has a row for the same error.
+* `BUILD-AND-DEPLOY.md` §1 now has a `brew install libomp` line, and §7 has a troubleshooting row for the failing XGBoost and LightGBM library check.
+* As a result, `site/setup.html` no longer matches `spec/04` §6 byte for byte. The spec was left unchanged because it is read-only unless the owner asks (`DECISIONS.md`).
+
+**Checks:** `build.py` had nothing to regenerate. `ci.py --partial` printed "CI passed". The step results were: "40 passed", 22 library checks passed, ruff "All checks passed!", "build --check: all generated files up to date", "check_site: 4 page(s), 0 problem(s)", "check_coverage: 4 page(s), 0 error(s), 5 pending", "check_content: … 0 problem(s)" for the pages and for the 6 pattern exercises, and "smoke_pages: 51 of 51 checks passed" (axe-core on the setup page in both themes included).
 
 ## Stage 1 · The platform (2026-11-23)
 
@@ -38,7 +48,7 @@ What each build session did, newest first. Read the block below at the start of 
 
 **Open issues**
 
-* Still open from Stage 0: the `libomp` line for macOS is missing from the setup page and from `BUILD-AND-DEPLOY.md` §1. Stage 1 copied the setup page unchanged, so the fix can go in now, as its own commit.
+* Still open from Stage 0: the `libomp` line for macOS is missing from the setup page and from `BUILD-AND-DEPLOY.md` §1. Stage 1 copied the setup page unchanged, so the fix can go in now, as its own commit. **Fixed** ("Fix · The macOS OpenMP step" above).
 
 ## Stage 0 · Bootstrap the repository (2026-11-23)
 
@@ -65,5 +75,5 @@ What each build session did, newest first. Read the block below at the start of 
 
 **Open issues**
 
-* The kit's setup instructions miss `libomp` for macOS: the `brew install` line in `BUILD-AND-DEPLOY.md` §1, and the learners' setup page before Phase 4 (`requirements-ml.txt`). Fix both after Stage 1, which copies `site/setup.html` from `spec/04` §6 byte for byte. The new `README.md` already mentions it.
+* The kit's setup instructions miss `libomp` for macOS: the `brew install` line in `BUILD-AND-DEPLOY.md` §1, and the learners' setup page before Phase 4 (`requirements-ml.txt`). Fix both after Stage 1, which copies `site/setup.html` from `spec/04` §6 byte for byte. The new `README.md` already mentions it. **Fixed** after Stage 1 ("Fix · The macOS OpenMP step").
 * For elective E4: `import pyspark.pandas` warns "PySpark does not yet fully support pandas >= 3.0.0". The PySpark check passes; check the pandas-on-Spark examples when E4 is built.
