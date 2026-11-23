@@ -4,9 +4,35 @@ What each build session did, newest first. Read the block below at the start of 
 
 ## Current state / Next step
 
-**Current state (2026-11-23):** Stage 0 is done. The repository is on git branch `main` with the layout of `CLAUDE.md` §5, `.gitignore`, `DECISIONS.md`, this log and a short `README.md`. `.venv` has Python 3.15.2, the version the kit was verified with, and all 65 pinned libraries at their pinned versions; all 22 of the kit's library checks pass. There are no tools, templates, pages or `course.json` yet: Stage 1 adds them.
+**Current state (2026-11-23):** Stages 0 and 1 are done. The platform is in place, byte for byte from the spec: `course.json`, the templates, `course.js`, `course.css`, the home and setup pages, every tool, the learner helpers, the unit tests, the workflows, the sample lesson M03-L04 and `examples/spec05-examples.html`. The Prism bundle and fonts are built. `python tools/ci.py --partial` passes every step. `course.json` holds the kit's sample: M03-L04 is the only written lesson.
 
-**Next step:** Stage 1, the platform (`spec/11`). Quit Claude Code, run `source .venv/bin/activate`, start `claude` again and type `/stage 1`.
+**Next step:** Stage 2, the datasets (`spec/11`). Start `claude` with `.venv` active and type `/stage 2`. Separately, fix the open `libomp` issue below in a small task of its own (it changes `site/setup.html` and `BUILD-AND-DEPLOY.md`).
+
+## Stage 1 · The platform (2026-11-23)
+
+**Done**
+
+* A script read every block fenced with four backticks in `spec/04` (§1–26), `spec/07` §4 and `spec/08` §8, and took each file's path from the heading above it. That gave 39 files. All 39 are now byte-identical to the spec, and every line count matches the `spec/04` contents table. The script wrote 32 of them. The other 7 are the requirements files from Stage 0, already identical, so the script left them alone. New: `course.json`, `templates/{page-shell,lesson-template}.html`, `site/{index,setup}.html`, `site/assets/js/course.js`, `site/assets/css/course.css`, `site/modules/m03-data-structures/l04-dictionaries.html`, `tools/{pagekit,packs,check_site,check_content,check_coverage,api_skeleton,export_exercises,build,ci,check_pins,check_libraries}.py`, `tools/coverage.json`, `tools/smoke_pages.mjs`, `tools/vendor/build_{prism,fonts}.py`, `tools/learner/{conftest,course_helpers,course_mocks}.py`, `tools/tests/test_tools.py` and its two fixtures, `examples/spec05-examples.html` and `.github/workflows/{site,pins}.yml`. Nothing was changed from the spec.
+* npm packages went in with one `npm install --no-save` command: `prismjs@1.30.0`, `@fontsource-variable/atkinson-hyperlegible-next@5.3.0`, `@fontsource-variable/atkinson-hyperlegible-mono@5.3.0`, `puppeteer-core@25` (resolved to 25.18.1) and `axe-core@4.14.1`. Use one command for all of them: a later `npm install --no-save` removes the packages installed by an earlier one. `node_modules/` is git-ignored.
+* `tools/vendor/build_prism.py` printed "wrote site/assets/vendor/prism.bundle.js (33 KB)". `tools/vendor/build_fonts.py` printed "wrote 5 fonts to site/assets/fonts (116 KB)". A lesson loads three of the fonts (87 KB). `course.js` + `course.css` + `prism.bundle.js` come to 151,687 bytes, which matches the 152 KB in `spec/03` §10.
+* `python tools/build.py` wrote `manifest.js`, `search-index.js`, `api-index.html`, `site/downloads/m03-l04.zip` and `all-exercises.zip`.
+* The `.gitkeep` files are gone from the 8 folders that now have files. They stay in `site/{career,projects,exams,data,notebooks}/`.
+
+**Checks** (`python tools/ci.py --partial`, first run, no fixes needed: "CI passed")
+
+* unit tests: "40 passed in 9.30s"
+* library checks: "Python 3.15.2: 22 checks", 22 PASS, "all checks passed"
+* ruff on `tools/`: "All checks passed!"
+* `build.py --check`: "build --check: all generated files up to date"
+* `check_site.py`: "check_site: 4 page(s), 0 problem(s)"
+* `check_coverage.py --partial`: "check_coverage: 4 page(s), 0 error(s), 5 pending". With `-v`, all 6 targets show complete: `class:dict` (31 names), `frozendict` (23), `types.MappingProxyType` (24), `dict_items` (23), `dict_keys` (23) and `dict_values` (6). The 5 pending items are course-wide: 133 required targets, 19 keywords used in verified code, 40 keyword rows, 49 AST node types and 186 standard-library atlas rows. They fill in module by module.
+* `check_content.py`: "check_content: 4 page(s), 41 blocks compiled, 29 examples, 9 sessions, 4 exercises, 2 quizzes, 0 skipped, 0 problem(s)"
+* spec/05 patterns: "check_content: 1 page(s), 18 blocks compiled, 0 examples, 0 sessions, 6 exercises, 1 quizzes, 0 skipped, 0 problem(s)"
+* browser: "smoke_pages: 51 of 51 checks passed". That includes axe-core with 0 WCAG 2.2 A/AA problems on the lesson, home, setup and API index pages in both themes, and on the lesson at phone width.
+
+**Open issues**
+
+* Still open from Stage 0: the `libomp` line for macOS is missing from the setup page and from `BUILD-AND-DEPLOY.md` §1. Stage 1 copied the setup page unchanged, so the fix can go in now, as its own commit.
 
 ## Stage 0 · Bootstrap the repository (2026-11-23)
 

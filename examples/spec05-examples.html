@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>spec/05 validated examples</title></head>
+<body data-page="lesson" data-lesson-id="spec05" data-root="../">
+<main id="main">
+
+<section id="program-exercise">
+<article class="exercise" id="m01-l03-e1" data-kind="program" data-file="e1_split_bill.py">
+  <h3>Exercise 1 · Split the bill</h3>
+  <p class="ex-meta">★☆☆ · 10 points · AI help: hints only</p>
+  <div class="exercise-task">
+    <p>Read three lines: the total bill, the number of people and the tip percentage. Print each person's share with two decimals, exactly like this: <code>Each person pays 23.10</code></p>
+  </div>
+  <script type="text/x-python" data-role="starter">
+  total = float(input("Total bill: "))
+  # read the number of people and the tip percentage the same way
+  # work out each person's share, then print it
+  </script>
+  <script type="text/x-python" data-role="tests">
+  import pytest
+  from course_helpers import run_program
+
+  CASES = [
+      ("63\n3\n10\n", "Each person pays 23.10"),
+      ("50\n1\n0\n", "Each person pays 50.00"),
+      ("100\n3\n0\n", "Each person pays 33.33"),
+      ("45.5\n2\n15\n", "Each person pays 26.16"),
+      ("0\n4\n20\n", "Each person pays 0.00"),
+  ]
+
+
+  @pytest.mark.parametrize("typed, expected", CASES)
+  def test_prints_each_share(typed, expected):
+      printed = run_program("e1_split_bill.py", stdin=typed)
+      last_line = printed.strip().splitlines()[-1]
+      assert last_line.endswith(expected), f"typed {typed!r}: expected a line ending {expected!r}, got {last_line!r}"
+  </script>
+  <script type="text/x-python" data-role="solution">
+  total = float(input("Total bill: "))
+  people = int(input("People: "))
+  tip = float(input("Tip %: "))
+  share = total * (1 + tip / 100) / people
+  print(f"Each person pays {share:.2f}")
+  </script>
+  <ol class="hints">
+    <li>Read each line with <code>input()</code> and convert it: <code>float</code> for money and percentages, <code>int</code> for people.</li>
+    <li>The total including the tip is <code>total * (1 + tip / 100)</code>.</li>
+    <li>Print with two decimals: <code>print(f"Each person pays {share:.2f}")</code>.</li>
+  </ol>
+</article>
+</section>
+
+<section id="data-exercise">
+<article class="exercise" id="m12-l06-e1" data-kind="function" data-file="e1_revenue.py" data-requires="pandas">
+  <h3>Exercise 1 · Revenue by category</h3>
+  <p class="ex-meta">★★☆ · 15 points · AI help: explain only</p>
+  <div class="exercise-task">
+    <p>Write <code>revenue_by_category(df)</code> that returns a Series of total revenue (<code>units × unit_price</code>) per category, largest first, named <code>"revenue"</code>. Don't change <code>df</code>.</p>
+  </div>
+  <script type="text/x-python" data-role="starter">
+  import pandas as pd
+
+
+  def revenue_by_category(df: pd.DataFrame) -> pd.Series:
+      """Total revenue (units x unit_price) per category, largest first."""
+      ...
+  </script>
+  <script type="text/x-python" data-role="tests">
+  import pandas as pd
+  import pytest
+  from pandas.testing import assert_frame_equal
+
+  from e1_revenue import revenue_by_category
+
+
+  @pytest.fixture
+  def orders():
+      return pd.DataFrame({
+          "category": ["books", "games", "books", "music", "games", "books"],
+          "units": [2, 1, 1, 3, 2, 5],
+          "unit_price": [12.5, 60.0, 8.0, 9.99, 55.0, 10.0],
+      })
+
+
+  def test_correct_totals(orders):
+      assert revenue_by_category(orders).to_dict() == pytest.approx({"games": 170.0, "books": 83.0, "music": 29.97})
+
+
+  def test_largest_first(orders):
+      assert list(revenue_by_category(orders).index) == ["games", "books", "music"], "finish with sort_values(ascending=False)"
+
+
+  def test_named_revenue(orders):
+      assert revenue_by_category(orders).name == "revenue"
+
+
+  def test_leaves_the_input_unchanged(orders):
+      before = orders.copy()
+      revenue_by_category(orders)
+      assert_frame_equal(orders, before)
+
+
+  def test_zero_units_and_one_category():
+      df = pd.DataFrame({"category": ["x", "x"], "units": [0, 3], "unit_price": [9.0, 1.5]})
+      assert revenue_by_category(df).to_dict() == pytest.approx({"x": 4.5})
+  </script>
+  <script type="text/x-python" data-role="solution">
+  import pandas as pd
+
+
+  def revenue_by_category(df: pd.DataFrame) -> pd.Series:
+      """Total revenue (units x unit_price) per category, largest first."""
+      revenue = df["units"] * df["unit_price"]
+      return revenue.groupby(df["category"]).sum().sort_values(ascending=False).rename("revenue")
+  </script>
+  <ol class="hints">
+    <li>Multiply the two columns to get a revenue Series: <code>df["units"] * df["unit_price"]</code>.</li>
+    <li>Group that Series by the category column and sum: <code>revenue.groupby(df["category"]).sum()</code>.</li>
+    <li>Chain <code>.sort_values(ascending=False).rename("revenue")</code>.</li>
+  </ol>
+</article>
+</section>
+
+<section id="model-exercise">
+<article class="exercise" id="m16-l02-e1" data-kind="function" data-file="e1_knn.py" data-requires="sklearn">
+  <h3>Exercise 1 · A k-NN pipeline that generalises</h3>
+  <p class="ex-meta">★★☆ · 15 points · AI help: explain only</p>
+  <div class="exercise-task">
+    <p>Write <code>make_knn(k)</code> returning an <em>unfitted</em> scikit-learn <code>Pipeline</code> that scales the features, then classifies with k-NN. The tests train it on the wine data and score it on a split you never see.</p>
+  </div>
+  <script type="text/x-python" data-role="starter">
+  from sklearn.neighbors import KNeighborsClassifier
+  from sklearn.pipeline import Pipeline
+
+
+  def make_knn(k: int) -> Pipeline:
+      """Scale the features, then classify with k-NN. Return it unfitted."""
+      return Pipeline([("knn", KNeighborsClassifier(n_neighbors=k))])
+  </script>
+  <script type="text/x-python" data-role="tests">
+  from sklearn.datasets import load_wine
+  from sklearn.dummy import DummyClassifier
+  from sklearn.model_selection import train_test_split
+  from sklearn.pipeline import Pipeline
+  from sklearn.preprocessing import MinMaxScaler, StandardScaler
+
+  from e1_knn import make_knn
+
+
+  def split(seed):
+      X, y = load_wine(return_X_y=True)
+      return train_test_split(X, y, test_size=0.3, random_state=seed, stratify=y)
+
+
+  def test_returns_an_unfitted_pipeline():
+      model = make_knn(5)
+      assert isinstance(model, Pipeline)
+      assert not hasattr(model[-1], "classes_"), "return the pipeline without calling fit"
+
+
+  def test_uses_k():
+      assert make_knn(7)[-1].n_neighbors == 7
+
+
+  def test_scales_the_features_first():
+      assert isinstance(make_knn(5)[0], (StandardScaler, MinMaxScaler)), "k-NN compares distances: put a scaler first"
+
+
+  def test_beats_the_majority_baseline_by_20_points():
+      Xtr, Xte, ytr, yte = split(7)
+      baseline = DummyClassifier().fit(Xtr, ytr).score(Xte, yte)
+      assert make_knn(5).fit(Xtr, ytr).score(Xte, yte) >= baseline + 0.20
+
+
+  def test_generalises_to_a_split_you_never_saw():
+      Xtr, Xte, ytr, yte = split(11)
+      accuracy = make_knn(5).fit(Xtr, ytr).score(Xte, yte)
+      assert accuracy >= 0.90, f"accuracy on unseen data is {accuracy:.2f}; did you scale the features?"
+  </script>
+  <script type="text/x-python" data-role="solution">
+  from sklearn.neighbors import KNeighborsClassifier
+  from sklearn.pipeline import Pipeline
+  from sklearn.preprocessing import StandardScaler
+
+
+  def make_knn(k: int) -> Pipeline:
+      """Scale the features, then classify with k-NN. Return it unfitted."""
+      return Pipeline([("scale", StandardScaler()), ("knn", KNeighborsClassifier(n_neighbors=k))])
+  </script>
+  <ol class="hints">
+    <li>A Pipeline is a list of named steps: <code>Pipeline([("scale", ...), ("knn", ...)])</code>.</li>
+    <li>Use <code>StandardScaler()</code> for the first step.</li>
+    <li>Return the pipeline without calling <code>fit</code>: the tests fit it.</li>
+  </ol>
+</article>
+</section>
+
+<section id="sql-exercise">
+<article class="exercise" id="m15-l01-e1" data-kind="function" data-file="e1_top_customers.py">
+  <h3>Exercise 1 · Top customers (SQL)</h3>
+  <p class="ex-meta">★☆☆ · 10 points · AI help: hints only</p>
+  <div class="exercise-task">
+    <p>Set <code>QUERY</code> to SQL that returns the 3 customers who spent the most: columns <code>customer</code> and <code>total</code> (rounded to 2 decimals), highest first.</p>
+  </div>
+  <script type="text/x-python" data-role="starter">
+  QUERY = """
+  SELECT customer
+  FROM orders
+  """
+  </script>
+  <script type="text/x-python" data-role="tests">
+  import sqlite3
+
+  import pytest
+
+  from e1_top_customers import QUERY
+
+  ROWS = [("Aisyah", 120.0), ("Ben", 35.5), ("Aisyah", 60.0), ("Chen", 99.9), ("Ben", 10.0), ("Dev", 250.0)]
+
+
+  def database(rows):
+      conn = sqlite3.connect(":memory:")
+      conn.execute("CREATE TABLE orders (id INTEGER PRIMARY KEY, customer TEXT, amount REAL)")
+      conn.executemany("INSERT INTO orders (customer, amount) VALUES (?, ?)", rows)
+      return conn
+
+
+  @pytest.fixture
+  def conn():
+      return database(ROWS)
+
+
+  def test_returns_the_top_three(conn):
+      assert conn.execute(QUERY).fetchall() == [("Dev", 250.0), ("Aisyah", 180.0), ("Chen", 99.9)]
+
+
+  def test_column_names(conn):
+      assert [d[0] for d in conn.execute(QUERY).description] == ["customer", "total"], "name the sum with AS total"
+
+
+  def test_does_not_change_the_data(conn):
+      conn.execute(QUERY).fetchall()
+      assert conn.execute("SELECT COUNT(*) FROM orders").fetchall() == [(6,)]
+
+
+  def test_works_on_other_data():
+      other = database([("Eve", 5), ("Eve", 5), ("Fay", 7), ("Gus", 1), ("Hal", 2)])
+      assert other.execute(QUERY).fetchall() == [("Eve", 10.0), ("Fay", 7.0), ("Hal", 2.0)]
+  </script>
+  <script type="text/x-python" data-role="solution">
+  QUERY = """
+  SELECT customer, ROUND(SUM(amount), 2) AS total
+  FROM orders
+  GROUP BY customer
+  ORDER BY total DESC
+  LIMIT 3
+  """
+  </script>
+  <ol class="hints">
+    <li>Group the rows by customer and add up the amounts: <code>GROUP BY customer</code> with <code>SUM(amount)</code>.</li>
+    <li>Sort with <code>ORDER BY total DESC</code> and keep three rows with <code>LIMIT 3</code>.</li>
+    <li>Round in SQL: <code>ROUND(SUM(amount), 2) AS total</code>.</li>
+  </ol>
+</article>
+</section>
+
+<section id="plot-exercise">
+<article class="exercise" id="m13-l01-e1" data-kind="function" data-file="e1_monthly_chart.py" data-requires="matplotlib pandas">
+  <h3>Exercise 1 · Monthly sales chart</h3>
+  <p class="ex-meta">★☆☆ · 10 points · AI help: hints only</p>
+  <div class="exercise-task">
+    <p>Write <code>plot_monthly_sales(df)</code>: a line chart of <code>sales</code> by <code>month</code> titled "Monthly sales", with axis labels "Month" and "Sales (units)". Return the <code>Axes</code>.</p>
+  </div>
+  <script type="text/x-python" data-role="starter">
+  import matplotlib.pyplot as plt
+
+
+  def plot_monthly_sales(df):
+      """Line chart of sales by month with a title and axis labels. Return the Axes."""
+      fig, ax = plt.subplots()
+      # your code here
+      return ax
+  </script>
+  <script type="text/x-python" data-role="tests">
+  import matplotlib
+
+  matplotlib.use("Agg")  # draw off-screen: no windows pop up during the tests
+  import matplotlib.axes  # noqa: E402
+  import matplotlib.pyplot as plt  # noqa: E402
+  import pandas as pd  # noqa: E402
+  import pytest  # noqa: E402
+
+  from e1_monthly_chart import plot_monthly_sales  # noqa: E402
+
+  SALES = [12, 15, 14, 18, 21, 25, 24, 22, 20, 19, 23, 30]
+
+
+  @pytest.fixture
+  def ax():
+      axes = plot_monthly_sales(pd.DataFrame({"month": range(1, 13), "sales": SALES}))
+      yield axes
+      plt.close("all")
+
+
+  def test_returns_an_axes(ax):
+      assert isinstance(ax, matplotlib.axes.Axes), "create it with fig, ax = plt.subplots() and return ax"
+
+
+  def test_title_and_labels(ax):
+      assert ax.get_title() == "Monthly sales"
+      assert (ax.get_xlabel(), ax.get_ylabel()) == ("Month", "Sales (units)")
+
+
+  def test_one_line_with_twelve_points(ax):
+      assert len(ax.get_lines()) == 1
+      assert len(ax.get_lines()[0].get_xdata()) == 12
+
+
+  def test_plots_the_sales_column(ax):
+      assert list(ax.get_lines()[0].get_ydata()) == SALES, "plot the sales column on the y-axis"
+  </script>
+  <script type="text/x-python" data-role="solution">
+  import matplotlib.pyplot as plt
+
+
+  def plot_monthly_sales(df):
+      """Line chart of sales by month with a title and axis labels. Return the Axes."""
+      fig, ax = plt.subplots(figsize=(7, 3.5))
+      ax.plot(df["month"], df["sales"], marker="o")
+      ax.set_title("Monthly sales")
+      ax.set_xlabel("Month")
+      ax.set_ylabel("Sales (units)")
+      ax.set_xticks(range(1, 13))
+      return ax
+  </script>
+  <ol class="hints">
+    <li>Start with <code>fig, ax = plt.subplots()</code> and draw with <code>ax.plot(x, y)</code>.</li>
+    <li>Use <code>ax.set_title</code>, <code>ax.set_xlabel</code> and <code>ax.set_ylabel</code>.</li>
+    <li><code>ax.plot(df["month"], df["sales"], marker="o")</code> draws one line with a dot per month.</li>
+  </ol>
+</article>
+</section>
+
+<section id="write-tests-exercise">
+<article class="exercise" id="m04-l07-e1" data-kind="write_tests" data-file="e1_leap.py">
+  <h3>Exercise 1 · Write tests that catch bugs</h3>
+  <p class="ex-meta">★★☆ · 15 points · AI help: hints only</p>
+  <div class="exercise-task">
+    <p><code>e1_leap.py</code> contains a correct <code>is_leap_year(year)</code>. Write tests in <code>test_e1_leap.py</code> that pass on it and fail on each of three buggy versions we hide behind the scenes.</p>
+  </div>
+  <script type="text/x-python" data-role="target">
+  def is_leap_year(year: int) -> bool:
+      """Gregorian rule: every 4th year, except centuries, except every 400th year."""
+      return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+  </script>
+  <script type="text/x-python" data-role="starter">
+  from e1_leap import is_leap_year
+
+
+  def test_a_typical_leap_year():
+      ...  # replace with an assert
+  </script>
+  <script type="text/x-python" data-role="solution">
+  import pytest
+
+  from e1_leap import is_leap_year
+
+
+  @pytest.mark.parametrize("year, expected", [
+      (2024, True),    # divisible by 4
+      (2023, False),   # not divisible by 4
+      (1900, False),   # century: not a leap year
+      (2000, True),    # every 400th year is
+  ])
+  def test_gregorian_rule(year, expected):
+      assert is_leap_year(year) is expected
+  </script>
+  <script type="application/json" data-role="mutants">
+  {"treats every 4th year as a leap year (forgets centuries)": "def is_leap_year(year):\n    return year % 4 == 0\n",
+   "forgets the 400-year exception": "def is_leap_year(year):\n    return year % 4 == 0 and year % 100 != 0\n",
+   "says every year is a leap year": "def is_leap_year(year):\n    return True\n"}
+  </script>
+  <ol class="hints">
+    <li>Each bug is wrong for one kind of year. Which years does each rule of the definition talk about?</li>
+    <li>You need at least: an ordinary leap year, an ordinary non-leap year, a century, and a 400th year.</li>
+    <li>Try 2024, 2023, 1900 and 2000.</li>
+  </ol>
+</article>
+</section>
+
+<section class="quiz" id="spec05-quiz">
+  <h2>A quiz with every question type</h2>
+  <script type="application/json" class="quiz-spec">
+  {"id": "spec05-quiz", "questions": [
+    {"type": "mcq", "prompt": "Which call reads a whole text file as one string?",
+     "options": ["<code>Path('a.txt').read_text()</code>", "<code>Path('a.txt').read()</code>", "<code>open('a.txt').readlines()</code>"],
+     "answer": 0, "explanations": ["Right.", "<code>Path</code> has no <code>read()</code> method.", "<code>readlines()</code> returns a list of lines."]},
+    {"type": "multi", "prompt": "Which of these are immutable?", "options": ["<code>tuple</code>", "<code>list</code>", "<code>str</code>", "<code>dict</code>"],
+     "answer": [0, 2], "explanation": "Tuples and strings can't be changed in place; lists and dicts can."},
+    {"type": "predict", "prompt": "What does this print?", "code": "nums = [3, 1, 2]\nnums.sort()\nprint(nums[-1], len(nums))",
+     "answer": "3 3", "explanation": "<code>sort()</code> sorts in place; the last item is now the largest."},
+    {"type": "short", "prompt": "Which built-in returns the number of items in a list?", "accept": ["len", "len()"],
+     "accept_regex": "^len(\\(\\))?$", "explanation": "<code>len(items)</code>."},
+    {"type": "order", "prompt": "Put the debugging loop in order.", "items": ["Reproduce the bug", "Isolate where it happens", "Form a hypothesis", "Test the fix"],
+     "explanation": "Reproduce, isolate, hypothesise, test."}
+  ]}
+  </script>
+</section>
+
+</main>
+</body>
+</html>

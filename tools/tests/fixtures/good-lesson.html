@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Fixture</title></head>
+<body data-page="lesson" data-lesson-id="m99-l01" data-root="../../">
+  <main id="main">
+    <section id="basics" data-level="essential">
+      <h2>Basics</h2>
+      <figure class="example" id="ex-dict">
+        <script type="text/x-python">
+        ages = {"Ada": 36, "Alan": 41}
+        ages["Grace"] = 85
+        for name, age in ages.items():
+            print(f"{name:<6}{age:>3}")
+        </script>
+        <script type="text/x-output">
+        Ada    36
+        Alan   41
+        Grace  85
+        </script>
+      </figure>
+      <figure class="example" id="ex-keyerror" data-raises="KeyError">
+        <script type="text/x-python">
+        ages = {"Ada": 36}
+        print("before")
+        print(ages["Bob"])
+        </script>
+        <script type="text/x-output">
+        before
+        Traceback (most recent call last):
+          ...
+        KeyError: 'Bob'
+        </script>
+      </figure>
+      <figure class="example" id="ex-input">
+        <script type="text/x-python">
+        name = input("Name: ")
+        print(f"Hello, {name}!")
+        </script>
+        <script type="text/x-stdin">
+        Ada
+        </script>
+        <script type="text/x-output">
+        Name: Ada
+        Hello, Ada!
+        </script>
+      </figure>
+      <figure class="example" id="ex-ellipsis" data-match="ellipsis">
+        <script type="text/x-python">
+        print(object())
+        </script>
+        <script type="text/x-output">
+        <object object at 0x...>
+        </script>
+      </figure>
+      <figure class="example" id="ex-indented-output">
+        <script type="text/x-python">
+        print("  two leading spaces\n  on every line")
+        </script>
+        <script type="text/x-output">
+          two leading spaces
+          on every line
+        </script>
+      </figure>
+      <figure class="example" id="ex-file">
+        <script type="text/x-file" data-name="scores.csv">
+        name,score
+        Ada,90
+        </script>
+        <script type="text/x-python" data-file="read_scores.py">
+        import csv
+        with open("scores.csv", newline="") as f:
+            print(list(csv.DictReader(f)))
+        </script>
+        <script type="text/x-output">
+        [{'name': 'Ada', 'score': '90'}]
+        </script>
+      </figure>
+      <figure class="example" id="ex-sample" data-output="sample">
+        <script type="text/x-python">
+        import random
+        print(random.random())
+        </script>
+        <script type="text/x-output">
+        0.6394267984578837
+        </script>
+      </figure>
+      <figure class="session">
+        <script type="text/x-pycon">
+        >>> d = {"a": 1}
+        >>> d.get("b", 0)
+        0
+        >>> d["b"]
+        Traceback (most recent call last):
+          ...
+        KeyError: 'b'
+        </script>
+      </figure>
+    </section>
+    <section class="exercises" id="exercises">
+      <h2>Exercises</h2>
+      <article class="exercise" id="m99-l01-e1" data-kind="function" data-file="e1_double.py">
+        <h3>Double every value</h3>
+        <script type="text/x-python" data-role="starter">
+        def double_values(d):
+            """Return a new dict with every value doubled."""
+            raise NotImplementedError
+        </script>
+        <script type="text/x-python" data-role="tests">
+        from e1_double import double_values
+
+        def test_doubles():
+            assert double_values({"a": 1, "b": 2}) == {"a": 2, "b": 4}
+
+        def test_does_not_mutate():
+            d = {"a": 1}
+            double_values(d)
+            assert d == {"a": 1}
+        </script>
+        <script type="text/x-python" data-role="solution">
+        def double_values(d):
+            """Return a new dict with every value doubled."""
+            return {k: v * 2 for k, v in d.items()}
+        </script>
+      </article>
+      <article class="exercise" id="m99-l01-e2" data-kind="write_tests" data-file="e2_leap.py">
+        <h3>Test a leap-year function</h3>
+        <script type="text/x-python" data-role="target">
+        def is_leap(year):
+            return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+        </script>
+        <script type="text/x-python" data-role="starter">
+        from e2_leap import is_leap
+
+        def test_typical_leap_year():
+            ...  # replace with real asserts
+        </script>
+        <script type="text/x-python" data-role="solution">
+        from e2_leap import is_leap
+
+        def test_rules():
+            assert is_leap(2024) and not is_leap(2023)
+            assert not is_leap(1900) and is_leap(2000)
+        </script>
+        <script type="application/json" data-role="mutants">
+        {"every century is a leap year": "def is_leap(year):\n    return year % 4 == 0\n",
+         "no century is a leap year": "def is_leap(year):\n    return year % 4 == 0 and year % 100 != 0\n"}
+        </script>
+      </article>
+    </section>
+    <section class="quiz" id="m99-l01-quiz">
+      <h2>Quiz</h2>
+      <script type="application/json" class="quiz-spec">
+      {"id": "m99-l01-quiz", "questions": [
+        {"type": "mcq", "prompt": "Which call never raises?", "options": ["d[k]", "d.get(k)"], "answer": 1,
+         "explanation": "get returns None (or your default) for a missing key."},
+        {"type": "predict", "prompt": "What prints?", "code": "d = {'a': 1}\nd['a'] += 1\nprint(d)", "answer": "{'a': 2}",
+         "explanation": "Augmented assignment reads, adds and stores."},
+        {"type": "order", "prompt": "Order the steps", "items": ["read", "update", "write"], "explanation": "Read first."}
+      ]}
+      </script>
+    </section>
+  </main>
+</body>
+</html>

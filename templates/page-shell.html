@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}} · Python for AI</title>
+  <meta name="description" content="{{description}}">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{root}}assets/css/course.css">
+  <script>
+    // Apply the saved theme, text size and reading depth before first paint (no flash).
+    try { var s = JSON.parse(localStorage.getItem("pyai.progress.v1") || "{}").settings || {}, d = document.documentElement; if (s.theme) d.dataset.theme = s.theme; if (s.text) d.dataset.text = s.text; d.dataset.depth = s.depth || "all"; } catch (e) { document.documentElement.dataset.depth = "all"; }
+  </script>
+  <script defer src="{{root}}assets/vendor/prism.bundle.js"></script>
+  <script defer src="{{root}}assets/js/manifest.js"></script>
+  <script defer src="{{root}}assets/js/course.js"></script>
+</head>
+<body data-page="{{page}}" data-root="{{root}}" data-generated="">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="sidebar"><svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"></path></svg><span class="nav-toggle-label">Contents</span></button>
+    <a class="brand" href="{{root}}index.html"><span class="brand-prompt" aria-hidden="true">&gt;&gt;&gt;</span><span class="brand-name">Python for AI</span></a>
+    <div class="site-search" role="search"></div>
+    <div class="depth-control"></div>
+    <div class="display-menu"></div>
+    <button class="icon-btn theme-toggle" type="button" aria-label="Switch between light and dark theme"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.6"></circle><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"></path></svg></button>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"><nav class="course-nav" aria-label="Course contents"></nav></aside>
+    <main id="main" class="content">
+      <h1>{{title}}</h1>
+      {{content}}
+    </main>
+  </div>
+</body>
+</html>

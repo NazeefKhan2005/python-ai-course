@@ -1,0 +1,65 @@
+{
+  "about": "Coverage commitments checked by tools/check_coverage.py. Every exclusion needs a reason.",
+  "python": "3.15",
+  "required_targets": [
+    "module:builtins", "class:object", "class:type", "class:int", "class:bool", "class:float", "class:complex",
+    "class:str", "class:bytes", "class:bytearray", "class:memoryview", "class:list", "class:tuple", "class:range",
+    "class:slice", "class:dict", "expr:dict_keys=type({}.keys())", "expr:dict_values=type({}.values())",
+    "expr:dict_items=type({}.items())", "class:frozendict", "class:set", "class:frozenset", "class:BaseException", "class:property", "class:sentinel",
+    "expr:function=type(lambda: None)", "expr:generator=type((x for x in ()))", "class:types.MappingProxyType",
+    "module:math", "module:math.integer", "module:statistics", "module:random", "module:decimal", "module:fractions", "module:string",
+    "module:string.templatelib", "module:re", "class:re.Pattern", "class:re.Match", "module:textwrap",
+    "module:datetime", "class:datetime.date", "class:datetime.datetime", "class:datetime.time",
+    "class:datetime.timedelta", "class:datetime.timezone", "module:zoneinfo", "module:time",
+    "module:collections", "class:collections.Counter", "class:collections.deque", "class:collections.defaultdict",
+    "class:collections.OrderedDict", "class:collections.ChainMap", "module:collections.abc", "module:heapq",
+    "module:bisect", "module:enum", "module:dataclasses", "module:typing", "module:types", "module:annotationlib",
+    "module:copy", "module:itertools", "module:functools", "module:operator", "module:contextlib", "module:abc",
+    "module:pathlib", "class:pathlib.PurePath", "class:pathlib.Path", "module:os.path", "module:shutil",
+    "module:glob", "module:tempfile", "module:io", "module:json", "module:csv", "module:pickle", "module:sqlite3",
+    "module:tomllib", "module:zipfile", "module:gzip", "module:hashlib", "module:secrets", "module:uuid",
+    "module:base64", "module:sys", "module:argparse", "module:logging", "module:subprocess", "module:warnings",
+    "module:traceback", "module:timeit", "module:cProfile", "module:profiling.tracing", "module:profiling.sampling", "module:pprint", "module:unittest",
+    "class:unittest.TestCase", "module:asyncio", "module:threading", "module:concurrent.futures", "module:queue",
+    "module:urllib.parse", "module:urllib.request", "module:graphlib",
+    "module:numpy", "class:numpy.ndarray", "class:numpy.random.Generator", "module:numpy.linalg",
+    "module:pandas", "class:pandas.DataFrame", "class:pandas.Series", "class:pandas.Index",
+    "expr:StringMethods=type(importlib.import_module('pandas').Series(['a']).str)",
+    "expr:DatetimeProperties=type(importlib.import_module('pandas').Series(importlib.import_module('pandas').to_datetime(['2026-01-01'])).dt)",
+    "expr:DataFrameGroupBy=type(importlib.import_module('pandas').DataFrame({'a': [1]}).groupby('a'))",
+    "module:matplotlib.pyplot", "class:matplotlib.axes.Axes", "class:matplotlib.figure.Figure",
+    "class:sklearn.base.BaseEstimator", "module:sklearn.preprocessing", "module:sklearn.model_selection",
+    "module:sklearn.metrics", "module:sklearn.pipeline", "module:sklearn.compose", "module:sklearn.impute",
+    "module:sklearn.linear_model", "module:sklearn.ensemble", "module:sklearn.tree", "module:sklearn.neighbors",
+    "module:sklearn.svm", "module:sklearn.cluster", "module:sklearn.decomposition",
+    "class:torch.Tensor", "module:torch.nn", "module:torch.optim", "module:torch.utils.data"
+  ],
+  "ignore_dunders": [
+    "__doc__", "__new__", "__init__", "__getattribute__", "__module__", "__dict__", "__weakref__", "__slots__",
+    "__init_subclass__", "__subclasshook__", "__reduce__", "__reduce_ex__", "__getstate__", "__setstate__",
+    "__getnewargs__", "__getnewargs_ex__", "__sizeof__", "__annotations__", "__annotate__", "__annotate_func__",
+    "__annotations_cache__", "__qualname__", "__firstlineno__", "__static_attributes__", "__abstractmethods__",
+    "__orig_bases__", "__parameters__", "__type_params__", "__dataclass_fields__", "__dataclass_params__",
+    "__match_args__", "__text_signature__", "__objclass__", "__classcell__", "__classdictcell__"
+  ],
+  "ast": {
+    "exclude": {
+      "AugLoad": "deprecated, never produced by the parser", "AugStore": "deprecated, never produced",
+      "Param": "deprecated, never produced", "Suite": "deprecated, never produced",
+      "Index": "deprecated, never produced", "ExtSlice": "deprecated, never produced",
+      "Interactive": "parse mode root (mode='single'), not syntax", "Expression": "parse mode root (mode='eval')",
+      "FunctionType": "parse mode root (mode='func_type')", "TypeIgnore": "only with type_comments=True"
+    }
+  },
+  "stdlib": {
+    "include": ["__future__", "__main__"],
+    "exclude": {
+      "genericpath": "private helper of os.path", "nturl2path": "private helper of urllib",
+      "encodings": "codec implementations behind codecs",
+      "pydoc_data": "data files for pydoc", "turtledemo": "demo scripts for turtle",
+      "nt": "low-level module behind os (Windows)", "posix": "low-level module behind os (Unix)",
+      "pyexpat": "C accelerator behind xml.parsers.expat"
+    }
+  },
+  "exclude": {}
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Bad fixture</title></head>
+<body data-page="lesson" data-lesson-id="m99-l02" data-root="../../">
+  <main id="main">
+    <figure class="example" id="ex-wrong">
+      <script type="text/x-python">
+      print(sorted({"b": 2, "a": 1}))
+      </script>
+      <script type="text/x-output">
+      ['b', 'a']
+      </script>
+    </figure>
+    <figure class="example" id="ex-seed">
+      <script type="text/x-python">
+      print({"apple", "banana", "cherry", "date", "elderberry", "fig"})
+      </script>
+      <script type="text/x-output">
+      {'apple'}
+      </script>
+    </figure>
+    <figure class="example" id="ex-crash">
+      <script type="text/x-python">
+      print(1 / 0)
+      </script>
+      <script type="text/x-output">
+      inf
+      </script>
+    </figure>
+    <script type="text/x-python">
+    def broken(:
+        pass
+    </script>
+    <section class="exercises" id="exercises">
+      <article class="exercise" id="m99-l02-e1" data-kind="function" data-file="e1_same.py">
+        <h3>Already solved</h3>
+        <script type="text/x-python" data-role="starter">
+        def one():
+            return 1
+        </script>
+        <script type="text/x-python" data-role="tests">
+        from e1_same import one
+
+        def test_one():
+            assert one() == 1
+        </script>
+        <script type="text/x-python" data-role="solution">
+        def one():
+            return 1
+        </script>
+      </article>
+    </section>
+    <section class="quiz" id="m99-l02-quiz">
+      <script type="application/json" class="quiz-spec">
+      {"id": "m99-l02-quiz", "questions": [
+        {"type": "predict", "prompt": "What prints?", "code": "print(len({'a': 1, 'a': 2}))", "answer": "2", "explanation": "x"},
+        {"type": "mcq", "prompt": "?", "options": ["a", "a"], "answer": 3, "explanation": "x"}
+      ]}
+      </script>
+    </section>
+  </main>
+</body>
+</html>

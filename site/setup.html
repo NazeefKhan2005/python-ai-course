@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Set up your computer · Python for AI</title>
+  <meta name="description" content="Install Python 3.15, an editor and pytest; create a virtual environment; run the examples and check exercises on your own computer.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/css/course.css">
+  <script>
+    // Apply the saved theme, text size and reading depth before first paint (no flash).
+    try { var s = JSON.parse(localStorage.getItem("pyai.progress.v1") || "{}").settings || {}, d = document.documentElement; if (s.theme) d.dataset.theme = s.theme; if (s.text) d.dataset.text = s.text; d.dataset.depth = s.depth || "all"; } catch (e) { document.documentElement.dataset.depth = "all"; }
+  </script>
+  <script defer src="assets/vendor/prism.bundle.js"></script>
+  <script defer src="assets/js/manifest.js"></script>
+  <script defer src="assets/js/course.js"></script>
+</head>
+<body data-page="setup" data-root="">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="sidebar"><svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"></path></svg><span class="nav-toggle-label">Contents</span></button>
+    <a class="brand" href="index.html"><span class="brand-prompt" aria-hidden="true">&gt;&gt;&gt;</span><span class="brand-name">Python for AI</span></a>
+    <div class="site-search" role="search"></div>
+    <div class="depth-control"></div>
+    <div class="display-menu"></div>
+    <button class="icon-btn theme-toggle" type="button" aria-label="Switch between light and dark theme"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.6"></circle><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"></path></svg></button>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"><nav class="course-nav" aria-label="Course contents"></nav></aside>
+    <main id="main" class="content">
+      <h1>Set up your computer</h1>
+      <p class="lead">You will run every example and exercise of this course on your own computer, exactly as you will at work. This takes about 30 minutes, once.</p>
+
+      <section id="what" data-level="essential">
+        <h2>What you will install</h2>
+        <ul>
+          <li><strong>Python 3.15</strong>: the course is checked with it, and lessons use its new features (lazy imports, <code>frozendict</code>, <code>sentinel</code>, unpacking in comprehensions). Older versions run most of the code but not all of it.</li>
+          <li><strong>An editor</strong>: Visual Studio Code with the Python extension is a good free choice; PyCharm, Zed or any editor you like also work.</li>
+          <li><strong>pytest</strong> and the course's other code-quality tools: pytest checks your exercise solutions. Data, machine-learning and deep-learning libraries come later, one file per phase (<a href="#libraries">step 6</a>).</li>
+        </ul>
+      </section>
+
+      <section id="python" data-level="essential">
+        <h2>1. Install Python</h2>
+        <h3 id="python-windows">Windows 10 or 11</h3>
+        <ol>
+          <li>Install the <strong>Python install manager</strong> from <a href="https://www.python.org/downloads/">python.org/downloads</a> or from the Microsoft Store app.</li>
+          <li>Open <strong>Terminal</strong> (or PowerShell) and install Python 3.15:
+            <script type="text/x-shell" data-label="PowerShell (Windows)">
+            py install 3.15
+            py list
+            </script>
+          </li>
+          <li>If the installer offers to add a folder to your PATH, accept: it lets you type <code>python</code> as well as <code>py</code>.</li>
+        </ol>
+        <h3 id="python-macos">macOS</h3>
+        <p>Download the macOS installer for Python 3.15 from <a href="https://www.python.org/downloads/">python.org/downloads</a> and run it. Afterwards use <code>python3</code> in the Terminal app (the plain <code>python</code> command may not exist).</p>
+        <h3 id="python-linux">Linux</h3>
+        <p>Your distribution's Python is probably older than 3.15. Check with <code>python3 --version</code>; if it is older, the quickest route is uv (below), or your distribution's newer packages.</p>
+        <section id="python-uv" data-level="extra">
+          <h3>Any system: uv</h3>
+          <p><a href="https://docs.astral.sh/uv/">uv</a> is a fast tool that installs Python versions and packages without touching your system Python. After installing uv, run:</p>
+          <script type="text/x-shell" data-label="Terminal">
+          uv python install 3.15
+          </script>
+          <p>Then choose <strong>uv</strong> under "How you run Python" in <a href="index.html#settings">Settings</a>, and every command in the course will be shown in its uv form.</p>
+        </section>
+      </section>
+
+      <section id="check" data-level="essential">
+        <h2>2. Check that it works</h2>
+        <p>Open a new terminal and run the command below. It should print <code>Python 3.15</code> followed by a patch number.</p>
+        <script type="text/x-shell">
+        {python} --version
+        </script>
+        <p>The command shown depends on your setting under "How you run Python" in <a href="index.html#settings">Settings</a>: <code>py</code> on Windows, <code>python3</code> on macOS and Linux, or uv. Change it once and every page follows.</p>
+      </section>
+
+      <section id="folder" data-level="essential">
+        <h2>3. Make a course folder and a virtual environment</h2>
+        <p>A <dfn id="term-venv">virtual environment</dfn> is a private copy of Python for one project, so the libraries you install for this course don't clash with anything else. Create a folder (for example <code>python-for-ai</code>), open a terminal in it, and run:</p>
+        <script type="text/x-shell">
+        {python} -m venv .venv
+        </script>
+        <p>Activate it every time you open a new terminal for the course:</p>
+        <script type="text/x-shell" data-label="PowerShell (Windows)">
+        .venv\Scripts\Activate.ps1
+        </script>
+        <script type="text/x-shell" data-label="Terminal (macOS and Linux)">
+        source .venv/bin/activate
+        </script>
+        <p>Your prompt now starts with <code>(.venv)</code>. Download <a href="downloads/requirements-tools.txt" download>requirements-tools.txt</a> into the course folder: it lists pytest and the other tools of the course, each pinned to the version the course was checked with. Install them:</p>
+        <script type="text/x-shell">
+        {pip} install -r requirements-tools.txt
+        </script>
+        <aside class="callout" data-kind="pitfall">
+          <p>On Windows, PowerShell may refuse to run <code>Activate.ps1</code> ("running scripts is disabled"). Run <code>Set-ExecutionPolicy -Scope CurrentUser RemoteSigned</code> once, then try again.</p>
+        </aside>
+      </section>
+
+      <section id="first-run" data-level="essential">
+        <h2>4. Run your first program</h2>
+        <p>In your editor, create <code>hello.py</code> in the course folder:</p>
+        <figure class="example" id="ex-hello">
+          <script type="text/x-python" data-file="hello.py">
+          import sys
+
+          print("Hello from Python", sys.version_info.major, sys.version_info.minor)
+          </script>
+          <script type="text/x-output">
+          Hello from Python 3 15
+          </script>
+        </figure>
+        <p>Every example in the course shows the command to run it and the output to expect, like the one above. Experiment as well: change the code, predict the new output, run it again.</p>
+        <p>You can also try single lines in the <strong>interactive shell</strong>: run <code>python</code> (or <code>py</code>, or <code>python3</code>) with no file name, type code after the <code>&gt;&gt;&gt;</code> prompt, and leave with <code>exit()</code>.</p>
+      </section>
+
+      <section id="exercises" data-level="essential">
+        <h2>5. Check an exercise with pytest</h2>
+        <ol>
+          <li>On a lesson page, click <strong>Download the exercise pack</strong> and unzip it into your course folder. You get a folder such as <code>m03-l04</code> with starter files (<code>e1_word_freq.py</code>, ...) and their tests (<code>test_e1_word_freq.py</code>, ...).</li>
+          <li>Open the starter file in your editor and write your solution.</li>
+          <li>In the terminal, go into the folder and run the tests for that exercise:
+            <script type="text/x-shell">
+            cd m03-l04
+            {pytest} test_e1_word_freq.py
+            </script>
+          </li>
+          <li>Read the first failure: pytest shows the line that failed and the values it compared. Fix, save, run again.</li>
+          <li>When a whole test file passes, pytest prints a <strong>completion code</strong> such as <code>5F2A-91C3</code>. Paste it into the exercise on the lesson page to record it as passed.</li>
+        </ol>
+        <aside class="callout" data-kind="tip">
+          <p>Run plain <code>pytest</code> (no file name) to check every exercise in the pack at once; add <code>-x</code> to stop at the first failure.</p>
+        </aside>
+      </section>
+
+      <section id="libraries" data-level="essential">
+        <h2>6. Install the course libraries, phase by phase</h2>
+        <p>Each file below pins its libraries to the exact versions the course was checked with on Python 3.15, so your output matches the pages. When you reach a phase, download its file into the course folder and install it into the same virtual environment. Install them in this order: each file adds to the ones before it.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Requirements files of the course</caption>
+            <thead><tr><th scope="col">File</th><th scope="col">When</th><th scope="col">What it adds</th></tr></thead>
+            <tbody>
+              <tr><td><a href="downloads/requirements-tools.txt" download>requirements-tools.txt</a></td><td>From the start (step 3)</td><td>pytest, pytest-cov, Hypothesis, ruff, mypy, pre-commit</td></tr>
+              <tr><td><a href="downloads/requirements-core.txt" download>requirements-core.txt</a></td><td>Phase 3 (data science)</td><td>NumPy, pandas, PyArrow, Polars, DuckDB, Matplotlib, seaborn, Plotly, Altair, SciPy, statsmodels, scikit-learn, JupyterLab, requests, httpx, Beautiful Soup, lxml, pydantic, SQLAlchemy, pandera, PyYAML, python-dotenv, rich</td></tr>
+              <tr><td><a href="downloads/requirements-ml.txt" download>requirements-ml.txt</a></td><td>Phase 4 (machine learning)</td><td>XGBoost, LightGBM, SHAP, Optuna, imbalanced-learn, UMAP, MLflow</td></tr>
+              <tr><td><a href="downloads/requirements-deep-learning.txt" download>requirements-deep-learning.txt</a></td><td>Phase 5 (deep learning and LLM apps)</td><td>PyTorch, torchvision, transformers, datasets, tokenizers, tiktoken, sentence-transformers, FAISS, bm25s, the Anthropic and OpenAI SDKs, MCP</td></tr>
+              <tr><td><a href="downloads/requirements-production.txt" download>requirements-production.txt</a></td><td>Phase 6 (production)</td><td>FastAPI, Uvicorn, Streamlit, Gradio, skops, ONNX, skl2onnx, River, Locust, DVC</td></tr>
+              <tr><td><a href="downloads/requirements-electives.txt" download>requirements-electives.txt</a></td><td>Electives, after Phase 3</td><td>Prophet, OpenCV, Gymnasium, NetworkX, GeoPandas, Shapely, PySpark</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>For example, at the start of Phase 3:</p>
+        <script type="text/x-shell">
+        {pip} install -r requirements-core.txt
+        </script>
+        <aside class="callout" data-kind="pitfall">
+          <p>On Linux, the standard PyTorch package also downloads NVIDIA's CUDA libraries, about 4 GB. Every graded exercise runs on the CPU, so without an NVIDIA graphics card, first install PyTorch with the CPU-only command from <a href="https://pytorch.org/get-started/locally/">pytorch.org</a>, then install <code>requirements-deep-learning.txt</code>.</p>
+        </aside>
+        <aside class="callout" data-kind="note">
+          <p>Every pinned library installs from ready-made packages (wheels) on Windows 10 or 11 (x64), on macOS 15 or later with Apple silicon, and on Linux with glibc 2.39 or later, such as Ubuntu 24.04. The exceptions:</p>
+          <ul>
+            <li><strong>Windows:</strong> FAISS (Phase 5) has no Windows packages. <code>requirements-deep-learning.txt</code> skips it there, and the FAISS part of lesson M23-L05 runs in WSL 2.</li>
+            <li><strong>Intel Macs:</strong> PyTorch (Phase 5) has no packages for them. Use a Linux virtual machine or another computer for Phase 5.</li>
+            <li><strong>Older Linux:</strong> pip has to build orjson, which Gradio needs in Phase 6, from source with the Rust compiler. A newer distribution, or WSL 2 with Ubuntu 24.04, avoids that.</li>
+          </ul>
+        </aside>
+        <aside class="callout" data-kind="note">
+          <p>PySpark (elective E4) also needs Java 17 or later. Start it from the activated environment: its worker processes run the <code>python3</code> on your PATH, and a different Python version stops them with <code>PYTHON_VERSION_MISMATCH</code>.</p>
+        </aside>
+        <aside class="callout" data-kind="tip">
+          <p>Libraries you try outside the course may not support Python 3.15 yet (pip finds no matching version, or starts compiling C code). Give that experiment its own virtual environment with an older Python, for example <code>uv venv --python 3.14</code>, rather than changing the course environment.</p>
+        </aside>
+      </section>
+
+      <section id="notebooks" data-level="extra">
+        <h2>Notebooks and GPUs (later in the course)</h2>
+        <p>Data-science lessons use Jupyter notebooks for exploration. Run them locally with <code>python -m jupyter lab</code> after installing <code>requirements-core.txt</code>, or open the <code>.ipynb</code> file in VS Code.</p>
+        <p>Every graded exercise runs on an ordinary laptop CPU. A few optional deep-learning experiments train faster on a GPU; if you don't have one, any hosted notebook service you choose will run the same notebook files.</p>
+      </section>
+
+      <section id="troubleshooting" data-level="essential">
+        <h2>Troubleshooting</h2>
+        <div class="table-wrap">
+          <table>
+            <caption>Common problems and fixes</caption>
+            <thead><tr><th scope="col">You see</th><th scope="col">Fix</th></tr></thead>
+            <tbody>
+              <tr><td><code>python: command not found</code> or <code>'python' is not recognized</code></td><td>Use <code>python3</code> (macOS, Linux) or <code>py</code> (Windows), and set the matching option in <a href="index.html#settings">Settings</a>. Open a new terminal after installing.</td></tr>
+              <tr><td>Windows opens the Microsoft Store when you type <code>python</code></td><td>Install the Python install manager (step 1), or turn off the "App execution aliases" for python in Windows settings.</td></tr>
+              <tr><td><code>pytest: command not found</code></td><td>Run it through Python: <code>python -m pytest</code>. Check the virtual environment is active.</td></tr>
+              <tr><td><code>ModuleNotFoundError: No module named 'e1_word_freq'</code></td><td>Run pytest from inside the pack folder, and keep the starter file's name unchanged.</td></tr>
+              <tr><td><code>ModuleNotFoundError: No module named 'pandas'</code> (or another library)</td><td>Activate the virtual environment, then install the requirements file of that phase (<a href="#libraries">step 6</a>), for example <code>python -m pip install -r requirements-core.txt</code>.</td></tr>
+              <tr><td><code>No matching distribution found</code>, or pip starts compiling a library</td><td>Check that <code>python --version</code> shows 3.15 inside the active virtual environment. The course's files only list libraries that install on 3.15; for other libraries, see the tip in <a href="#libraries">step 6</a>.</td></tr>
+              <tr><td>VS Code runs a different Python</td><td>Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, choose "Python: Select Interpreter" and pick the one in <code>.venv</code>.</td></tr>
+              <tr><td>Your output differs slightly from the page</td><td>Check your Python and library versions; outputs on the pages come from the versions in the requirements files (<a href="#libraries">step 6</a>). Random numbers and timings differ on purpose and are labelled "Sample output".</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

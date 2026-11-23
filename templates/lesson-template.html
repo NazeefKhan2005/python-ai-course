@@ -1,0 +1,187 @@
+<!doctype html>
+<!-- Lesson template. Copy to site/modules/<module-slug>/lNN-<slug>.html, replace every {{...}},
+     delete the blocks you don't need, then run: python tools/build.py && python tools/ci.py --partial
+     Rules: spec/06-content-style-guide.md (markers, voice) and spec/05-exercises-and-assessment.md. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{Lesson title}} · {{MNN Module title}} · Python for AI</title>
+  <meta name="description" content="{{One sentence: what the learner can do after this lesson.}}">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../assets/css/course.css">
+  <script>
+    // Apply the saved theme, text size and reading depth before first paint (no flash).
+    try { var s = JSON.parse(localStorage.getItem("pyai.progress.v1") || "{}").settings || {}, d = document.documentElement; if (s.theme) d.dataset.theme = s.theme; if (s.text) d.dataset.text = s.text; d.dataset.depth = s.depth || "all"; } catch (e) { document.documentElement.dataset.depth = "all"; }
+  </script>
+  <script defer src="../../assets/vendor/prism.bundle.js"></script>
+  <script defer src="../../assets/js/manifest.js"></script>
+  <script defer src="../../assets/js/course.js"></script>
+</head>
+<body data-page="lesson" data-lesson-id="{{mNN-lNN}}" data-root="../../">
+  <a class="skip-link" href="#main">Skip to lesson</a>
+  <header class="site-header">
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="sidebar"><svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"></path></svg><span class="nav-toggle-label">Contents</span></button>
+    <a class="brand" href="../../index.html"><span class="brand-prompt" aria-hidden="true">&gt;&gt;&gt;</span><span class="brand-name">Python for AI</span></a>
+    <div class="site-search" role="search"></div>
+    <div class="depth-control"></div>
+    <div class="display-menu"></div>
+    <button class="icon-btn theme-toggle" type="button" aria-label="Switch between light and dark theme"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.6"></circle><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"></path></svg></button>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"><nav class="course-nav" aria-label="Course contents"></nav></aside>
+    <main id="main" class="content">
+      <p class="breadcrumb">Phase {{N}} · {{MNN Module title}} · Lesson {{n}} of {{total}}</p>
+      <h1>{{Lesson title: plain promise}}</h1>
+      <ul class="lesson-meta" aria-label="Lesson details">
+        <li>⏱ Essentials {{NN}} min · whole page about {{N}} h</li>
+        <li>Level: {{Beginner | Intermediate | Advanced}}</li>
+        <li>Needs: <a href="{{lNN-prev.html}}">{{Previous lesson}}</a></li>
+        <li>Python 3.15</li>
+      </ul>
+
+      <section class="outcomes" id="outcomes">
+        <h2>What you'll be able to do</h2>
+        <ul><li>{{Observable outcome, starting with a verb}}</li></ul>
+      </section>
+
+      <section class="run-locally" id="run">
+        <h2>Run the code yourself</h2>
+        <p>{{Standard paragraph: nothing runs in the browser; outputs are real; link to ../../setup.html.}}</p>
+        <ol>
+          <li>Copy or download an example, then run it:
+            <script type="text/x-shell">
+            {python} {{first_example}}.py
+            </script>
+          </li>
+          <li><a class="btn btn--small" data-pack href="../../downloads/{{mNN-lNN}}.zip" download>Download the exercise pack</a>, unzip it, and run the tests:
+            <script type="text/x-shell">
+            cd {{mNN-lNN}}
+            {pytest}
+            </script>
+          </li>
+        </ol>
+      </section>
+
+      <!-- A content section. data-level is required: essential | extra | advanced.
+           Children may be LESS essential than their section, never more. -->
+      <section id="{{slug}}" data-level="essential">
+        <h2>{{Section title}}</h2>
+        <p>{{Explanation. Define new terms with <dfn id="term-x">term</dfn>.}} <span class="version" data-version="3.9" data-change="added"></span></p>
+
+        <!-- Verified example: the x-output must be exactly what Python prints (check_content.py runs it twice).
+             Optional: data-predict (hide output until revealed), data-raises="KeyError" (output ends with
+             "Traceback (most recent call last):\n  ...\nKeyError: 'x'"), data-output="sample", data-match="ellipsis",
+             data-args="--name Ada", data-exit="2", data-requires="numpy pandas", data-python="3.16", data-timeout="120". -->
+        <figure class="example" id="ex-{{slug}}">
+          <script type="text/x-file" data-name="{{data.csv}}">
+          {{optional data file, created next to the example before it runs}}
+          </script>
+          <script type="text/x-python" data-file="{{name}}.py">
+          {{code}}
+          </script>
+          <script type="text/x-stdin">
+          {{optional: what the learner types when input() asks}}
+          </script>
+          <script type="text/x-output">
+          {{exact output}}
+          </script>
+          <figcaption>{{optional caption}}</figcaption>
+        </figure>
+
+        <!-- Interactive session, verified with doctest. -->
+        <figure class="session">
+          <script type="text/x-pycon">
+          >>> {{expression}}
+          {{result}}
+          </script>
+        </figure>
+
+        <!-- Other code: x-code with data-lang (json, sql, yaml, toml, bash, ini, docker, markup) is shown, not run. -->
+        <script type="text/x-code" data-lang="json" data-file="{{config.json}}">
+        {"key": "value"}
+        </script>
+
+        <!-- Kind callouts: tip | pitfall | version (needs data-version) | interview | job | hood | try |
+             deprecated | performance | security | note. Optional <p class="callout-title"> and data-level. -->
+        <aside class="callout" data-kind="pitfall">
+          <p class="callout-title">{{optional short title}}</p>
+          <p>{{text}}</p>
+        </aside>
+
+        <section id="{{slug-detail}}" data-level="extra">
+          <h3>{{Deeper subsection}}</h3>
+          <p data-level="advanced">{{An advanced paragraph inside an extra subsection is fine.}}</p>
+        </section>
+      </section>
+
+      <!-- Reference: one row per public name of every target (tools/api_skeleton.py drafts the rows;
+           tools/check_coverage.py proves nothing is missing). Several names may share one row. -->
+      <section class="api-reference" id="reference" data-api-targets="{{class:dict module:json expr:Alias=expression}}">
+        <h2>Reference: {{everything X can do}}</h2>
+        <div class="table-wrap">
+          <table class="api-table">
+            <caption>{{Group name}}</caption>
+            <thead><tr><th scope="col">Code</th><th scope="col">What it does</th><th scope="col">Notes</th></tr></thead>
+            <tbody>
+              <tr id="api-{{dict-get}}" data-api="{{dict.get}}" data-level="essential"><td><code>{{d.get(k, default=None)}}</code></td><td>{{what}}</td><td>{{notes, versions, pitfalls}}</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="exercises" id="exercises">
+        <h2>Exercises</h2>
+        <!-- data-kind: function | program | fix | refactor | write_tests. data-file: eN_<name>.py.
+             write_tests: scripts target (the code under test), starter/solution are TEST files, mutants is JSON
+             {"description of the bug": "buggy source"}. Add data-optional for stretch exercises. -->
+        <article class="exercise" id="{{mNN-lNN}}-e1" data-kind="function" data-file="e1_{{name}}.py">
+          <h3>Exercise 1 · {{Title}}</h3>
+          <p class="ex-meta">★☆☆ · 10 points · AI help: hints only</p>
+          <div class="exercise-task">
+            <p>{{Task: inputs, outputs, edge cases, constraints.}}</p>
+          </div>
+          <script type="text/x-python" data-role="starter">
+          def {{name}}({{params}}):
+              """{{docstring}}"""
+              raise NotImplementedError
+          </script>
+          <script type="text/x-python" data-role="tests">
+          from e1_{{name}} import {{name}}
+
+
+          def test_{{behaviour}}():
+              assert {{name}}({{args}}) == {{expected}}, "{{message that teaches}}"
+          </script>
+          <script type="text/x-python" data-role="solution" data-notes="{{why this solution, complexity}}">
+          {{solution}}
+          </script>
+          <ol class="hints">
+            <li>{{Hint 1: strategy}}</li>
+            <li>{{Hint 2: the tool to use}}</li>
+            <li>{{Hint 3: nearly the line}}</li>
+          </ol>
+        </article>
+      </section>
+
+      <section class="quiz" id="{{mNN-lNN}}-quiz">
+        <h2>Check your understanding</h2>
+        <script type="application/json" class="quiz-spec">
+        {"id": "{{mNN-lNN}}-quiz", "questions": [
+          {"type": "mcq", "prompt": "...", "options": ["...", "..."], "answer": 0, "explanation": "..."},
+          {"type": "predict", "prompt": "What does this print?", "code": "print(1 + 1)", "answer": "2", "explanation": "..."}
+        ]}
+        </script>
+      </section>
+
+      <section class="summary" id="summary">
+        <h2>Summary</h2>
+        <ul><li data-level="essential">{{key point}}</li></ul>
+      </section>
+
+      <div class="lesson-complete"></div>
+      <nav class="pager" aria-label="Previous and next lesson"></nav>
+    </main>
+  </div>
+</body>
+</html>

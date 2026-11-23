@@ -1,0 +1,14 @@
+name: Check for newer library releases
+on:
+  schedule: [{ cron: "23 5 * * 1" }]  # Mondays: fails when a pin can move up
+  workflow_dispatch:
+permissions: { contents: read }
+jobs:
+  pins:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with: { python-version: "3.15" }
+      - run: python -m pip install packaging
+      - run: python tools/check_pins.py --strict
