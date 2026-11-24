@@ -9,11 +9,33 @@ What each build session did, newest first. Read the block below at the start of 
 * `glove-mini.json`, a 2,368-word GloVe subset;
 * `docs/`, the 18-page Colibrí handbook.
 
-`site/data/README.md` documents all of them. `python tools/ci.py --partial` passes every step, including 12 new dataset tests. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Every push to `main` runs `ci.py --partial` and then deploys.
+`site/data/README.md` documents all of them. `python tools/ci.py --partial` passes every step, including 12 new dataset tests. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Every push to `main` runs `ci.py --partial` and then deploys. Stage 2 and the two fixes passed the checks on GitHub's Linux runner in pull request #1 and were merged into `main` on 2026-11-24.
 
 **Exercise data (decided 2026-11-24):** tests build their own data (`CLAUDE.md` §2, "Exercise data"). When a module is built, apply the notes in "Decision · Exercise data" below to the M05, M08, M11, M12 and M16 projects, M13-L04 E1, M17-L07 E1 and M18-L05 E1.
 
 **Next step:** Stage 3, the site shell pages: `syllabus.html`, `glossary.html` and `certificate.html` (`spec/11`). Start `claude` with `.venv` active and type `/stage 3`.
+
+## Check · Stage 2 on GitHub's Linux runner (2026-11-24)
+
+**Done**
+
+* Pushed the branch `stage-2-datasets` and opened pull request #1. The branch holds Stage 2 (`df3fd25`), the exercise-data decision (`857685c`) and the certificate step (`aa74c48`). For a pull request, the workflow runs the check job but not the deploy job.
+* The check job passed in 4 min 17 s on the `ubuntu-26.04` runner image (x64, CPython 3.15.2): https://github.com/NazeefKhan2005/python-ai-course/actions/runs/45297406514. Its `ci.py --partial` printed "CI passed". The step results were:
+  * "52 passed in 23.87s" (the 12 dataset tests included)
+  * library checks: 22 PASS, "all checks passed"
+  * ruff: "All checks passed!"
+  * "build --check: all generated files up to date"
+  * "check_site: 4 page(s), 0 problem(s)"
+  * "check_coverage: 4 page(s), 0 error(s), 5 pending"
+  * "check_content: 4 page(s), 41 blocks compiled, 29 examples, 9 sessions, 4 exercises, 2 quizzes, 0 skipped, 0 problem(s)"
+  * the spec/05 patterns: the same line as on the Mac
+  * "smoke_pages: 51 of 51 checks passed"
+* So a fresh run of `make_datasets.py` on Linux x64 gives the same bytes as the files made on macOS (Apple silicon), and the SQLite files give the same dump.
+* `main` was fast-forwarded to the pull request's commits, plus this entry, and pushed. That push runs the checks again and deploys.
+
+**Open issues**
+
+* GitHub's `ubuntu-latest` is now Ubuntu 26.04. `BUILD-AND-DEPLOY.md` ("On Windows or Linux") still says that WSL 2 with Ubuntu 24.04 "matches GitHub's runner". That part of the sentence is out of date.
 
 ## Fix · The macOS certificate step (2026-11-24)
 
@@ -156,7 +178,7 @@ What each build session did, newest first. Read the block below at the start of 
   * **Decided 2026-11-24:** option 3, tests build their own data ("Decision · Exercise data" above).
 * **The certificate step on macOS.** The python.org build of Python has no CA certificates until "Install Certificates.command" is run. Downloads with `urllib.request` then fail with `CERTIFICATE_VERIFY_FAILED`, as the GloVe download did here; it worked with `SSL_CERT_FILE` set to certifi's bundle. pip is not affected. The setup page needs this step before M15-L04, which teaches `urllib.request`. **Fixed 2026-11-24** ("Fix · The macOS certificate step" above).
 * **Deferred datasets:** sentiment text, images for the M21 project and P5 option B, and the elective data (`DECISIONS.md`).
-* **Cross-platform freshness.** `test_site_data_matches_a_fresh_run` compares the files made on macOS (Apple silicon) with a fresh run on GitHub's Linux runner. NumPy's draws are expected to be identical there; the first push will confirm it.
+* **Cross-platform freshness.** `test_site_data_matches_a_fresh_run` compares the files made on macOS (Apple silicon) with a fresh run on GitHub's Linux runner. NumPy's draws are expected to be identical there; the first push will confirm it. **Confirmed 2026-11-24:** the test passed on GitHub's `ubuntu-26.04` runner (x64, CPython 3.15.2) in pull request #1 ("Check · Stage 2 on GitHub's Linux runner" above).
 * For the record: `glove.6B.50d.txt` has 400,001 lines, each a distinct word with 50 values. The archive's CRC-32 matched on extraction, and GloVe's "400K vocab" is a rounded figure. Nothing to fix.
 
 ## Fix · The macOS OpenMP step (2026-11-23)
