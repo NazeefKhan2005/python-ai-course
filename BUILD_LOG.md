@@ -4,16 +4,40 @@ What each build session did, newest first. Read the block below at the start of 
 
 ## Current state / Next step
 
-**Current state (2026-11-23):** Stages 0, 1 and 2 are done. The platform is in place, byte for byte from the spec, except for one fix to the setup page (the macOS `libomp` step). `site/data/` now holds the course datasets:
+**Current state (2026-11-24):** Stages 0, 1 and 2 are done. The platform is in place, byte for byte from the spec, except for two macOS fixes to the setup page: the `libomp` step and the certificate step. `site/data/` now holds the course datasets:
 * 18 generated files from 11 seeded datasets (`tools/make_datasets.py`);
 * `glove-mini.json`, a 2,368-word GloVe subset;
 * `docs/`, the 18-page Colibrí handbook.
 
-`site/data/README.md` documents all of them. `python tools/ci.py --partial` passes every step, including 12 new dataset tests. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Every push to `main` runs `ci.py --partial` and then deploys. The Stage 2 commit is not pushed yet.
+`site/data/README.md` documents all of them. `python tools/ci.py --partial` passes every step, including 12 new dataset tests. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Every push to `main` runs `ci.py --partial` and then deploys.
 
 **Exercise data (decided 2026-11-24):** tests build their own data (`CLAUDE.md` §2, "Exercise data"). When a module is built, apply the notes in "Decision · Exercise data" below to the M05, M08, M11, M12 and M16 projects, M13-L04 E1, M17-L07 E1 and M18-L05 E1.
 
 **Next step:** Stage 3, the site shell pages: `syllabus.html`, `glossary.html` and `certificate.html` (`spec/11`). Start `claude` with `.venv` active and type `/stage 3`.
+
+## Fix · The macOS certificate step (2026-11-24)
+
+**Done**
+
+* `site/setup.html`: the macOS part of step 1 has a new pitfall callout. It says that Python from the python.org installer cannot check HTTPS certificates until **Install Certificates.command** has run. pip still works, but two kinds of download fail with `CERTIFICATE_VERIFY_FAILED`: `urllib.request` (M15-L04, Phase 3) and torchvision's pretrained weights (Phase 5). The callout gives `"/Applications/Python 3.15/Install Certificates.command"` as a copyable command, and the troubleshooting table has a row for the same error.
+* `BUILD-AND-DEPLOY.md` §1 now runs the script after installing Python, and §7 has a troubleshooting row.
+* Checked on this Mac:
+  * The venv's `ssl.get_default_verify_paths().openssl_cafile` is `/Library/Frameworks/Python.framework/Versions/3.15/etc/openssl/cert.pem`, and that file does not exist.
+  * `urllib.request.urlopen("https://www.python.org")` fails with `<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>`.
+  * The script installs certifi into the framework Python and points that path at certifi's bundle, so it also fixes the virtual environments made from that Python.
+  * The script has not been run on this Mac yet: the owner runs it once (§1).
+* `site/setup.html` now departs from `spec/04` §6 in two places (`DECISIONS.md`).
+
+**Checks:** `build.py` had nothing to regenerate (exit 0). `ci.py --partial` printed "CI passed". The step results were:
+* "52 passed in 9.25s"
+* library checks: "all checks passed"
+* ruff: "All checks passed!"
+* "build --check: all generated files up to date"
+* "check_site: 4 page(s), 0 problem(s)"
+* "check_coverage: 4 page(s), 0 error(s), 5 pending"
+* "check_content: 4 page(s), 41 blocks compiled, 29 examples, 9 sessions, 4 exercises, 2 quizzes, 0 skipped, 0 problem(s)"
+* the spec/05 patterns: "check_content: 1 page(s), 18 blocks compiled, 0 examples, 0 sessions, 6 exercises, 1 quizzes, 0 skipped, 0 problem(s)"
+* "smoke_pages: 51 of 51 checks passed", including axe-core on the setup page in both themes
 
 ## Decision · Exercise data (2026-11-24)
 
@@ -130,7 +154,7 @@ What each build session did, newest first. Read the block below at the start of 
   * Option 2: inline small samples.
   * Option 3: tests that build their own data.
   * **Decided 2026-11-24:** option 3, tests build their own data ("Decision · Exercise data" above).
-* **The certificate step on macOS.** The python.org build of Python has no CA certificates until "Install Certificates.command" is run. Downloads with `urllib.request` then fail with `CERTIFICATE_VERIFY_FAILED`, as the GloVe download did here; it worked with `SSL_CERT_FILE` set to certifi's bundle. pip is not affected. The setup page needs this step before M15-L04, which teaches `urllib.request`.
+* **The certificate step on macOS.** The python.org build of Python has no CA certificates until "Install Certificates.command" is run. Downloads with `urllib.request` then fail with `CERTIFICATE_VERIFY_FAILED`, as the GloVe download did here; it worked with `SSL_CERT_FILE` set to certifi's bundle. pip is not affected. The setup page needs this step before M15-L04, which teaches `urllib.request`. **Fixed 2026-11-24** ("Fix · The macOS certificate step" above).
 * **Deferred datasets:** sentiment text, images for the M21 project and P5 option B, and the elective data (`DECISIONS.md`).
 * **Cross-platform freshness.** `test_site_data_matches_a_fresh_run` compares the files made on macOS (Apple silicon) with a fresh run on GitHub's Linux runner. NumPy's draws are expected to be identical there; the first push will confirm it.
 * For the record: `glove.6B.50d.txt` has 400,001 lines, each a distinct word with 50 values. The archive's CRC-32 matched on extraction, and GloVe's "400K vocab" is a rounded figure. Nothing to fix.

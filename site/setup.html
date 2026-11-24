@@ -55,6 +55,12 @@
         </ol>
         <h3 id="python-macos">macOS</h3>
         <p>Download the macOS installer for Python 3.15 from <a href="https://www.python.org/downloads/">python.org/downloads</a> and run it. Afterwards use <code>python3</code> in the Terminal app (the plain <code>python</code> command may not exist).</p>
+        <aside class="callout" data-kind="pitfall">
+          <p>Python from the python.org installer cannot check the certificates of secure (HTTPS) websites until you install them. pip still works, but downloads made by Python code stop with <code>CERTIFICATE_VERIFY_FAILED</code>: <code>urllib.request</code> in Phase 3, and pretrained model weights from torchvision in Phase 5. Fix it once, right after installing: open the <strong>Python 3.15</strong> folder in Applications and double-click <strong>Install Certificates.command</strong>, or run it in the Terminal app. It also fixes every virtual environment made from this Python, including ones you made before.</p>
+          <script type="text/x-shell" data-label="Terminal (macOS)">
+          "/Applications/Python 3.15/Install Certificates.command"
+          </script>
+        </aside>
         <h3 id="python-linux">Linux</h3>
         <p>Your distribution's Python is probably older than 3.15. Check with <code>python3 --version</code>; if it is older, the quickest route is uv (below), or your distribution's newer packages.</p>
         <section id="python-uv" data-level="extra">
@@ -199,6 +205,7 @@
               <tr><td><code>ModuleNotFoundError: No module named 'e1_word_freq'</code></td><td>Run pytest from inside the pack folder, and keep the starter file's name unchanged.</td></tr>
               <tr><td><code>ModuleNotFoundError: No module named 'pandas'</code> (or another library)</td><td>Activate the virtual environment, then install the requirements file of that phase (<a href="#libraries">step 6</a>), for example <code>python -m pip install -r requirements-core.txt</code>.</td></tr>
               <tr><td><code>Library not loaded: @rpath/libomp.dylib</code> when you import XGBoost or LightGBM (macOS)</td><td>Install the OpenMP library with Homebrew: <code>brew install libomp</code> (<a href="#libraries">step 6</a>).</td></tr>
+              <tr><td><code>CERTIFICATE_VERIFY_FAILED</code> when Python code downloads something (macOS)</td><td>Run <strong>Install Certificates.command</strong> once, from the Python 3.15 folder in Applications (<a href="#python-macos">step 1</a>).</td></tr>
               <tr><td><code>No matching distribution found</code>, or pip starts compiling a library</td><td>Check that <code>python --version</code> shows 3.15 inside the active virtual environment. The course's files only list libraries that install on 3.15; for other libraries, see the tip in <a href="#libraries">step 6</a>.</td></tr>
               <tr><td>VS Code runs a different Python</td><td>Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, choose "Python: Select Interpreter" and pick the one in <code>.venv</code>.</td></tr>
               <tr><td>Your output differs slightly from the page</td><td>Check your Python and library versions; outputs on the pages come from the versions in the requirements files (<a href="#libraries">step 6</a>). Random numbers and timings differ on purpose and are labelled "Sample output".</td></tr>

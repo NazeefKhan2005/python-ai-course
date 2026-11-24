@@ -29,6 +29,12 @@ Install **Python 3.15** with the macOS installer from [python.org](https://www.p
 python3.15 --version
 ```
 
+Then install the certificates that Python uses to check HTTPS connections. Without them, pip works, but downloads made by Python code fail with `CERTIFICATE_VERIFY_FAILED`:
+
+```bash
+"/Applications/Python 3.15/Install Certificates.command"
+```
+
 Install **Claude Code** and sign in to GitHub:
 
 ```bash
@@ -127,6 +133,7 @@ Worth knowing:
 | `python --version` in a session isn't 3.15 | The session started without `source .venv/bin/activate`. Claude falls back to `.venv/bin/python`, but quit and restart to be safe |
 | pip can't install faiss-cpu or opencv-python | macOS is older than 15: update macOS |
 | The XGBoost and LightGBM library check fails with `Library not loaded: @rpath/libomp.dylib` | OpenMP is missing: `brew install libomp` |
+| A download from Python code fails with `CERTIFICATE_VERIFY_FAILED` | Python's certificates are missing: run `"/Applications/Python 3.15/Install Certificates.command"` once |
 | The PySpark library check fails | Java is missing: `brew install --cask temurin@21`, then open a new terminal window |
 | "Chrome not found" in the browser checks | Install Google Chrome, or set `CHROME_PATH` to its executable. `python tools/ci.py --partial --no-browser` skips the browser checks for a quick run |
 | Green on your Mac, red on GitHub | `/fix-ci` |
