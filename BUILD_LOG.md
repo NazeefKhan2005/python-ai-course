@@ -11,9 +11,29 @@ What each build session did, newest first. Read the block below at the start of 
 
 `site/data/README.md` documents all of them. `python tools/ci.py --partial` passes every step, including 12 new dataset tests. `course.json` holds the kit's sample: M03-L04 is the only written lesson. The site is live at https://nazeefkhan2005.github.io/python-ai-course/ from the public repository https://github.com/NazeefKhan2005/python-ai-course. Every push to `main` runs `ci.py --partial` and then deploys. The Stage 2 commit is not pushed yet.
 
-**Before the M05 project:** decide how packs get files from `site/data/` (first open issue under Stage 2).
+**Exercise data (decided 2026-11-24):** tests build their own data (`CLAUDE.md` §2, "Exercise data"). When a module is built, apply the notes in "Decision · Exercise data" below to the M05, M08, M11, M12 and M16 projects, M13-L04 E1, M17-L07 E1 and M18-L05 E1.
 
 **Next step:** Stage 3, the site shell pages: `syllabus.html`, `glossary.html` and `certificate.html` (`spec/11`). Start `claude` with `.venv` active and type `/stage 3`.
+
+## Decision · Exercise data (2026-11-24)
+
+**Done**
+
+* The owner chose option 3 from the first Stage 2 open issue: **tests build their own data**. It is recorded in a new `CLAUDE.md` §2 row, "Exercise data", and in `DECISIONS.md`. The pack contract and `packs.py` are unchanged.
+* The same rule covers lesson examples. `check_content.py` runs each verified example in an empty temporary folder with only its `x-file` blocks, so an example that reads `data/sales.csv` would fail. Examples either inline a small file or build their data in code. The full files in `site/data/` are downloads for the learner's own runs; a page shows no output from them that was not produced by a verified run.
+
+**How to apply it when each module is built.** Write each test's data with a fixed seed, keep it small so the tests stay fast, and use the same format as the file in `site/data/`. Then a function that passes the tests also works on the full file.
+
+* **M05 project:** the test writes a log in the `server_logs.txt` format to `tmp_path`. It has known counts by level, a known top 3 of error messages and a known busiest hour, plus edge cases: a blank line, and a level the learner's code has not seen. The project page links `server_logs.txt` so that learners also run `analyze_log` on it.
+* **M08 project:** the test writes a log over several days, with traceback continuation lines and cut-off lines, like `server_logs_large.txt`.
+* **M11 project:** tests build small arrays (a checkerboard, a ramp, flat shapes) and compare each filter with a NumPy reference.
+* **M12 project:** the test writes a small messy CSV with the columns of `food_delivery_messy.csv`, containing each kind of problem at least once.
+* **M13-L04 E1:** the test builds a seeded DataFrame with the columns of `student_performance.csv` and compares the 8 answers with a reference computed in the test, within a tolerance.
+* **M16 project:** tests build a seeded table with the housing columns and check the comparison logic: every model is fitted, and the baseline is beaten.
+* **M17-L07 E1 and M18-L05 E1:** a compact seeded generator in the test file builds data with the fraud columns or the SMS message styles. The targets (recall ≥ 0.80 at precision ≥ 0.30, and the F1 threshold) are calibrated on that data, not on the full files.
+* Not affected: M22-L02 E1 and E2 take the vectors as an argument, so their tests pass small vector dictionaries. P5 is graded with a rubric, not with pytest.
+
+**Checks:** only documentation changed (`CLAUDE.md`, `DECISIONS.md`, `BUILD_LOG.md`). Nothing to build.
 
 ## Stage 2 · Datasets (2026-11-23)
 
@@ -109,6 +129,7 @@ What each build session did, newest first. Read the block below at the start of 
   * Option 1: let an `x-file` block name a file in `site/data/` for the pack to copy. This changes a platform contract (`spec/05` §3, `packs.py` and its tests; `CLAUDE.md` rule 12), so the owner must approve it.
   * Option 2: inline small samples.
   * Option 3: tests that build their own data.
+  * **Decided 2026-11-24:** option 3, tests build their own data ("Decision · Exercise data" above).
 * **The certificate step on macOS.** The python.org build of Python has no CA certificates until "Install Certificates.command" is run. Downloads with `urllib.request` then fail with `CERTIFICATE_VERIFY_FAILED`, as the GloVe download did here; it worked with `SSL_CERT_FILE` set to certifi's bundle. pip is not affected. The setup page needs this step before M15-L04, which teaches `urllib.request`.
 * **Deferred datasets:** sentiment text, images for the M21 project and P5 option B, and the elective data (`DECISIONS.md`).
 * **Cross-platform freshness.** `test_site_data_matches_a_fresh_run` compares the files made on macOS (Apple silicon) with a fresh run on GitHub's Linux runner. NumPy's draws are expected to be identical there; the first push will confirm it.
